@@ -22,3 +22,7 @@
 		display: none;
 	}
 }
+
+#bio p {
+  padding-bottom: 1em;
+}
