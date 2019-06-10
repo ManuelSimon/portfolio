@@ -26,3 +26,9 @@
 #bio p {
   padding-bottom: 1em;
 }
+
+#rrss i {
+    padding-top: 0.3em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
