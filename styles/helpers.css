@@ -32,3 +32,12 @@
     padding-left: 0.3em;
     padding-right: 0.3em;
 }
+
+.imagem {
+    background-image: url("../images/hero-3.jpg");
+    height: 80vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    margin-top: 0;
+}
