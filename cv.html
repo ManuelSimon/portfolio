@@ -32,8 +32,10 @@
     
 	<body>
         
-        <div class="modal is-ctive">
-          <div class="modal-background"></div>
+        <!-- TARJETAS POP-UP MODALS -->
+        
+        <div class="modal" id="modalCESGA">
+          <div onclick="refs.close('modalCESGA')" class="modal-background"></div>
           <div class="modal-content" style="width: 85%">
               <section class="hero has-background-white-bis is-fullheight-with-navbar">
                   <div class="hero-body">
@@ -73,11 +75,11 @@
                   </div>
                 </section>
           </div>
-          <button class="modal-close is-large" aria-label="close"></button>
+          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalCESGA')"></button>
         </div>
         
-        <div class="modal is-ctive">
-          <div class="modal-background"></div>
+        <div class="modal" id="modalXperience">
+          <div onclick="refs.close('modalXperience')" class="modal-background"></div>
           <div class="modal-content" style="width: 85%">
               <section class="hero has-background-white-bis is-fullheight-with-navbar">
                   <div class="hero-body">
@@ -101,11 +103,11 @@
                   </div>
                 </section>
           </div>
-          <button class="modal-close is-large" aria-label="close"></button>
+          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalXperience')"></button>
         </div>
         
-        <div class="modal is-ctive">
-          <div class="modal-background"></div>
+        <div class="modal" id="modalLero">
+          <div onclick="refs.close('modalLero')" class="modal-background"></div>
           <div class="modal-content" style="width: 85%">
               <section class="hero has-background-white-bis is-fullheight-with-navbar">
                   <div class="hero-body">
@@ -126,11 +128,11 @@
                   </div>
                 </section>
           </div>
-          <button class="modal-close is-large" aria-label="close"></button>
+          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalLero')"></button>
         </div>
         
-        <div class="modal is-ctive">
-          <div class="modal-background"></div>
+        <div class="modal" id="modalAKKAdemy">
+          <div onclick="refs.close('modalAKKAdemy')" class="modal-background"></div>
           <div class="modal-content" style="width: 85%">
               <section class="hero has-background-white-bis is-fullheight-with-navbar">
                   <div class="hero-body">
@@ -150,11 +152,11 @@
                   </div>
                 </section>
           </div>
-          <button class="modal-close is-large" aria-label="close"></button>
+          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalAKKAdemy')"></button>
         </div>
         
-        <div class="modal is-ctive">
-          <div class="modal-background"></div>
+        <div class="modal" id="modalTitor">
+          <div onclick="refs.close('modalTitor')" class="modal-background"></div>
           <div class="modal-content" style="width: 85%">
               <section class="hero has-background-white-bis is-fullheight-with-navbar">
                   <div class="hero-body">
@@ -175,11 +177,11 @@
                   </div>
                 </section>
           </div>
-          <button class="modal-close is-large" aria-label="close"></button>
+          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalTitor')"></button>
         </div>
         
-        <div class="modal is-ctive">
-          <div class="modal-background"></div>
+        <div class="modal" id="modalGDG">
+          <div onclick="refs.close('modalGDG')" class="modal-background"></div>
           <div class="modal-content" style="width: 85%">
               <section class="hero has-background-white-bis is-fullheight-with-navbar">
                   <div class="hero-body">
@@ -203,7 +205,7 @@
                   </div>
                 </section>
           </div>
-          <button class="modal-close is-large" aria-label="close"></button>
+          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalGDG')"></button>
         </div>
         
         <div class="modal" id="modalExplorer">
@@ -309,12 +311,14 @@
                                     <div class="timeline-marker is-image is-48x48">
                                       <img src="images/akkademy.jpg">
                                     </div>
-                                    <div class="timeline-content">
-                                      <p class="heading">Começo: Janeiro 2019 - Fim: Febreiro 2019</p>
-                                      <p>Consultor internacional</p>
-                                        <p class="is-size-7">The AKKAdemy (AKKA Group)</p>
-                                        <p class="is-size-7 has-text-weight-light">Genebra, Suiça</p>
-                                    </div>
+                                    <a class="ye">
+                                        <div class="timeline-content" onclick="refs.open('modalAKKAdemy')">
+                                          <p class="heading">Começo: Janeiro 2019 - Fim: Febreiro 2019</p>
+                                          <p>Consultor internacional</p>
+                                            <p class="is-size-7">The AKKAdemy (AKKA Group)</p>
+                                            <p class="is-size-7 has-text-weight-light">Genebra, Suiça</p>
+                                        </div>
+                                    </a>
                                   </div>
                                 
                                     <header class="timeline-header">
@@ -325,12 +329,14 @@
                                     <div class="timeline-marker is-image is-48x48">
                                       <img src="images/lero.png">
                                     </div>
-                                    <div class="timeline-content">
-                                      <p class="heading">Começo: Agosto 2018 - Fim: Setembro 2018</p>
-                                      <p>Assistente de pesquisa - <i>Erasmus+ Practicum</i></p>
-                                        <p class="is-size-7">Lero: The Irish Software Research Centre</p>
-                                        <p class="is-size-7 has-text-weight-light">Luimneach, Éire</p>
-                                    </div>
+                                    <a class="ye">
+                                        <div class="timeline-content" onclick="refs.open('modalLero')">
+                                          <p class="heading">Começo: Agosto 2018 - Fim: Setembro 2018</p>
+                                          <p>Assistente de pesquisa - <i>Erasmus+ Practicum</i></p>
+                                            <p class="is-size-7">Lero: The Irish Software Research Centre</p>
+                                            <p class="is-size-7 has-text-weight-light">Luimneach, Éire</p>
+                                        </div>
+                                    </a>
                                   </div>
                                 
                                   <div class="timeline-item has-text-grey">
@@ -350,12 +356,14 @@
                                     <div class="timeline-marker is-image is-48x48">
                                       <img src="images/cesga.jpg">
                                     </div>
-                                    <div class="timeline-content">
-                                      <p class="heading">Fim: Junho 2018</p>
-                                      <p>Assistente de pesquisa - Desenvolvimento TFG</p>
-                                        <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                    </div>
+                                    <a class="ye">
+                                        <div class="timeline-content" onclick="refs.open('modalCESGA')">
+                                          <p class="heading">Fim: Junho 2018</p>
+                                          <p>Assistente de pesquisa - Desenvolvimento TFG</p>
+                                            <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
+                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        </div>
+                                    </a>
                                   </div>
                                 
                                 <div class="timeline-item has-text-grey">
@@ -376,24 +384,28 @@
                                     <div class="timeline-marker is-image is-48x48">
                                       <img src="images/cesga.jpg">
                                     </div>
-                                    <div class="timeline-content">
-                                      <p class="heading">Começo: Março 2018</p>
-                                      <p>Assistente de pesquisa - Desenvolvimento TFG</p>
-                                        <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                    </div>
+                                    <a class="ye">
+                                        <div class="timeline-content" onclick="refs.open('modalCESGA')">
+                                          <p class="heading">Começo: Março 2018</p>
+                                          <p>Assistente de pesquisa - Desenvolvimento TFG</p>
+                                            <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
+                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        </div>
+                                    </a>
                                   </div>
                                 
                                 <div class="timeline-item is-link has-text-grey-dark">
                                     <div class="timeline-marker is-image is-48x48 is-link">
                                       <img src="images/gdgSantiago.jpg">
                                     </div>
-                                    <div class="timeline-content">
-                                      <p class="heading">Começo: Febreiro 2018</p>
-                                      <p>Co-organizador</p>
-                                        <p class="is-size-7">Google Developers Group (GDG) Santiago</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza | A distância</p>
-                                    </div>
+                                    <a class="ye">
+                                        <div class="timeline-content" onclick="refs.open('modalGDG')">
+                                          <p class="heading">Começo: Febreiro 2018</p>
+                                          <p>Co-organizador</p>
+                                            <p class="is-size-7">Google Developers Group (GDG) Santiago</p>
+                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza | A distância</p>
+                                        </div>
+                                    </a>
                                   </div>
                                 
                                 <div class="timeline-item has-text-grey">
@@ -418,48 +430,56 @@
                                     <div class="timeline-marker is-image is-48x48">
                                       <img src="images/cesga.jpg">
                                     </div>
-                                    <div class="timeline-content">
-                                      <p class="heading">Fim: Agosto 2017</p>
-                                      <p>Assistente de pesquisa - Práticas em sistemas</p>
-                                        <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                    </div>
+                                    <a class="ye">
+                                        <div class="timeline-content" onclick="refs.open('modalCESGA')">
+                                          <p class="heading">Fim: Agosto 2017</p>
+                                          <p>Assistente de pesquisa - Práticas em sistemas</p>
+                                            <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
+                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        </div>
+                                    </a>
                                   </div>
                                 
                                   <div class="timeline-item">
                                     <div class="timeline-marker is-image is-48x48">
                                       <img src="images/deloitte.jpg">
                                     </div>
-                                    <div class="timeline-content">
-                                      <p class="heading">Começo e fim: Julho 2017 (1 semana)</p>
-                                      <p>Deloitte Summer Xperience</p>
-                                        <p class="is-size-7">Deloitte España</p>
-                                        <p class="is-size-7 has-text-weight-light">Madrid, Espanha</p>
-                                    </div>
+                                    <a class="ye">
+                                        <div class="timeline-content" onclick="refs.open('modalXperience')">
+                                          <p class="heading">Começo e fim: Julho 2017 (1 semana)</p>
+                                          <p>Deloitte Summer Xperience</p>
+                                            <p class="is-size-7">Deloitte España</p>
+                                            <p class="is-size-7 has-text-weight-light">Madrid, Espanha</p>
+                                        </div>
+                                      </a>
                                   </div>
                                 
                                 <div class="timeline-item has-text-grey-dark">
                                     <div class="timeline-marker is-image is-48x48">
                                       <img src="images/usc.jpg">
                                     </div>
-                                    <div class="timeline-content">
-                                      <p class="heading">Fim: Julho 2017</p>
-                                      <p>Aluno tutor para estudantes de nova incorporação</p>
-                                        <p class="is-size-7">Escola Técnica Superior de Engenharia (ETSE) - USC</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                    </div>
+                                    <a class="ye">
+                                        <div class="timeline-content" onclick="refs.open('modalTitor')">
+                                          <p class="heading">Fim: Julho 2017</p>
+                                          <p>Aluno tutor para estudantes de nova incorporação</p>
+                                            <p class="is-size-7">Escola Técnica Superior de Engenharia (ETSE) - USC</p>
+                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        </div>
+                                    </a>
                                   </div>
                                 
                                 <div class="timeline-item">
                                     <div class="timeline-marker is-image is-48x48">
                                       <img src="images/cesga.jpg">
                                     </div>
-                                    <div class="timeline-content">
-                                      <p class="heading">Começo: Junho 2017</p>
-                                      <p>Assistente de pesquisa - Práticas em sistemas</p>
-                                        <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                    </div>
+                                    <a class="ye">
+                                        <div class="timeline-content" onclick="refs.open('modalCESGA')">
+                                          <p class="heading">Começo: Junho 2017</p>
+                                          <p>Assistente de pesquisa - Práticas em sistemas</p>
+                                            <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
+                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        </div>
+                                    </a>
                                   </div>
                                 
                                   <header class="timeline-header">
@@ -470,12 +490,14 @@
                                     <div class="timeline-marker is-image is-48x48">
                                       <img src="images/usc.jpg">
                                     </div>
-                                    <div class="timeline-content">
-                                      <p class="heading">Começo: Setembro 2016</p>
-                                      <p>Aluno tutor para estudantes de nova incorporação</p>
-                                        <p class="is-size-7">Escola Técnica Superior de Engenharia (ETSE) - USC</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                    </div>
+                                    <a class="ye">
+                                        <div class="timeline-content" onclick="refs.open('modalTitor')">
+                                          <p class="heading">Começo: Setembro 2016</p>
+                                          <p>Aluno tutor para estudantes de nova incorporação</p>
+                                            <p class="is-size-7">Escola Técnica Superior de Engenharia (ETSE) - USC</p>
+                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        </div>
+                                    </a>
                                   </div>
                                 
                                 <header class="timeline-header">
