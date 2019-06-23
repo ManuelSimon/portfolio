@@ -34,7 +34,6 @@
 }
 
 .imagem {
-    background-image: url("../images/hero-3.jpg");
     height: 80vh;
     background-position: center center;
     background-size: cover;
