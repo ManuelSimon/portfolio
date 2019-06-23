@@ -40,3 +40,8 @@
     position: relative;
     margin-top: 0;
 }
+
+a.ye {
+  color:inherit;
+  text-decoration: none;
+ }
