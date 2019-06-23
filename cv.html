@@ -239,6 +239,61 @@
           </div>
           <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalExplorer')"></button>
         </div>
+        
+        <div class="modal" id="modalAKKA">
+          <div onclick="refs.close('modalAKKA')" class="modal-background"></div>
+          <div class="modal-content" style="width: 85%">
+              <section class="hero has-background-white-bis is-fullheight-with-navbar">
+                  <div class="hero-body">
+                    <div class="container is-fluid">
+                        
+                        <div class="columns">
+                          <div class="column" id="bio">
+                            <h1 class="title is-size-1">Consultor internacional - <i>Ingénieur d'études</i></h1>
+                              <h2 class="subtitle is-size-4">AKKA Technologies France</h2>
+                              
+                              <p>A AKKA fornece soluções tecnológicas para empresas líderes nos setores automotivo, aeroespacial e ferroviário, bem como nas ciências da vida, serviços, telecomunicações e defesa, permitindo-lhes melhorar os seus processos de inovação, a sua produtividade e a sua eficiência ao projetar novos produtos ou processos.</p>
+                              <p>Atualmente trabalho como consultor no setor das telecomunicações <i class="fas fa-broadcast-tower"></i></p>
+                              
+                          </div>
+                          <div class="column is-fullheight imagem" style="background-image: url('images/akkagr.png')">
+                          </div>
+                        </div>
+                        
+                    </div>
+                  </div>
+                </section>
+          </div>
+          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalAKKA')"></button>
+        </div>
+        
+        <div class="modal" id="modalNokia">
+          <div onclick="refs.close('modalNokia')" class="modal-background"></div>
+          <div class="modal-content" style="width: 85%">
+              <section class="hero has-background-white-bis is-fullheight-with-navbar">
+                  <div class="hero-body">
+                    <div class="container is-fluid">
+                        
+                        <div class="columns">
+                          <div class="column" id="bio">
+                            <h1 class="title is-size-1">QA Tester - Projeto em cliente</h1>
+                              <h2 class="subtitle is-size-4">NOKIA (cliente da AKKA Technologies)</h2>
+                              
+                              <p>QA Tester na Nokia. Tester de uma plataforma de gestão e control de diferentes elementos das redes e telecomunicações: 3G, 4G, 5G, Wi-Fi, Flexi Zone, AirScale; chamada Nokia Network Services Platform (NSP).</p>
+                              
+                              <p>A NSP da Nokia é uma plataforma de serviços de gestão de rede fim-a-fim com uma infinidade de aplicativos, variando dependendo das configuração dos operadores e arquitetos de rede.</p>
+                              
+                          </div>
+                          <div class="column is-fullheight imagem" style="background-image: url('images/nsp.png')">
+                          </div>
+                        </div>
+                        
+                    </div>
+                  </div>
+                </section>
+          </div>
+          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalNokia')"></button>
+        </div>
             
         
         <!-- .hero -->
@@ -287,24 +342,28 @@
                                     <div class="timeline-marker is-image is-48x48 is-link">
                                       <img src="images/nokia.png">
                                     </div>
-                                    <div class="timeline-content">
-                                      <p class="heading">Começo: Febreiro 2019</p>
-                                      <p>QA Tester - Projeto em cliente</p>
-                                        <p class="is-size-7">Nokia (Cliente de AKKA)</p>
-                                        <p class="is-size-7 has-text-weight-light">Paris, França</p>
-                                    </div>
+                                    <a class="ye">
+                                        <div class="timeline-content" onclick="refs.open('modalNokia')">
+                                          <p class="heading">Começo: Febreiro 2019</p>
+                                          <p>QA Tester - Projeto em cliente</p>
+                                            <p class="is-size-7">Nokia (Cliente da AKKA)</p>
+                                            <p class="is-size-7 has-text-weight-light">Paris, França</p>
+                                        </div>
+                                    </a>
                                   </div>
                                 
                                     <div class="timeline-item is-link">
                                     <div class="timeline-marker is-link is-image is-48x48">
                                       <img src="images/akka.png">
                                     </div>
-                                    <div class="timeline-content">
-                                      <p class="heading">Começo: Febreiro 2019</p>
-                                      <p>Consultor internacional - <i>Ingénieur d'études</i></p>
-                                        <p class="is-size-7">AKKA France</p>
-                                        <p class="is-size-7 has-text-weight-light">Paris, França</p>
-                                    </div>
+                                        <a class="ye">
+                                            <div class="timeline-content" onclick="refs.open('modalAKKA')">
+                                              <p class="heading">Começo: Febreiro 2019</p>
+                                              <p>Consultor internacional - <i>Ingénieur d'études</i></p>
+                                                <p class="is-size-7">AKKA France</p>
+                                                <p class="is-size-7 has-text-weight-light">Paris, França</p>
+                                            </div>
+                                        </a>
                                   </div>
                                 
                                     <div class="timeline-item">
