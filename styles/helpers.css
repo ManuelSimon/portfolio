@@ -45,3 +45,7 @@ a.ye {
   color:inherit;
   text-decoration: none;
  }
+
+#map {
+    height: 70vh;
+}

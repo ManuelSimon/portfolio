@@ -14,6 +14,15 @@
 		<link rel="stylesheet" href="styles/grid.css">
         
         <link rel="stylesheet" href="css/bulma-timeline.min.css">
+        
+        <!-- include leaflet css and javascript -->
+		<link rel="stylesheet" crossorigin=""
+				href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+		<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js"
+						crossorigin=""></script>
+
+		<!-- include our own css -->
+		<link rel="stylesheet" href="css/leaflet-map.css" />
 
 		<style>
             /* background */		
@@ -325,14 +334,27 @@
             <!-- .hero-body -->
             <header class="hero-body center">
                 <div> <!-- Corpo -->
-                    <section class="section" id="titles"> <!-- Titles -->
+                    
+                    <section> <!-- Map -->
+                        <div class="hero-body">
+                            <div class="container">
+                              <h3 class="title is-2 has-text-centered">Mapa</h3>
+                            <h4 class="subtitle is-5 has-text-centered">Através deste mapa interativo podes dar uma olhada visual da minha experiência profissional atual. Lembra que é interativo, move-te nele para observar tudo!</h4>
+                                
+                                <div id="map" class="map"></div>
+                                
+                            </div>
+                          </div>
+                    </section>
+                    
+                    <section class="section"> <!-- Timeline -->
                         <div class="section-heading">
                             <h3 class="title is-2 has-text-centered">Cronologia</h3>
                             <h4 class="subtitle is-5 has-text-centered">Se quadra, és mais fã dos dados dispostos cronologicamente? Olha para o a versão cronológica do meu CV, pois:</h4>
                         </div>
                     </section>
                     
-                    <section class="section" id="photo"> <!-- Photo -->
+                    <section> 
                             <div class="timeline is-centered">
                                   <header class="timeline-header">
                                     <span class="tag is-large is-link">Presente</span>
@@ -588,6 +610,8 @@
         <!-- /.hero -->
 
         <script src="js/modal.js"></script>
+        <script src="js/leaflet-providers.js"></script>
+		<script src="js/leaflet-map.js"></script>
         
 	</body>
 </html>
