@@ -206,8 +206,8 @@
           <button class="modal-close is-large" aria-label="close"></button>
         </div>
         
-        <div class="modal is-active">
-          <div class="modal-background"></div>
+        <div class="modal" id="modalExplorer">
+          <div onclick="refs.close('modalExplorer')" class="modal-background"></div>
           <div class="modal-content" style="width: 85%">
               <section class="hero has-background-white-bis is-fullheight-with-navbar">
                   <div class="hero-body">
@@ -227,7 +227,7 @@
                               <li>Lean startup.</li>
                               
                           </div>
-                          <div class="column is-fullheight imagem" style="background-image: url('images/explorerday.jpg')">
+                          <div class="column is-fullheight imagem" style="background-image: url('images/exp1.PNG')">
                           </div>
                         </div>
                         
@@ -235,9 +235,9 @@
                   </div>
                 </section>
           </div>
-          <button class="modal-close is-large" aria-label="close"></button>
+          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalExplorer')"></button>
         </div>
-        
+            
         
         <!-- .hero -->
         <section class="hero is-fullheight">
@@ -362,12 +362,14 @@
                                     <div class="timeline-marker is-image is-48x48">
                                       <img src="images/explorer.png">
                                     </div>
-                                    <div class="timeline-content">
-                                      <p class="heading">Fim: Junho 2018</p>
-                                      <p>Participante - Estudante</p>
-                                        <p class="is-size-7">Explorer <i>"Jóvenes con ideas"</i></p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                    </div>
+                                    <a class="ye">
+                                        <div class="timeline-content" onclick="refs.open('modalExplorer')">
+                                          <p class="heading">Fim: Junho 2018</p>
+                                          <p>Participante - Estudante</p>
+                                            <p class="is-size-7">Explorer <i>"Jóvenes con ideas"</i></p>
+                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        </div>
+                                    </a>
                                   </div>
                                 
                                 <div class="timeline-item">
@@ -398,12 +400,14 @@
                                     <div class="timeline-marker is-image is-48x48">
                                       <img src="images/explorer.png">
                                     </div>
-                                    <div class="timeline-content">
-                                      <p class="heading">Começo: Janeiro 2018</p>
-                                      <p>Participante - Estudante</p>
-                                        <p class="is-size-7">Explorer <i>"Jóvenes con ideas"</i></p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                    </div>
+                                    <a class="ye">
+                                        <div class="timeline-content" onclick="refs.open('modalExplorer')">
+                                          <p class="heading">Começo: Janeiro 2018</p>
+                                          <p>Participante - Estudante</p>
+                                            <p class="is-size-7">Explorer <i>"Jóvenes con ideas"</i></p>
+                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        </div>
+                                    </a>
                                   </div>
                                 
                                 <header class="timeline-header">
@@ -502,6 +506,7 @@
         </section>
         <!-- /.hero -->
 
+        <script src="js/modal.js"></script>
         
 	</body>
 </html>
