@@ -53,3 +53,12 @@ a.ye {
 p.iconas {
        letter-spacing: 6px
 }
+
+.linguas{
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin-bottom: 35px;
+    margin-right: 22px;
+    z-index: 999;
+}
