@@ -1,118 +1,107 @@
 <!DOCTYPE html>
 <html>
-	<head><link rel="stylesheet" href="normalize.css">
+	<head>
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        
+		<!-- CSS -->
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="css/bulma.css">
+		<link rel="stylesheet" href="css/bulma.min.css">
+		<link rel="stylesheet" href="css/emoji.css">
+		<link href="css/all.css" rel="stylesheet">
+		<link rel="stylesheet" href="styles/helpers.css">
+		<!-- <link rel="stylesheet" href="styles/debug.css"> -->
+        
+		<!-- JS -->
+		<script src="js/simple-typing-carousel.js"></script> 
+        
+		<!-- Outros -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Manuel Simón Nóvoa</title>
-		<link rel="stylesheet" href="css/bulma.css">
-        <link rel="stylesheet" href="css/bulma.min.css">
-        <link rel="stylesheet" href="css/emoji.css">
-        <link href="css/all.css" rel="stylesheet">
-        <script src="js/simple-typing-carousel.js"></script> 
-        <!-- <link rel="stylesheet" href="styles/debug.css"> -->
-		<link rel="stylesheet" href="styles/helpers.css">
-		<link rel="stylesheet" href="styles/grid.css">
-        
-		<style>
-            /* background */		
-            .hero {
-                background: white;
-            }
-            /* responsive */
-            @media (max-width: 768px) {
-                :root {
-                    font-size: 90%;
-                }
-            }
-		</style>
-        
 	</head>
     
 	<body>
-        <!-- .hero -->
-        <section class="hero is-fullheight">
-
-            <div class="is-overlay has-text-right single-spaced">
-                <div class="control has-icons-left linguas">
-                  <div class="select">
-                    <select>
-                      <option selected>Mudar idioma</option>
-                      <option>English</option>
-                      <option>Español</option>
-                        <option>Français</option>
-                      <option>Português da Galiza (Galego)</option>
-
-                    </select>
-                  </div>
-                  <span class="icon is-medium is-left">
-                    <i class="fas fa-language has-text-dark"></i>
-                  </span>
-                </div>
-            </div>
+		<!-- .hero -->
+		<section class="hero is-fullheight">
+			<div class="is-overlay has-text-right single-spaced desktop">
+				<div class="control has-icons-left linguas">
+					<div class="select">
+						<select>
+							<option selected>Mudar idioma</option>
+							<option>English</option>
+							<option>Español</option>
+							<option>Français</option>
+							<option>Português da Galiza (Galego)</option>
+						</select>
+					</div>
+					<span class="icon is-medium is-left">
+					<i class="fas fa-language has-text-dark"></i>
+					</span>
+				</div>
+			</div>
             
-            <!-- .hero-head -->
-            <nav class="hero-head">
-                <div class="columns is-mobile is-marginless heading has-text-weight-bold">
-                    <div class="column left">
-                        <h1 class="title is-4 has-text-weight-light">Manuel Simón Nóvoa</h1>
-                    </div>
+			<!-- .hero-head -->
+			<nav class="hero-head">
+				<div class="columns is-mobile is-marginless heading has-text-weight-bold">
+					<!-- Nome -->
+					<div class="column left desktop">
+						<h1 class="title is-4 has-text-weight-light">Manuel Simón Nóvoa</h1>
+					</div>
                     
-                    <div class="column center">
-                        <p class="navbar-item has-text-primary">Home</p>
-                        <p class="navbar-item ">Projects</p>
-                        <p class="navbar-item ">CV</p>
-                        <p class="navbar-item ">About me</p>
-                        <p class="navbar-item ">Credits</p>
-                    </div>
+					<!-- Navbar -->
+					<div class="column center">
+						<a href="#"><p class="navbar-item has-text-grey-light">Início</p></a>
+						<a href="portefolio.html"><p class="navbar-item ">Portefólio</p></a>
+						<a href="cv.html"><p class="navbar-item ">CV</p></a>
+						<a href="about.html"><p class="navbar-item ">Sobre mim</p></a>
+						<a href="creditos.html"><p class="navbar-item ">Créditos</p></a>
+					</div>
                     
-                    <div class="column right">
-                        <a href="https://twitter.com/msnovoa"><p class="navbar-item"><i class="fab fa-3x fa-twitter has-text-info"></i></p></a> <!-- TW -->
-                        <a href="https://www.linkedin.com/in/msimonnovoa/"><p class="navbar-item"><i class="fab fa-3x fa-linkedin has-text-link"></i></p></a> <!-- LI -->
-                    </div>
-                </div>
-            </nav>
-            <!-- /.hero-head -->
-
-            <!-- .hero-body -->
-            <header class="hero-body center">
-
-                <!-- Animação central -->
-                    <div class="center">
-                        <object style="max-height: 460px" id="my-svg" type="image/svg+xml" data=""></object>
-                    </div>
-
-            </header>
-            <!-- /.hero-body -->
-
-            <!-- .hero-foot -->
-            <footer class="hero-foot center" style="padding: 2rem;">
-                <h1 class="title is-3 has-text-weight-light">
-                    <span
-                         class="txt-rotate"
-                         data-period="1500"
-                         data-rotate='[ "Olá, mundo!", "Hello, world!", "¡Hola, mundo!", "Bonjour, monde !" ]'>
-                    </span> 
-                    <i class="em em-male-technologist"></i>
-                </h1>
-            </footer>
-            <!-- /.hero-foot -->
-
-        </section>
-        <!-- /.hero -->
-
-        <!-- Função JavaScript para trocar a animação central -->
-        <script type="text/javascript">  
-            var svgs = new Array(6);  
-            svgs[0] = "images/faro.svg";
-            svgs[1] = "images/gaita.svg";  
-            svgs[2] = "images/portatil.svg";
-            svgs[3] = "images/triskele.svg";
-            svgs[4] = "images/vieira.svg";
-            svgs[5] = "images/chuva.svg";
-
-            var random = Math.floor(Math.random() * svgs.length);
-            document.getElementById("my-svg").data = svgs[random];
-        </script>  
+					<!-- RRSS -->
+					<div class="column right desktop">
+						<a href="https://twitter.com/msnovoa"><p class="navbar-item"><i class="fab fa-3x fa-twitter has-text-info"></i></p></a>
+						<a href="https://www.linkedin.com/in/msimonnovoa/"><p class="navbar-item"><i class="fab fa-3x fa-linkedin has-text-link"></i></p></a>
+					</div>
+				</div>
+			</nav>
+			<!-- /.hero-head -->
+            
+			<!-- .hero-body -->
+			<header class="hero-body center">
+				<!-- Animação central -->
+				<div class="center">
+					<object style="max-height: 460px" id="my-svg" type="image/svg+xml" data=""></object>
+				</div>
+			</header>
+            
+			<!-- .hero-foot -->
+			<footer class="hero-foot center" style="padding: 2rem;">
+				<h1 class="title is-3 has-text-weight-light">
+					<span
+						class="txt-rotate"
+						data-period="1500"
+						data-rotate='[ "Olá, mundo!", "Hello, world!", "¡Hola, mundo!", "Bonjour, monde !" ]'>
+					</span> 
+					<i class="em em-male-technologist"></i>
+				</h1>
+			</footer>
+		</section>
         
+		<!-- Função JavaScript para trocar a animação central -->
+		<script type="text/javascript">  
+			var svgs = new Array(6);  
+			svgs[0] = "images/faro.svg";
+			svgs[1] = "images/gaita.svg";  
+			svgs[2] = "images/portatil.svg";
+			svgs[3] = "images/triskele.svg";
+			svgs[4] = "images/vieira.svg";
+			svgs[5] = "images/chuva.svg";
+			
+			var random = Math.floor(Math.random() * svgs.length);
+			document.getElementById("my-svg").data = svgs[random];
+		</script>  
 	</body>
 </html>
