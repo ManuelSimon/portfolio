@@ -1,627 +1,642 @@
 <!DOCTYPE html>
 <html>
-	<head><link rel="stylesheet" href="normalize.css">
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Manuel Simón Nóvoa</title>
-		<link rel="stylesheet" href="css/bulma.css">
+    <head>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="css/bulma.css">
         <link rel="stylesheet" href="css/bulma.min.css">
         <link rel="stylesheet" href="css/emoji.css">
         <link href="css/all.css" rel="stylesheet">
-        <script src="js/simple-typing-carousel.js"></script> 
+        <link rel="stylesheet" href="styles/helpers.css">
         <!-- <link rel="stylesheet" href="styles/debug.css"> -->
-		<link rel="stylesheet" href="styles/helpers.css">
-		<link rel="stylesheet" href="styles/grid.css">
-        
         <link rel="stylesheet" href="css/bulma-timeline.min.css">
-        
+
+        <!-- JS -->
+        <script src="js/simple-typing-carousel.js"></script> 
+
+        <!-- Outros -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Manuel Simón Nóvoa</title>
+
         <!-- include leaflet css and javascript -->
-		<link rel="stylesheet" crossorigin=""
-				href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
-		<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js"
-						crossorigin=""></script>
+        <link rel="stylesheet" crossorigin=""
+              href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js"
+                crossorigin=""></script>
 
-		<!-- include our own css -->
-		<link rel="stylesheet" href="css/leaflet-map.css" />
+        <!-- include our own css -->
+        <link rel="stylesheet" href="css/leaflet-map.css" />
 
-		<style>
-            /* background */		
-            .hero {
-                background: white;
-            }
-            /* responsive */
-            @media (max-width: 768px) {
-                :root {
-                    font-size: 90%;
-                }
-            }
-		</style>
-        
-	</head>
-    
-	<body>
-        
-                <div class="control has-icons-left linguas">
-          <div class="select">
-            <select>
-              <option selected>Mudar idioma</option>
-              <option>English</option>
-              <option>Español</option>
-                <option>Français</option>
-              <option>Português da Galiza (Galego)</option>
+    </head>
 
-            </select>
-          </div>
-          <span class="icon is-medium is-left">
-            <i class="fas fa-language has-text-dark"></i>
-          </span>
+    <body>
+
+        <div class="is-overlay has-text-right single-spaced desktop">
+            <div class="control has-icons-left linguas">
+                <div class="select">
+                    <select>
+                        <option selected>Mudar idioma</option>
+                        <option>English</option>
+                        <option>Español</option>
+                        <option>Français</option>
+                        <option>Português da Galiza (Galego)</option>
+                    </select>
+                </div>
+                <span class="icon is-medium is-left">
+                    <i class="fas fa-language has-text-dark"></i>
+                </span>
+            </div>
         </div>
-        
+
         <!-- TARJETAS POP-UP MODALS -->
-        
+
         <div class="modal" id="modalCESGA">
-          <div onclick="refs.close('modalCESGA')" class="modal-background"></div>
-          <div class="modal-content" style="width: 85%">
-              <section class="hero has-background-white-bis is-fullheight-with-navbar">
-                  <div class="hero-body">
-                    <div class="container is-fluid">
-                        
-                        <div class="columns">
-                          <div class="column is-three-fifths" id="bio">
-                            <h1 class="title is-size-1">Assistente de pesquisa</h1>
-                              <h2 class="subtitle is-size-4">Centro de Supercomputação da Galiza (CESGA)</h2>
+            <div onclick="refs.close('modalCESGA')" class="modal-background"></div>
+            <div class="modal-content" style="width: 85%">
+                <section class="hero has-background-white-bis is-fullheight-with-navbar">
+                    <div class="hero-body">
+                        <div class="container is-fluid">
 
-                              <h3 class="subtitle is-size-4">Práticas em sistemas</h3>
-                              <p>Participação no projeto de colaboração europeu "Mathematical Modelling, Simulation and Optimization for Societal Challenges with Scientific Computing" (MSO4SC), promovido pelo programa H2020:</p>
+                            <div class="columns">
+                                <div class="column is-three-fifths" id="bio">
+                                    <h1 class="title is-size-1">Assistente de pesquisa</h1>
+                                    <h2 class="subtitle is-size-4">Centro de Supercomputação da Galiza (CESGA)</h2>
 
-                              <li>Configuração dum sistema baseado em contentores sobre estrutura HPC.</li>
-                              <li>Implementação automatizada de aplicações científicas paralelas (MPI) sobre rede InfiniBand.</li>
-                              <li>Scripts para alcançar futura reprodutibilidade do modelo.</li>
-                              <li>Provas de rendimento.</li>
-                              <li>Memoria do projeto (integramente em inglês).</li>
-                              <p></p>
-                              <h3 class="subtitle is-size-4">Desenvolvimento do meu Trabalho de Fim de Grau (TFG)</h3>
+                                    <h3 class="subtitle is-size-4">Práticas em sistemas</h3>
+                                    <p>Participação no projeto de colaboração europeu "Mathematical Modelling, Simulation and Optimization for Societal Challenges with Scientific Computing" (MSO4SC), promovido pelo programa H2020:</p>
 
-                              <p>Realização do meu Trabalho de Fim de Grau: "Análise de riscos de segurança no uso de contentores para HPC". Estudo num entorno HPC/Cloud:</p>
+                                    <li>Configuração dum sistema baseado em contentores sobre estrutura HPC.</li>
+                                    <li>Implementação automatizada de aplicações científicas paralelas (MPI) sobre rede InfiniBand.</li>
+                                    <li>Scripts para alcançar futura reprodutibilidade do modelo.</li>
+                                    <li>Provas de rendimento.</li>
+                                    <li>Memoria do projeto (integramente em inglês).</li>
+                                    <p></p>
+                                    <h3 class="subtitle is-size-4">Desenvolvimento do meu Trabalho de Fim de Grau (TFG)</h3>
 
-                              <li>Investigação.</li>
-                              <li>Análise de tecnologias de contentorização desde o ponto de vista da segurança.</li>
-                              <li>Classificação de riscos.</li>
-                              <li>Criação e provas de meios Docker, Singularity e Udocker.</li>
-                              <li>Deteção e exploração de vulnerabilidades.</li>
-                              <li>Determinação dos câmbios a realizar: boas práticas e recomendações.</li>
+                                    <p>Realização do meu Trabalho de Fim de Grau: "Análise de riscos de segurança no uso de contentores para HPC". Estudo num entorno HPC/Cloud:</p>
 
-                          </div>
-                          <div class="column is-fullheight imagem" style="background-image: url('images/ft2.jpg')">
-                          </div>
+                                    <li>Investigação.</li>
+                                    <li>Análise de tecnologias de contentorização desde o ponto de vista da segurança.</li>
+                                    <li>Classificação de riscos.</li>
+                                    <li>Criação e provas de meios Docker, Singularity e Udocker.</li>
+                                    <li>Deteção e exploração de vulnerabilidades.</li>
+                                    <li>Determinação dos câmbios a realizar: boas práticas e recomendações.</li>
+
+                                </div>
+                                <div class="column is-fullheight imagem" style="background-image: url('images/ft2.jpg')">
+                                </div>
+                            </div>
+
                         </div>
-                        
                     </div>
-                  </div>
                 </section>
-          </div>
-          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalCESGA')"></button>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalCESGA')"></button>
         </div>
-        
+
         <div class="modal" id="modalXperience">
-          <div onclick="refs.close('modalXperience')" class="modal-background"></div>
-          <div class="modal-content" style="width: 85%">
-              <section class="hero has-background-white-bis is-fullheight-with-navbar">
-                  <div class="hero-body">
-                    <div class="container is-fluid">
-                        
-                        <div class="columns">
-                          <div class="column" id="bio">
-                            <h1 class="title is-size-1">Participante no Deloitte Summer Xperience</h1>
-                              <h2 class="subtitle is-size-4">Deloitte España</h2>
-                              <p>Duração: 1 semana. Realização de multíplices provas de seleção.</p>
-                                <p>Resolução conjunta dum caso fictício colocado por Deloitte com atividades multidisciplinares que abrangiam diferentes áreas de negócio da empresa. Áreas abrangidas:</p>
-                              <li>Transformação digital.</li>
-                              <li>Cibersegurança.</li>
-                              <li>Riscos tecnológicos.</li>
-                          </div>
-                          <div class="column is-fullheight imagem" style="background-image: url('images/xperience.jpg')">
-                          </div>
+            <div onclick="refs.close('modalXperience')" class="modal-background"></div>
+            <div class="modal-content" style="width: 85%">
+                <section class="hero has-background-white-bis is-fullheight-with-navbar">
+                    <div class="hero-body">
+                        <div class="container is-fluid">
+
+                            <div class="columns">
+                                <div class="column" id="bio">
+                                    <h1 class="title is-size-1">Participante no Deloitte Summer Xperience</h1>
+                                    <h2 class="subtitle is-size-4">Deloitte España</h2>
+                                    <p>Duração: 1 semana. Realização de multíplices provas de seleção.</p>
+                                    <p>Resolução conjunta dum caso fictício colocado pela Deloitte com atividades multidisciplinares que abrangiam diferentes áreas de negócio da empresa. Áreas abrangidas:</p>
+                                    <li>Transformação digital.</li>
+                                    <li>Cibersegurança.</li>
+                                    <li>Riscos tecnológicos.</li>
+                                </div>
+                                <div class="column is-fullheight imagem" style="background-image: url('images/xperience.jpg')">
+                                </div>
+                            </div>
+
                         </div>
-                        
                     </div>
-                  </div>
                 </section>
-          </div>
-          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalXperience')"></button>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalXperience')"></button>
         </div>
-        
+
         <div class="modal" id="modalLero">
-          <div onclick="refs.close('modalLero')" class="modal-background"></div>
-          <div class="modal-content" style="width: 85%">
-              <section class="hero has-background-white-bis is-fullheight-with-navbar">
-                  <div class="hero-body">
-                    <div class="container is-fluid">
-                        
-                        <div class="columns">
-                          <div class="column" id="bio">
-                            <h1 class="title is-size-1">Assistente de pesquisa</h1>
-                              <h2 class="subtitle is-size-4">Lero | The Irish Software Research Centre</h2>
-                              <p>Utilização de técnicas de mutação e planificação IA, para a criação e deteção automatizadas de vulnerabilidades num entorno baseado na nuvem.</p>
-                              <p>Pesquisa em cibersegurança para a construção dum prototipo para a recompilação de probas adaptativas na nuvem.</p>
-                          </div>
-                          <div class="column is-fullheight imagem" style="background-image: url('images/lero.JPG')">
-                          </div>
+            <div onclick="refs.close('modalLero')" class="modal-background"></div>
+            <div class="modal-content" style="width: 85%">
+                <section class="hero has-background-white-bis is-fullheight-with-navbar">
+                    <div class="hero-body">
+                        <div class="container is-fluid">
+
+                            <div class="columns">
+                                <div class="column" id="bio">
+                                    <h1 class="title is-size-1">Assistente de pesquisa</h1>
+                                    <h2 class="subtitle is-size-4">Lero | The Irish Software Research Centre</h2>
+                                    <p>Utilização de técnicas de mutação e planificação IA, para a criação e deteção automatizadas de vulnerabilidades num entorno baseado na nuvem.</p>
+                                    <p>Pesquisa em cibersegurança para a construção dum prototipo para a recompilação de probas adaptativas na nuvem.</p>
+                                </div>
+                                <div class="column is-fullheight imagem" style="background-image: url('images/lero.JPG')">
+                                </div>
+                            </div>
+
                         </div>
-                        
                     </div>
-                  </div>
                 </section>
-          </div>
-          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalLero')"></button>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalLero')"></button>
         </div>
-        
+
         <div class="modal" id="modalAKKAdemy">
-          <div onclick="refs.close('modalAKKAdemy')" class="modal-background"></div>
-          <div class="modal-content" style="width: 85%">
-              <section class="hero has-background-white-bis is-fullheight-with-navbar">
-                  <div class="hero-body">
-                    <div class="container is-fluid">
-                        
-                        <div class="columns">
-                          <div class="column" id="bio">
-                            <h1 class="title is-size-1">Consultor internacional</h1>
-                              <h2 class="subtitle is-size-4">The AKKAdemy (AKKA Group)</h2>
-                              <p>O programa internacional para licenciados de AKKA. Um programa para licenciados em estudos de engenharias digitais. Depois de completar 4 semanas em Genebra, os participantes unirão-se a um projeto desenvolvido por algum cliente de AKKA, em diferentes localizações dependendo dos seus conhecimentos, na Alemanha, a Bélgica, a França ou os Países Baixos.</p>
-                          </div>
-                          <div class="column is-fullheight imagem" style="background-image: url('images/theakkademy.jpg')">
-                          </div>
+            <div onclick="refs.close('modalAKKAdemy')" class="modal-background"></div>
+            <div class="modal-content" style="width: 85%">
+                <section class="hero has-background-white-bis is-fullheight-with-navbar">
+                    <div class="hero-body">
+                        <div class="container is-fluid">
+
+                            <div class="columns">
+                                <div class="column" id="bio">
+                                    <h1 class="title is-size-1">Consultor internacional</h1>
+                                    <h2 class="subtitle is-size-4">The AKKAdemy (AKKA Group)</h2>
+                                    <p>O programa internacional para licenciados de AKKA. Um programa para licenciados em estudos de engenharias digitais. Depois de completar 4 semanas em Genebra, os participantes unirão-se a um projeto desenvolvido por algum cliente de AKKA, em diferentes localizações dependendo dos seus conhecimentos, na Alemanha, a Bélgica, a França ou os Países Baixos.</p>
+                                </div>
+                                <div class="column is-fullheight imagem" style="background-image: url('images/theakkademy.jpg')">
+                                </div>
+                            </div>
+
                         </div>
-                        
                     </div>
-                  </div>
                 </section>
-          </div>
-          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalAKKAdemy')"></button>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalAKKAdemy')"></button>
         </div>
-        
+
         <div class="modal" id="modalTitor">
-          <div onclick="refs.close('modalTitor')" class="modal-background"></div>
-          <div class="modal-content" style="width: 85%">
-              <section class="hero has-background-white-bis is-fullheight-with-navbar">
-                  <div class="hero-body">
-                    <div class="container is-fluid">
-                        
-                        <div class="columns">
-                          <div class="column" id="bio">
-                            <h1 class="title is-size-1">Aluno tutor para estudantes de nova incorporação</h1>
-                              <h2 class="subtitle is-size-4">Escola Técnica Superior de Engenharia (ETSE) - Universidade de Santiago de Compostela (USC)</h2>
-                              <p>Mentoria dos alunos de primeiro ano da ETSE.</p>
-                              <p>Guia para estudantes do ensino secundário em passeios culturais em relação à universidade USC.</p>
-                          </div>
-                          <div class="column is-fullheight imagem" style="background-image: url('images/etse.jpg')">
-                          </div>
+            <div onclick="refs.close('modalTitor')" class="modal-background"></div>
+            <div class="modal-content" style="width: 85%">
+                <section class="hero has-background-white-bis is-fullheight-with-navbar">
+                    <div class="hero-body">
+                        <div class="container is-fluid">
+
+                            <div class="columns">
+                                <div class="column" id="bio">
+                                    <h1 class="title is-size-1">Aluno tutor para estudantes de nova incorporação</h1>
+                                    <h2 class="subtitle is-size-4">Escola Técnica Superior de Engenharia (ETSE) - Universidade de Santiago de Compostela (USC)</h2>
+                                    <p>Mentoria dos alunos de primeiro ano da ETSE.</p>
+                                    <p>Guia para estudantes do ensino secundário em passeios culturais em relação à universidade USC.</p>
+                                </div>
+                                <div class="column is-fullheight imagem" style="background-image: url('images/etse.jpg')">
+                                </div>
+                            </div>
+
                         </div>
-                        
                     </div>
-                  </div>
                 </section>
-          </div>
-          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalTitor')"></button>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalTitor')"></button>
         </div>
-        
+
         <div class="modal" id="modalGDG">
-          <div onclick="refs.close('modalGDG')" class="modal-background"></div>
-          <div class="modal-content" style="width: 85%">
-              <section class="hero has-background-white-bis is-fullheight-with-navbar">
-                  <div class="hero-body">
-                    <div class="container is-fluid">
-                        
-                        <div class="columns">
-                          <div class="column" id="bio">
-                            <h1 class="title is-size-1">Co-organizador</h1>
-                              <h2 class="subtitle is-size-4">GDG Santiago de Compostela</h2>
-                              <h3 class="subtitle is-size-4">O que são os GDG?</h3>
-                              <p>Os Google Developers Group (GDGs) são entidades sem fins lucrativos criadas com o objetivo de melhorar a comunidade de entusiastas tecnológicos e aumentar o conhecimento e as relações entre pessoas dedicadas a essa área.</p>
-                              
-                              <h3 class="subtitle is-size-4">O que fazemos?</h3>
-                              <p>Criamos eventos, conferências e obradoiros, com o objetivo de espalhar o conhecimento sobre tecnologia e melhorar o panorama de desenvolvimento. Além disso, a grande maioria desses eventos são gratuitos.</p>
-                          </div>
-                          <div class="column is-fullheight imagem" style="background-image: url('images/gdg.jpg')">
-                          </div>
+            <div onclick="refs.close('modalGDG')" class="modal-background"></div>
+            <div class="modal-content" style="width: 85%">
+                <section class="hero has-background-white-bis is-fullheight-with-navbar">
+                    <div class="hero-body">
+                        <div class="container is-fluid">
+
+                            <div class="columns">
+                                <div class="column" id="bio">
+                                    <h1 class="title is-size-1">Co-organizador</h1>
+                                    <h2 class="subtitle is-size-4">GDG Santiago de Compostela</h2>
+                                    <h3 class="subtitle is-size-4">O que são os GDG?</h3>
+                                    <p>Os Google Developers Group (GDGs) são entidades sem fins lucrativos criadas com o objetivo de melhorarem a comunidade de entusiastas tecnológicos e aumentar o conhecimento e as relações entre pessoas dedicadas a essa área.</p>
+
+                                    <h3 class="subtitle is-size-4">O que fazemos?</h3>
+                                    <p>Criamos eventos, conferências e obradoiros, com o objetivo de espalhar o conhecimento sobre tecnologia e melhorar o panorama de desenvolvimento. Além disso, a grande maioria desses eventos são gratuitos.</p>
+                                </div>
+                                <div class="column is-fullheight imagem" style="background-image: url('images/gdg.jpg')">
+                                </div>
+                            </div>
+
                         </div>
-                        
                     </div>
-                  </div>
                 </section>
-          </div>
-          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalGDG')"></button>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalGDG')"></button>
         </div>
-        
+
         <div class="modal" id="modalExplorer">
-          <div onclick="refs.close('modalExplorer')" class="modal-background"></div>
-          <div class="modal-content" style="width: 85%">
-              <section class="hero has-background-white-bis is-fullheight-with-navbar">
-                  <div class="hero-body">
-                    <div class="container is-fluid">
-                        
-                        <div class="columns">
-                          <div class="column" id="bio">
-                            <h1 class="title is-size-1">Participante | Estudante</h1>
-                              <h2 class="subtitle is-size-4">Explorer "Jóvenes con ideas"</h2>
-                              
-                              <li>Empreendimento: desenho e implantação de ideia no mercado.</li>
-                              <li>Administração e gestão de pequenas empresas.</li>
-                              <li>Marketing.</li>
-                              <li>Liderança.</li>
-                              <li>Gestão do talento.</li>
-                              <li>Design thinking.</li>
-                              <li>Lean startup.</li>
-                              
-                          </div>
-                          <div class="column is-fullheight imagem" style="background-image: url('images/exp1.PNG')">
-                          </div>
+            <div onclick="refs.close('modalExplorer')" class="modal-background"></div>
+            <div class="modal-content" style="width: 85%">
+                <section class="hero has-background-white-bis is-fullheight-with-navbar">
+                    <div class="hero-body">
+                        <div class="container is-fluid">
+
+                            <div class="columns">
+                                <div class="column" id="bio">
+                                    <h1 class="title is-size-1">Participante | Estudante</h1>
+                                    <h2 class="subtitle is-size-4">Explorer "Jóvenes con ideas"</h2>
+
+                                    <p>Processo de criação dum MVP (Produto Mínimo Viável).</p>
+
+                                    <li>Empreendimento: desenho e implantação de ideia no mercado.</li>
+                                    <li>Administração e gestão de pequenas empresas.</li>
+                                    <li>Marketing.</li>
+                                    <li>Liderança.</li>
+                                    <li>Gestão do talento.</li>
+                                    <li>Design thinking.</li>
+                                    <li>Lean startup.</li>
+
+                                </div>
+                                <div class="column is-fullheight imagem" style="background-image: url('images/exp1.PNG')">
+                                </div>
+                            </div>
+
                         </div>
-                        
                     </div>
-                  </div>
                 </section>
-          </div>
-          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalExplorer')"></button>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalExplorer')"></button>
         </div>
-        
+
         <div class="modal" id="modalAKKA">
-          <div onclick="refs.close('modalAKKA')" class="modal-background"></div>
-          <div class="modal-content" style="width: 85%">
-              <section class="hero has-background-white-bis is-fullheight-with-navbar">
-                  <div class="hero-body">
-                    <div class="container is-fluid">
-                        
-                        <div class="columns">
-                          <div class="column" id="bio">
-                            <h1 class="title is-size-1">Consultor internacional - <i>Ingénieur d'études</i></h1>
-                              <h2 class="subtitle is-size-4">AKKA Technologies France</h2>
-                              
-                              <p>A AKKA fornece soluções tecnológicas para empresas líderes nos setores automotivo, aeroespacial e ferroviário, bem como nas ciências da vida, serviços, telecomunicações e defesa, permitindo-lhes melhorar os seus processos de inovação, a sua produtividade e a sua eficiência ao projetar novos produtos ou processos.</p>
-                              <p>Atualmente trabalho como consultor no setor das telecomunicações <i class="fas fa-broadcast-tower"></i></p>
-                              
-                          </div>
-                          <div class="column is-fullheight imagem" style="background-image: url('images/akkagr.png')">
-                          </div>
+            <div onclick="refs.close('modalAKKA')" class="modal-background"></div>
+            <div class="modal-content" style="width: 85%">
+                <section class="hero has-background-white-bis is-fullheight-with-navbar">
+                    <div class="hero-body">
+                        <div class="container is-fluid">
+
+                            <div class="columns">
+                                <div class="column" id="bio">
+                                    <h1 class="title is-size-1">Consultor internacional - <i>Ingénieur d'études</i></h1>
+                                    <h2 class="subtitle is-size-4">AKKA Technologies France</h2>
+
+                                    <p>A AKKA fornece soluções tecnológicas para empresas líderes nos setores automotivo, aeroespacial e ferroviário, bem como nas ciências da vida, serviços, telecomunicações e defesa, permitindo-lhes melhorar os seus processos de inovação, a sua produtividade e a sua eficiência ao projetar novos produtos ou processos.</p>
+                                    <p>Atualmente trabalho como consultor no setor das telecomunicações <i class="fas fa-broadcast-tower"></i></p>
+
+                                </div>
+                                <div class="column is-fullheight imagem" style="background-image: url('images/akkagr.png')">
+                                </div>
+                            </div>
+
                         </div>
-                        
                     </div>
-                  </div>
                 </section>
-          </div>
-          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalAKKA')"></button>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalAKKA')"></button>
         </div>
-        
+
         <div class="modal" id="modalNokia">
-          <div onclick="refs.close('modalNokia')" class="modal-background"></div>
-          <div class="modal-content" style="width: 85%">
-              <section class="hero has-background-white-bis is-fullheight-with-navbar">
-                  <div class="hero-body">
-                    <div class="container is-fluid">
-                        
-                        <div class="columns">
-                          <div class="column" id="bio">
-                            <h1 class="title is-size-1">QA Tester - Projeto em cliente</h1>
-                              <h2 class="subtitle is-size-4">NOKIA (cliente da AKKA Technologies)</h2>
-                              
-                              <p>QA Tester na Nokia. Tester de uma plataforma de gestão e control de diferentes elementos das redes e telecomunicações: 3G, 4G, 5G, Wi-Fi, Flexi Zone, AirScale; chamada Nokia Network Services Platform (NSP).</p>
-                              
-                              <p>A NSP da Nokia é uma plataforma de serviços de gestão de rede fim-a-fim com uma infinidade de aplicativos, variando dependendo das configuração dos operadores e arquitetos de rede.</p>
-                              
-                          </div>
-                          <div class="column is-fullheight imagem" style="background-image: url('images/nsp.png')">
-                          </div>
+            <div onclick="refs.close('modalNokia')" class="modal-background"></div>
+            <div class="modal-content" style="width: 85%">
+                <section class="hero has-background-white-bis is-fullheight-with-navbar">
+                    <div class="hero-body">
+                        <div class="container is-fluid">
+
+                            <div class="columns">
+                                <div class="column" id="bio">
+                                    <h1 class="title is-size-1">QA Tester - Projeto em cliente</h1>
+                                    <h2 class="subtitle is-size-4">NOKIA (cliente da AKKA Technologies)</h2>
+
+                                    <p>QA Tester na Nokia. Tester duma plataforma de gestão e control de diferentes elementos das redes e telecomunicações: 3G, 4G, 5G, Wi-Fi, Flexi Zone, AirScale; chamada Nokia Network Services Platform (NSP).</p>
+
+                                    <p>A NSP da Nokia é uma plataforma de serviços de gestão de rede fim-a-fim com uma infinidade de aplicativos, variando dependendo das configuração dos operadores e arquitetos de rede.</p>
+
+                                </div>
+                                <div class="column is-fullheight imagem" style="background-image: url('images/nsp.png')">
+                                </div>
+                            </div>
+
                         </div>
-                        
                     </div>
-                  </div>
                 </section>
-          </div>
-          <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalNokia')"></button>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalNokia')"></button>
         </div>
-            
-        
+
+
         <!-- .hero -->
         <section class="hero is-fullheight">
 
             <!-- .hero-head -->
             <nav class="hero-head">
                 <div class="columns is-mobile is-marginless heading has-text-weight-bold">
-                    <div class="column left">
+                    <!-- Nome -->
+                    <div class="column left desktop">
                         <h1 class="title is-4 has-text-weight-light">Manuel Simón Nóvoa</h1>
                     </div>
-                    
+
+                    <!-- Navbar -->
                     <div class="column center">
-                        <p class="navbar-item">Home</p>
-                        <p class="navbar-item ">Projects</p>
-                        <p class="navbar-item has-text-primary">CV</p>
-                        <p class="navbar-item ">About me</p>
-                        <p class="navbar-item ">Credits</p>
+                        <a href="index.html"><p class="navbar-item ">Início</p></a>
+                        <a href="portefolio.html"><p class="navbar-item ">Portefólio</p></a>
+                        <a href="#"><p class="navbar-item has-text-grey-light">CV</p></a>
+                        <a href="about.html"><p class="navbar-item ">Sobre mim</p></a>
+                        <a href="creditos.html"><p class="navbar-item ">Créditos</p></a>
                     </div>
-                    
-                    <div class="column right">
-                        <a href="https://twitter.com/msnovoa"><p class="navbar-item"><i class="fab fa-3x fa-twitter has-text-info"></i></p></a> <!-- TW -->
-                        <a href="https://www.linkedin.com/in/msimonnovoa/"><p class="navbar-item"><i class="fab fa-3x fa-linkedin has-text-link"></i></p></a> <!-- LI -->
+
+                    <!-- RRSS -->
+                    <div class="column right desktop">
+                        <a href="https://twitter.com/msnovoa"><p class="navbar-item"><i class="fab fa-3x fa-twitter has-text-info"></i></p></a>
+                        <a href="https://www.linkedin.com/in/msimonnovoa/"><p class="navbar-item"><i class="fab fa-3x fa-linkedin has-text-link"></i></p></a>
                     </div>
                 </div>
             </nav>
             <!-- /.hero-head -->
-            
+
             <!-- .hero-body -->
             <header class="hero-body center">
-                <div> <!-- Corpo -->
-                    
+                <div class="hero"> <!-- Corpo -->
+
+                    <div class="container section">
+                        <h3 class="title is-3 has-text-centered">Escolhe um modo de visualização:</h3>
+                        <br>
+                        <p class="subtitle">Para consultares o meu CV dum modo mais jeitoso e entretido, criei duas opções de visualização. Ambas são interativas, portanto, move-te sobre elas e prova a clicares a cachão.</p>
+                        <br>
+
+
+                        <div class="columns">
+                            <div class="column"><a class="yei" href="#mapa">
+                                <h3 class="title is-4 has-text-centered">Mapa <i class="fas fa-map-marked-alt"></i></h3>
+                                <p>Tentando compreender um chisquinho mais sobre o mundo no que vivo, desenvolvim distintas lavores profissionais em diversos sítios da Europa. Graças a esta versão mapeada do meu CV resulta doado mirar onde estivem, em que momento e a fazer o quê.
+                                </p>
+                                </a></div>
+                            <div class="column"><a class="yei" href="#cronologia">
+                                <h3 class="title is-4 has-text-centered">Cronologia <i class="fas fa-history"></i></h3>
+                                <p>Esta é uma versão cronológica do meu CV. Fai clique nos distintos elementos para obteres mais informação e aperceberes melhor as minhas diferentes experiências laborais e extra-laborais.</p>
+                                </a></div>
+                        </div>
+                    </div>
+                    <hr>
+
+
                     <section> <!-- Map -->
                         <div class="hero-body">
-                            <div class="container">
-                              <h3 class="title is-2 has-text-centered">Mapa</h3>
-                                <p></p>
-                            <h4 class="subtitle is-5 has-text-centered">Através deste mapa interativo podes dar uma olhada visual da minha experiência profissional atual. Lembra que é interativo, move-te nele para observar tudo!</h4>
-                                
+                            <div class="container" id="mapa">
+                                <h3 class="title is-2 has-text-centered">Mapa <i class="fas fa-map-marked-alt"></i></h3>
                                 <div id="map" class="map" style="z-index: 1"></div>
-                                
                             </div>
-                          </div>
-                    </section>
-                    
-                    <hr>
-                    
-                    <section class="section"> <!-- Timeline -->
-                        <div class="section-heading">
-                            <h3 class="title is-2 has-text-centered">Cronologia</h3>
-                            <p></p>
-                            <h4 class="subtitle is-5 has-text-centered">Se quadra, és mais fã dos dados dispostos cronologicamente? Olha para o a versão cronológica do meu CV, pois:</h4>
                         </div>
                     </section>
-                    
-                    <section> 
-                            <div class="timeline is-centered">
-                                  <header class="timeline-header">
-                                    <span class="tag is-large is-link">Presente</span>
-                                  </header>
-                                
-                                    <div class="timeline-item is-link" id="nokia">
-                                    <div class="timeline-marker is-image is-48x48 is-link">
-                                      <img src="images/nokia.png">
-                                    </div>
-                                    <a class="ye">
-                                        <div class="timeline-content" onclick="refs.open('modalNokia')">
-                                          <p class="heading">Começo: Febreiro 2019</p>
-                                          <p>QA Tester - Projeto em cliente</p>
-                                            <p class="is-size-7">Nokia (Cliente da AKKA)</p>
-                                            <p class="is-size-7 has-text-weight-light">Paris, França</p>
-                                        </div>
-                                    </a>
-                                  </div>
-                                
-                                    <div class="timeline-item is-link" id="akka">
-                                    <div class="timeline-marker is-link is-image is-48x48">
-                                      <img src="images/akka.png">
-                                    </div>
-                                        <a class="ye">
-                                            <div class="timeline-content" onclick="refs.open('modalAKKA')">
-                                              <p class="heading">Começo: Febreiro 2019</p>
-                                              <p>Consultor internacional - <i>Ingénieur d'études</i></p>
-                                                <p class="is-size-7">AKKA France</p>
-                                                <p class="is-size-7 has-text-weight-light">Paris, França</p>
-                                            </div>
-                                        </a>
-                                  </div>
-                                
-                                    <div class="timeline-item" id="akkademy">
-                                    <div class="timeline-marker is-image is-48x48">
-                                      <img src="images/akkademy.jpg">
-                                    </div>
-                                    <a class="ye">
-                                        <div class="timeline-content" onclick="refs.open('modalAKKAdemy')">
-                                          <p class="heading">Começo: Janeiro 2019 - Fim: Febreiro 2019</p>
-                                          <p>Consultor internacional</p>
-                                            <p class="is-size-7">The AKKAdemy (AKKA Group)</p>
-                                            <p class="is-size-7 has-text-weight-light">Genebra, Suiça</p>
-                                        </div>
-                                    </a>
-                                  </div>
-                                
-                                    <header class="timeline-header">
-                                        <span class="tag is-medium">2019</span>
-                                      </header>
-                                
-                                <div class="timeline-item" id="lero">
-                                    <div class="timeline-marker is-image is-48x48">
-                                      <img src="images/lero.png">
-                                    </div>
-                                    <a class="ye">
-                                        <div class="timeline-content" onclick="refs.open('modalLero')">
-                                          <p class="heading">Começo: Agosto 2018 - Fim: Setembro 2018</p>
-                                          <p>Assistente de pesquisa - <i>Erasmus+ Practicum</i></p>
-                                            <p class="is-size-7">Lero: The Irish Software Research Centre</p>
-                                            <p class="is-size-7 has-text-weight-light">Luimneach, Éire</p>
-                                        </div>
-                                    </a>
-                                  </div>
-                                
-                                  <div class="timeline-item has-text-grey">
-                                    <div class="timeline-marker is-primary is-icon">
-                                      <i class="fas fa-graduation-cap"></i>
-                                    </div>
-                                      
-                                    <div class="timeline-content">
-                                      <p class="heading">Fim: Julho 2018</p>
-                                      <p>Obtenção do Grau em Engenharia Informática</p>
-                                        <p class="is-size-7">Universidade de Santiago de Compostela</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                    </div>
-                                  </div>
-                                
-                                <div class="timeline-item">
-                                    <div class="timeline-marker is-image is-48x48">
-                                      <img src="images/cesga.jpg">
-                                    </div>
-                                    <a class="ye">
-                                        <div class="timeline-content" onclick="refs.open('modalCESGA')">
-                                          <p class="heading">Fim: Junho 2018</p>
-                                          <p>Assistente de pesquisa - Desenvolvimento TFG</p>
-                                            <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
-                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                        </div>
-                                    </a>
-                                  </div>
-                                
-                                <div class="timeline-item has-text-grey">
-                                    <div class="timeline-marker is-image is-48x48">
-                                      <img src="images/explorer.png">
-                                    </div>
-                                    <a class="ye">
-                                        <div class="timeline-content" onclick="refs.open('modalExplorer')">
-                                          <p class="heading">Fim: Junho 2018</p>
-                                          <p>Participante - Estudante</p>
-                                            <p class="is-size-7">Explorer <i>"Jóvenes con ideas"</i></p>
-                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                        </div>
-                                    </a>
-                                  </div>
-                                
-                                <div class="timeline-item">
-                                    <div class="timeline-marker is-image is-48x48">
-                                      <img src="images/cesga.jpg">
-                                    </div>
-                                    <a class="ye">
-                                        <div class="timeline-content" onclick="refs.open('modalCESGA')">
-                                          <p class="heading">Começo: Março 2018</p>
-                                          <p>Assistente de pesquisa - Desenvolvimento TFG</p>
-                                            <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
-                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                        </div>
-                                    </a>
-                                  </div>
-                                
-                                <div class="timeline-item is-link has-text-grey-dark" id="gdg">
-                                    <div class="timeline-marker is-image is-48x48 is-link">
-                                      <img src="images/gdgSantiago.jpg">
-                                    </div>
-                                    <a class="ye">
-                                        <div class="timeline-content" onclick="refs.open('modalGDG')">
-                                          <p class="heading">Começo: Febreiro 2018</p>
-                                          <p>Co-organizador</p>
-                                            <p class="is-size-7">Google Developers Group (GDG) Santiago</p>
-                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza | A distância</p>
-                                        </div>
-                                    </a>
-                                  </div>
-                                
-                                <div class="timeline-item has-text-grey" id="explorer">
-                                    <div class="timeline-marker is-image is-48x48">
-                                      <img src="images/explorer.png">
-                                    </div>
-                                    <a class="ye">
-                                        <div class="timeline-content" onclick="refs.open('modalExplorer')">
-                                          <p class="heading">Começo: Janeiro 2018</p>
-                                          <p>Participante - Estudante</p>
-                                            <p class="is-size-7">Explorer <i>"Jóvenes con ideas"</i></p>
-                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                        </div>
-                                    </a>
-                                  </div>
-                                
-                                <header class="timeline-header">
-                                    <span class="tag is-medium">2018</span>
-                                  </header>
-                                
-                                <div class="timeline-item">
-                                    <div class="timeline-marker is-image is-48x48">
-                                      <img src="images/cesga.jpg">
-                                    </div>
-                                    <a class="ye">
-                                        <div class="timeline-content" onclick="refs.open('modalCESGA')">
-                                          <p class="heading">Fim: Agosto 2017</p>
-                                          <p>Assistente de pesquisa - Práticas em sistemas</p>
-                                            <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
-                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                        </div>
-                                    </a>
-                                  </div>
-                                
-                                  <div class="timeline-item" id="xperience">
-                                    <div class="timeline-marker is-image is-48x48">
-                                      <img src="images/deloitte.jpg">
-                                    </div>
-                                    <a class="ye">
-                                        <div class="timeline-content" onclick="refs.open('modalXperience')">
-                                          <p class="heading">Começo e fim: Julho 2017 (1 semana)</p>
-                                          <p>Deloitte Summer Xperience</p>
-                                            <p class="is-size-7">Deloitte España</p>
-                                            <p class="is-size-7 has-text-weight-light">Madrid, Espanha</p>
-                                        </div>
-                                      </a>
-                                  </div>
-                                
-                                <div class="timeline-item has-text-grey-dark">
-                                    <div class="timeline-marker is-image is-48x48">
-                                      <img src="images/usc.jpg">
-                                    </div>
-                                    <a class="ye">
-                                        <div class="timeline-content" onclick="refs.open('modalTitor')">
-                                          <p class="heading">Fim: Julho 2017</p>
-                                          <p>Aluno tutor para estudantes de nova incorporação</p>
-                                            <p class="is-size-7">Escola Técnica Superior de Engenharia (ETSE) - USC</p>
-                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                        </div>
-                                    </a>
-                                  </div>
-                                
-                                <div class="timeline-item" id="cesga">
-                                    <div class="timeline-marker is-image is-48x48">
-                                      <img src="images/cesga.jpg">
-                                    </div>
-                                    <a class="ye">
-                                        <div class="timeline-content" onclick="refs.open('modalCESGA')">
-                                          <p class="heading">Começo: Junho 2017</p>
-                                          <p>Assistente de pesquisa - Práticas em sistemas</p>
-                                            <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
-                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                        </div>
-                                    </a>
-                                  </div>
-                                
-                                  <header class="timeline-header">
-                                    <span class="tag is-medium">2017</span>
-                                  </header>
-                                
-                                <div class="timeline-item has-text-grey-dark" id="titor">
-                                    <div class="timeline-marker is-image is-48x48">
-                                      <img src="images/usc.jpg">
-                                    </div>
-                                    <a class="ye">
-                                        <div class="timeline-content" onclick="refs.open('modalTitor')">
-                                          <p class="heading">Começo: Setembro 2016</p>
-                                          <p>Aluno tutor para estudantes de nova incorporação</p>
-                                            <p class="is-size-7">Escola Técnica Superior de Engenharia (ETSE) - USC</p>
-                                            <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                        </div>
-                                    </a>
-                                  </div>
-                                
-                                <header class="timeline-header">
-                                    <span class="tag is-medium">2016</span>
-                                  </header>
-                                
-                                  <div class="timeline-item has-text-grey">
-                                    <div class="timeline-marker is-primary is-icon">
-                                      <i class="fas fa-graduation-cap"></i>
-                                    </div>
-                                    <div class="timeline-content">
-                                      <p class="heading">Começo: Setembro 2014</p>
-                                      <p>Grau Engenharia Informática</p>
-                                        <p class="is-size-7">Universidade de Santiago de Compostela</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
-                                    </div>
-                                  </div>
-                                </div>
+
+                    <hr>
+
+                    <section class="section" id="cronologia"> <!-- Timeline -->
+                        <div class="section-heading">
+                            <h3 class="title is-2 has-text-centered">Cronologia <i class="fas fa-history"></i></h3>
+                        </div>
                     </section>
-                    
 
+                    <section> 
+                        <div class="timeline is-centered">
+                            <header class="timeline-header">
+                                <span class="tag is-large is-link">Presente</span>
+                            </header>
 
-                    </div>
+                            <div class="timeline-item is-link" id="nokia">
+                                <div class="timeline-marker is-image is-48x48 is-link">
+                                    <img src="images/nokia.png">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalNokia')">
+                                        <p class="heading">Começo: Febreiro 2019</p>
+                                        <p>QA Tester - Projeto em cliente</p>
+                                        <p class="is-size-7">Nokia (Cliente da AKKA)</p>
+                                        <p class="is-size-7 has-text-weight-light">Paris, França</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="timeline-item is-link" id="akka">
+                                <div class="timeline-marker is-link is-image is-48x48">
+                                    <img src="images/akka.png">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalAKKA')">
+                                        <p class="heading">Começo: Febreiro 2019</p>
+                                        <p>Consultor internacional - <i>Ingénieur d'études</i></p>
+                                        <p class="is-size-7">AKKA France</p>
+                                        <p class="is-size-7 has-text-weight-light">Paris, França</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="timeline-item" id="akkademy">
+                                <div class="timeline-marker is-image is-48x48">
+                                    <img src="images/akkademy.jpg">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalAKKAdemy')">
+                                        <p class="heading">Começo: Janeiro 2019 - Fim: Febreiro 2019</p>
+                                        <p>Consultor internacional</p>
+                                        <p class="is-size-7">The AKKAdemy (AKKA Group)</p>
+                                        <p class="is-size-7 has-text-weight-light">Genebra, Suiça</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <header class="timeline-header">
+                                <span class="tag is-medium">2019</span>
+                            </header>
+
+                            <div class="timeline-item" id="lero">
+                                <div class="timeline-marker is-image is-48x48">
+                                    <img src="images/lero.png">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalLero')">
+                                        <p class="heading">Começo: Agosto 2018 - Fim: Setembro 2018</p>
+                                        <p>Assistente de pesquisa - <i>Erasmus+ Practicum</i></p>
+                                        <p class="is-size-7">Lero: The Irish Software Research Centre</p>
+                                        <p class="is-size-7 has-text-weight-light">Luimneach, Éire</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="timeline-item has-text-grey">
+                                <div class="timeline-marker is-primary is-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+
+                                <div class="timeline-content">
+                                    <p class="heading">Fim: Julho 2018</p>
+                                    <p>Obtenção do Grau em Engenharia Informática</p>
+                                    <p class="is-size-7">Universidade de Santiago de Compostela</p>
+                                    <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-marker is-image is-48x48">
+                                    <img src="images/cesga.jpg">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalCESGA')">
+                                        <p class="heading">Fim: Junho 2018</p>
+                                        <p>Assistente de pesquisa - Desenvolvimento TFG</p>
+                                        <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
+                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="timeline-item has-text-grey">
+                                <div class="timeline-marker is-image is-48x48">
+                                    <img src="images/explorer.png">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalExplorer')">
+                                        <p class="heading">Fim: Junho 2018</p>
+                                        <p>Participante - Estudante</p>
+                                        <p class="is-size-7">Explorer <i>"Jóvenes con ideas"</i></p>
+                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-marker is-image is-48x48">
+                                    <img src="images/cesga.jpg">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalCESGA')">
+                                        <p class="heading">Começo: Março 2018</p>
+                                        <p>Assistente de pesquisa - Desenvolvimento TFG</p>
+                                        <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
+                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="timeline-item is-link has-text-grey-dark" id="gdg">
+                                <div class="timeline-marker is-image is-48x48 is-link">
+                                    <img src="images/gdgSantiago.jpg">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalGDG')">
+                                        <p class="heading">Começo: Febreiro 2018</p>
+                                        <p>Co-organizador</p>
+                                        <p class="is-size-7">Google Developers Group (GDG) Santiago</p>
+                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza | A distância</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="timeline-item has-text-grey" id="explorer">
+                                <div class="timeline-marker is-image is-48x48">
+                                    <img src="images/explorer.png">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalExplorer')">
+                                        <p class="heading">Começo: Janeiro 2018</p>
+                                        <p>Participante - Estudante</p>
+                                        <p class="is-size-7">Explorer <i>"Jóvenes con ideas"</i></p>
+                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <header class="timeline-header">
+                                <span class="tag is-medium">2018</span>
+                            </header>
+
+                            <div class="timeline-item">
+                                <div class="timeline-marker is-image is-48x48">
+                                    <img src="images/cesga.jpg">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalCESGA')">
+                                        <p class="heading">Fim: Agosto 2017</p>
+                                        <p>Assistente de pesquisa - Práticas em sistemas</p>
+                                        <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
+                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="timeline-item" id="xperience">
+                                <div class="timeline-marker is-image is-48x48">
+                                    <img src="images/deloitte.jpg">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalXperience')">
+                                        <p class="heading">Começo e fim: Julho 2017 (1 semana)</p>
+                                        <p>Deloitte Summer Xperience</p>
+                                        <p class="is-size-7">Deloitte España</p>
+                                        <p class="is-size-7 has-text-weight-light">Madrid, Espanha</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="timeline-item has-text-grey-dark">
+                                <div class="timeline-marker is-image is-48x48">
+                                    <img src="images/usc.jpg">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalTitor')">
+                                        <p class="heading">Fim: Julho 2017</p>
+                                        <p>Aluno tutor para estudantes de nova incorporação</p>
+                                        <p class="is-size-7">Escola Técnica Superior de Engenharia (ETSE) - USC</p>
+                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="timeline-item" id="cesga">
+                                <div class="timeline-marker is-image is-48x48">
+                                    <img src="images/cesga.jpg">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalCESGA')">
+                                        <p class="heading">Começo: Junho 2017</p>
+                                        <p>Assistente de pesquisa - Práticas em sistemas</p>
+                                        <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
+                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <header class="timeline-header">
+                                <span class="tag is-medium">2017</span>
+                            </header>
+
+                            <div class="timeline-item has-text-grey-dark" id="titor">
+                                <div class="timeline-marker is-image is-48x48">
+                                    <img src="images/usc.jpg">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalTitor')">
+                                        <p class="heading">Começo: Setembro 2016</p>
+                                        <p>Aluno tutor para estudantes de nova incorporação</p>
+                                        <p class="is-size-7">Escola Técnica Superior de Engenharia (ETSE) - USC</p>
+                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <header class="timeline-header">
+                                <span class="tag is-medium">2016</span>
+                            </header>
+
+                            <div class="timeline-item has-text-grey">
+                                <div class="timeline-marker is-primary is-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <p class="heading">Começo: Setembro 2014</p>
+                                    <p>Grau Engenharia Informática</p>
+                                    <p class="is-size-7">Universidade de Santiago de Compostela</p>
+                                    <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
 
             </header>
             <!-- /.hero-body -->
@@ -629,9 +644,24 @@
         </section>
         <!-- /.hero -->
 
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Portefólio</strong> por <b>Manuel Simón Nóvoa</b>. O código deste sítio web fica sob uma licença
+                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. O contido deste sítio web fica sob uma licença <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.<br><br>
+
+                    Consulta o <a href="https://github.com/ManuelSimon/portfolio">repositório</a> Git público deste projeto.<br><br>
+
+                    Sítio feito com  <i class="em em-cupid"></i> empregando <a href="creditos.html">as seguintes tecnologias</a>.
+                </p>
+
+
+            </div>
+        </footer>
+
         <script src="js/modal.js"></script>
         <script src="js/leaflet-providers.js"></script>
-		<script src="js/leaflet-map.js"></script>
-        
-	</body>
+        <script src="js/leaflet-map.js"></script>
+
+    </body>
 </html>

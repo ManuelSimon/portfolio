@@ -1,72 +1,71 @@
 <!DOCTYPE html>
 <html>
-	<head><link rel="stylesheet" href="normalize.css">
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Manuel Simón Nóvoa</title>
-		<link rel="stylesheet" href="css/bulma.css">
+    <head>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="css/bulma.css">
         <link rel="stylesheet" href="css/bulma.min.css">
         <link rel="stylesheet" href="css/emoji.css">
         <link href="css/all.css" rel="stylesheet">
-        <script src="js/simple-typing-carousel.js"></script> 
+        <link rel="stylesheet" href="styles/helpers.css">
         <!-- <link rel="stylesheet" href="styles/debug.css"> -->
-		<link rel="stylesheet" href="styles/helpers.css">
-		<link rel="stylesheet" href="styles/grid.css">
-        
-		<style>
-            /* background */		
-            .hero {
-                background: white;
-            }
-            /* responsive */
-            @media (max-width: 768px) {
-                :root {
-                    font-size: 90%;
-                }
-            }
-		</style>
-        
-	</head>
-    
-	<body>
-        
-        <div class="control has-icons-left linguas">
-          <div class="select">
-            <select>
-              <option selected>Mudar idioma</option>
-              <option>English</option>
-              <option>Español</option>
-                <option>Français</option>
-              <option>Português da Galiza (Galego)</option>
 
-            </select>
-          </div>
-          <span class="icon is-medium is-left">
-            <i class="fas fa-language has-text-dark"></i>
-          </span>
+        <!-- JS -->
+        <script src="js/simple-typing-carousel.js"></script> 
+
+        <!-- Outros -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Manuel Simón Nóvoa</title>
+    </head>
+
+    <body>
+
+        <div class="is-overlay has-text-right single-spaced desktop">
+            <div class="control has-icons-left linguas">
+                <div class="select">
+                    <select>
+                        <option selected>Mudar idioma</option>
+                        <option>English</option>
+                        <option>Español</option>
+                        <option>Français</option>
+                        <option>Português da Galiza (Galego)</option>
+                    </select>
+                </div>
+                <span class="icon is-medium is-left">
+                    <i class="fas fa-language has-text-dark"></i>
+                </span>
+            </div>
         </div>
-        
+
         <!-- .hero -->
         <section class="hero is-fullheight">
 
             <!-- .hero-head -->
             <nav class="hero-head">
                 <div class="columns is-mobile is-marginless heading has-text-weight-bold">
-                    <div class="column left">
+                    <!-- Nome -->
+                    <div class="column left desktop">
                         <h1 class="title is-4 has-text-weight-light">Manuel Simón Nóvoa</h1>
                     </div>
-                    
+
+                    <!-- Navbar -->
                     <div class="column center">
-                        <p class="navbar-item">Home</p>
-                        <p class="navbar-item ">Projects</p>
-                        <p class="navbar-item ">CV</p>
-                        <p class="navbar-item has-text-primary">About me</p>
-                        <p class="navbar-item ">Credits</p>
+                        <a href="index.html"><p class="navbar-item ">Início</p></a>
+                        <a href="#"><p class="navbar-item has-text-grey-light">Portefólio</p></a>
+                        <a href="cv.html"><p class="navbar-item ">CV</p></a>
+                        <a href="about.html"><p class="navbar-item ">Sobre mim</p></a>
+                        <a href="creditos.html"><p class="navbar-item ">Créditos</p></a>
                     </div>
-                    
-                    <div class="column right">
-                        <a href="https://twitter.com/msnovoa"><p class="navbar-item"><i class="fab fa-3x fa-twitter has-text-info"></i></p></a> <!-- TW -->
-                        <a href="https://www.linkedin.com/in/msimonnovoa/"><p class="navbar-item"><i class="fab fa-3x fa-linkedin has-text-link"></i></p></a> <!-- LI -->
+
+                    <!-- RRSS -->
+                    <div class="column right desktop">
+                        <a href="https://twitter.com/msnovoa"><p class="navbar-item"><i class="fab fa-3x fa-twitter has-text-info"></i></p></a>
+                        <a href="https://www.linkedin.com/in/msimonnovoa/"><p class="navbar-item"><i class="fab fa-3x fa-linkedin has-text-link"></i></p></a>
                     </div>
                 </div>
             </nav>
@@ -75,58 +74,50 @@
             <!-- .hero-body -->
             <header class="hero-body center">
                 <div> <!-- Corpo -->
-            
-                    
                     <section class="section" id="things"> <!-- Things I do -->
                         <div class="columns">
-                            
-                          <div class="column">
-                                <div class="card">
-                                  <header class="card-header">
-                                    <p class="card-header-title">
-                                      Site web pessoal - Portefólio
-                                    </p>
-                                  </header>
-                                  <div class="card-content">
-                                    <div class="content">
-                                      <p>Este mesmo site web.</p>
-                                        <p>Feito com gíria e jeito com <b>Bulma JS</b> e diversas utilidades de software livre.</p>
-                                    </div>
-                                  </div>
-                                  <footer class="card-footer">
-                                    <a href="#" class="card-footer-item"><i class="fas fa-2x fa-info-circle"></i> </a>
-                                      <p class="iconas card-footer-item"> <i class="fas fa-file-code"></i> <i class="fab fa-js"></i> <i class="fas fa-pencil-ruler"></i> <i class="fas fa-language"></i> <i class="fas fa-map-marked-alt"></i> </p>
-                                    <a class="card-footer-item" href="https://github.com/ManuelSimon"><i class="fab fa-2x fa-github has-text-dark"></i></a>
-                                  </footer>
-                                </div>
-                          </div>
 
                             <div class="column">
                                 <div class="card">
-                                  <header class="card-header">
-                                    <p class="card-header-title">
-                                      Análise de riscos de segurança no uso de contentores para HPC
-                                    </p>
-                                  </header>
-                                  <div class="card-content">
-                                    <div class="content">
-                                      <p>Pesquisa levada a cabo para a realização do meu Trabalho de Fim de Grau (TFG). Este trabalho de pesquisa tivo como resultado um estudo em detalhe dos princípais possíveis vetores de ataque na estrutura <i>cloud</i> do Centro de Supercomputação da Galiza (CESGA), no uso de diversas tecnologias de contentorização, assim como conselhos de melhora e diferentes provas de exploração.</p>
+                                    <header class="card-header">
+                                        <p class="card-header-title">
+                                            Sítio web pessoal - Portefólio
+                                        </p>
+                                    </header>
+                                    <div class="card-content">
+                                        <div class="content">
+                                            <p>Este mesmo sítio web.</p>
+                                            <p>Feito com gíria e jeito com <b>HTML5, CSS, Bulma JS</b> e alguma que outra livraria e utilidade. Uso de <b>PHP</b> no <i>back-end</i> para a desenvolver a tradução em múltiplas línguas do sítio web.</p>
+                                        </div>
                                     </div>
-                                  </div>
-                                  <footer class="card-footer">
-                                    <a href="https://github.com/ManuelSimon/ARiSeCo" class="iconas card-footer-item"><i class="fab fa-2x fa-github"></i></a>
-                                      <p class="iconas card-footer-item"> <i class="fas fa-shield-alt"></i>  <i class="fas fa-box"></i> <i class="fab fa-docker"></i> <i class="fas fa-network-wired"></i> <i class="fas fa-terminal"></i> <i class="fas fa-server"></i>  <i class="fas fa-book"></i></p>
-                                  </footer>
+                                    <footer class="card-footer">
+                                        <a href="https://github.com/ManuelSimon/portfolio" class="iconas card-footer-item"><i class="fab fa-2x fa-github"></i></a>
+                                        <p class="iconas card-footer-item"> <i class="fas fa-file-code"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js"></i> <i class="fab fa-php"></i> <i class="fas fa-pencil-ruler"></i> <i class="fas fa-language"></i> <i class="fas fa-map-marked-alt"></i> </p>
+                                    </footer>
                                 </div>
-                          </div>
-                      
-                            
+                            </div>
+
+                            <div class="column">
+                                <div class="card">
+                                    <header class="card-header">
+                                        <p class="card-header-title">
+                                            Análise de riscos de segurança no uso de contentores para HPC
+                                        </p>
+                                    </header>
+                                    <div class="card-content">
+                                        <div class="content">
+                                            <p>Pesquisa levada a cabo para a realização do meu Trabalho de Fim de Grau (TFG). Este <b>trabalho de pesquisa</b> tivo como resultado um estudo em detalhe dos principais possíveis vetores de ataque na estrutura <i>cloud</i> do Centro de Supercomputação da Galiza (CESGA), no uso de diversas tecnologias de <b>contentorização</b>, assim como conselhos de melhora e diferentes provas de exploração.</p>
+                                        </div>
+                                    </div>
+                                    <footer class="card-footer">
+                                        <a href="https://github.com/ManuelSimon/ARiSeCo" class="iconas card-footer-item"><i class="fab fa-2x fa-github"></i></a>
+                                        <p class="iconas card-footer-item"> <i class="fas fa-shield-alt"></i>  <i class="fas fa-box"></i> <i class="fab fa-docker"></i> <i class="fas fa-network-wired"></i> <i class="fas fa-terminal"></i> <i class="fas fa-server"></i>  <i class="fas fa-book"></i></p>
+                                    </footer>
+                                </div>
+                            </div>
                         </div>
-                  </section>
-
-            
-
-                    </div>
+                    </section>
+                </div>
 
             </header>
             <!-- /.hero-body -->
@@ -134,6 +125,18 @@
         </section>
         <!-- /.hero -->
 
-        
-	</body>
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Portefólio</strong> por <b>Manuel Simón Nóvoa</b>. O código deste sítio web fica sob uma licença
+                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. O contido deste sítio web fica sob uma licença <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.<br><br>
+
+                    Consulta o <a href="https://github.com/ManuelSimon/portfolio">repositório</a> Git público deste projeto.<br><br>
+
+                    Sítio feito com  <i class="em em-cupid"></i> empregando <a href="creditos.html">as seguintes tecnologias</a>.
+                </p>
+            </div>
+        </footer>
+
+    </body>
 </html>

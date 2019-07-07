@@ -1,55 +1,71 @@
 <!DOCTYPE html>
 <html>
-	<head><link rel="stylesheet" href="normalize.css">
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Manuel Simón Nóvoa</title>
-		<link rel="stylesheet" href="css/bulma.css">
+    <head>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="css/bulma.css">
         <link rel="stylesheet" href="css/bulma.min.css">
         <link rel="stylesheet" href="css/emoji.css">
         <link href="css/all.css" rel="stylesheet">
-        <script src="js/simple-typing-carousel.js"></script> 
+        <link rel="stylesheet" href="styles/helpers.css">
         <!-- <link rel="stylesheet" href="styles/debug.css"> -->
-		<link rel="stylesheet" href="styles/helpers.css">
-		<link rel="stylesheet" href="styles/grid.css">
-        
-		<style>
-            /* background */		
-            .hero {
-                background: white;
-            }
-            /* responsive */
-            @media (max-width: 768px) {
-                :root {
-                    font-size: 90%;
-                }
-            }
-		</style>
-        
-	</head>
-    
-	<body>
+
+        <!-- JS -->
+        <script src="js/simple-typing-carousel.js"></script> 
+
+        <!-- Outros -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Manuel Simón Nóvoa</title>
+    </head>
+
+    <body>
+
+        <div class="is-overlay has-text-right single-spaced desktop">
+            <div class="control has-icons-left linguas">
+                <div class="select">
+                    <select>
+                        <option selected>Mudar idioma</option>
+                        <option>English</option>
+                        <option>Español</option>
+                        <option>Français</option>
+                        <option>Português da Galiza (Galego)</option>
+                    </select>
+                </div>
+                <span class="icon is-medium is-left">
+                    <i class="fas fa-language has-text-dark"></i>
+                </span>
+            </div>
+        </div>
+
         <!-- .hero -->
         <section class="hero is-fullheight">
 
             <!-- .hero-head -->
             <nav class="hero-head">
                 <div class="columns is-mobile is-marginless heading has-text-weight-bold">
-                    <div class="column left">
+                    <!-- Nome -->
+                    <div class="column left desktop">
                         <h1 class="title is-4 has-text-weight-light">Manuel Simón Nóvoa</h1>
                     </div>
-                    
+
+                    <!-- Navbar -->
                     <div class="column center">
-                        <p class="navbar-item">Home</p>
-                        <p class="navbar-item ">Projects</p>
-                        <p class="navbar-item ">CV</p>
-                        <p class="navbar-item has-text-primary">About me</p>
-                        <p class="navbar-item ">Credits</p>
+                        <a href="index.html"><p class="navbar-item ">Início</p></a>
+                        <a href="portefolio.html"><p class="navbar-item ">Portefólio</p></a>
+                        <a href="cv.html"><p class="navbar-item ">CV</p></a>
+                        <a href="about.html"><p class="navbar-item ">Sobre mim</p></a>
+                        <a href="#"><p class="navbar-item has-text-grey-light">Créditos</p></a>
                     </div>
-                    
-                    <div class="column right">
-                        <a href="https://twitter.com/msnovoa"><p class="navbar-item"><i class="fab fa-3x fa-twitter has-text-info"></i></p></a> <!-- TW -->
-                        <a href="https://www.linkedin.com/in/msimonnovoa/"><p class="navbar-item"><i class="fab fa-3x fa-linkedin has-text-link"></i></p></a> <!-- LI -->
+
+                    <!-- RRSS -->
+                    <div class="column right desktop">
+                        <a href="https://twitter.com/msnovoa"><p class="navbar-item"><i class="fab fa-3x fa-twitter has-text-info"></i></p></a>
+                        <a href="https://www.linkedin.com/in/msimonnovoa/"><p class="navbar-item"><i class="fab fa-3x fa-linkedin has-text-link"></i></p></a>
                     </div>
                 </div>
             </nav>
@@ -57,94 +73,29 @@
 
             <!-- .hero-body -->
             <header class="hero-body center">
-                <div> <!-- Corpo -->
-                    
-                    <section class="section" id="bio"> <!-- Bio -->
-                        <div class="container">
-                            <h3 class="title is-2">Engenheiro informático, consultor e eterno estudante.</h3>
-                            
-                            <p><b>Olá, encantado de conhecer-te!</b> Sou Manuel, um moço com grande vontade de aprender coisas novas dia a dia. Graduado em Engenharia Informática pela <a href="http://www.usc.gal/">Universidade de Santiago de Compostela</a>. De quando em quando, escrevo código, se tiver café. No meu tempo livre, às vezes, crio contido digital, como esta web. Também gosto de ler <i class="em em-open_book"></i>, escrever <i class="em em-writing_hand"></i>, participar em associações tecnológicas <i class="fas fa-terminal"></i>, escutar música <i class="em em-headphones"></i> ou jogar videojogos <i class="em em-video_game"></i>. Um pouco de tudo, enquanto a criatividade e a imaginação fiquem por médio.</p>
-                            
-                            <p>Dado de interesse: tenho grande curiosidade pela linguística, especialmente a galego-portuguesa.</p>
-                            
-                          </div>
-                    </section>
-                    
-                    <section class="section" id="things"> <!-- Things I do -->
-                        <div class="columns has-same-height is-gapless">
-                            
-                          <div class="column">
-                            <!-- CV -->
-                            <div class="card">
-                              <div class="card-content">
-                                <h3 class="title is-4">CV</h3>
-                                    <div class="content">
-                                        <p>Queres conhecer um bocado acerca da minha experiência profissional até o momento?</p>
-                                        <p>Convido-te então a leres o meu CV!</p>
-                                        <div class="center">
-                                            <a class="button is-rounded is-medium">CV</a>
-                                        </div>
-                                    </div>
-                              </div>
-                            </div>
-                          </div>
+                <div class="hero"> <!-- Corpo -->
 
-                          <div class="column">
-                            <!-- Interesses -->
-                            <div class="card">
-                              <div class="card-content">
-                                <h3 class="title is-4">As minhas principais areas de interesse</h3>
-                                    <div class="content">
-                                        <p>Sou uma pessoa curiosa e adoro aprender de muitas coisas, mas estas são as que realmente apaixono:</p>
-                                        <ul>
-                                            <li>Segurança das TIC <i class="fas fa-shield-alt"></i></li>
-                                            <li>Redes móveis e de computadores <i class="fas fa-broadcast-tower"></i></li>
-                                            <li>Administração de sistemas <i class="fas fa-server"></i></li>
-                                            <li>Administração de redes <i class="fas fa-network-wired"></i></li>
-                                            <li>Administração de bases de dados <i class="fas fa-database"></i></li>
-                                            <li>Contentorização <i class="fas fa-box"></i></li>
-                                        </ul>
-                                    </div>
-                              </div>
-                            </div>
-                          </div>
-                            
-                          <div class="column">
-                            <!-- Portfolio -->
-                            <div class="card">
-                              <div class="card-content">
-                                <h3 class="title is-4">Portfolio</h3>
-                                    <div class="content">
-                                        <p>Curiosidade em conhecer como são realmente alguns dos meus projetos?</p>
-                                        <p>Joga com eles na secção do portfolio:</p>
-                                        <div class="center">
-                                            <a class="button is-rounded is-medium">Portfolio</a>
-                                        </div>
-                                    </div>
-                              </div>
-                            </div>
-                          </div>
-                            
-                        </div>
-                  </section>
+                    <div class="container section">
+                        <h3 class="title is-3">Tecnologias que permitiram o desenvolvimento deste sítio web:</h3>
+                        <br>
+                        <p class="subtitle">Sem a utilização das seguintes tecnologias, este sítio web simplesmente não poderia existir tal como é. Muitas delas são livres. Velaqui o listado das mesmas para a sua consulta e merecida acreditação:</p>
 
-                             
-                    <section class="section has-background-white-ter" id="rrss"> <!-- RRSS -->
-                        <div class="container">
-                            <h1 class="title is-4">Deberíamos falar?</h1>
-                            
-                            <p>Tens alguma dúvida sobre mim? Sobre esta web? Cres que deberíamos estar a beber uma cervejinha juntos? Se é assim, convito-te a escreveres-me uma mensagem a qualquera das minhas redes sociais, ou correo eletrónico. Será um prazer ter novas de ti!</p>
-                            
-                            <h4 class="subtitle is-6 has-text-centered">
-                                <a href="https://github.com/ManuelSimon"><i class="fab fa-3x fa-github has-text-dark"></i></a>
-                                <a href="https://twitter.com/msnovoa"><i class="fab fa-3x fa-twitter has-text-info"></i></a>
-                                <a href="https://www.linkedin.com/in/msimonnovoa/"><i class="fab fa-3x fa-linkedin has-text-link"></i></a>
-                                <a href="mailto:manuel.simon.novoa@gmail.com"><i class="fas fa-3x fa-at has-text-grey"></i></a>
-                            </h4>
-                          </div>
-                    </section>
+                        <li><a href="https://bulma.io/">Bulma JS</a></li>
+                        <li><a href="https://github.com/Wikiki/bulma-timeline">Bulma extension: Timeline</a></li>
+                        <li><a href="https://codepen.io/anon/pen/KRaqxG">Bulma extension: JS modal functionality</a></li>
+                        <li><a href="https://codepen.io/gschier/pen/jkivt">Simple typing carousel</a></li>
+                        <li><a href="https://maxwellito.github.io/vivus-instant/">Vivus Instant</a></li>
+                        <li><a href="https://leafletjs.com/">Leaflet JS</a></li>
+                        <li><a href="https://www.openstreetmap.org">Open Street Map</a></li>
+
+
+
 
                     </div>
+                    <a class="has-text-centered" href="https://bulma.io">
+                        <img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="256">
+                    </a>
+                </div>
 
             </header>
             <!-- /.hero-body -->
@@ -152,6 +103,24 @@
         </section>
         <!-- /.hero -->
 
-        
-	</body>
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Portefólio</strong> por <b>Manuel Simón Nóvoa</b>. O código deste sítio web fica sob uma licença
+                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. O contido deste sítio web fica sob uma licença <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.<br><br>
+
+                    Consulta o <a href="https://github.com/ManuelSimon/portfolio">repositório</a> Git público deste projeto.<br><br>
+
+                    Sítio feito com  <i class="em em-cupid"></i> empregando <a href="creditos.html">as seguintes tecnologias</a>.
+                </p>
+
+
+            </div>
+        </footer>
+
+        <script src="js/modal.js"></script>
+        <script src="js/leaflet-providers.js"></script>
+        <script src="js/leaflet-map.js"></script>
+
+    </body>
 </html>

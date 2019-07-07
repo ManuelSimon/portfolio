@@ -46,6 +46,12 @@ a.ye {
   /* text-decoration: none; */
  }
 
+a.yei {
+  color:inherit;
+  text-decoration: none;
+ }
+
+
 #map {
     height: 70vh;
 }
@@ -60,5 +66,5 @@ p.iconas {
     right:0;
     margin-bottom: 35px;
     margin-right: 22px;
-    z-index: 999;
+    z-index: 9;
 }
