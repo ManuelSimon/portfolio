@@ -1,3 +1,7 @@
+<?php
+include "config.php";
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -25,22 +29,22 @@
 
     <body>
 
-        <div class="is-overlay has-text-right single-spaced desktop">
-            <div class="control has-icons-left linguas">
-                <div class="select">
-                    <select>
-                        <option selected>Mudar idioma</option>
-                        <option>English</option>
-                        <option>Español</option>
-                        <option>Français</option>
-                        <option>Português da Galiza (Galego)</option>
-                    </select>
-                </div>
-                <span class="icon is-medium is-left">
-                    <i class="fas fa-language has-text-dark"></i>
-                </span>
+    <div class="is-overlay has-text-right single-spaced desktop">
+        <div class="control has-icons-left linguas">
+            <div class="select">
+                <select>
+                    <option selected><?php echo $lang['language-selection'] ?></option>
+                    <option>English</option>
+                    <option>Español</option>
+                    <option>Français</option>
+                    <option>Português da Galiza (Galego)</option>
+                </select>
             </div>
+            <span class="icon is-medium is-left">
+					<i class="fas fa-language has-text-dark"></i>
+					</span>
         </div>
+    </div>
 
         <!-- .hero -->
         <section class="hero is-fullheight">
@@ -55,11 +59,11 @@
 
                     <!-- Navbar -->
                     <div class="column center">
-                        <a href="index.html"><p class="navbar-item ">Início</p></a>
-                        <a href="portefolio.html"><p class="navbar-item ">Portefólio</p></a>
-                        <a href="cv.html"><p class="navbar-item ">CV</p></a>
-                        <a href="about.html"><p class="navbar-item ">Sobre mim</p></a>
-                        <a href="#"><p class="navbar-item has-text-grey-light">Créditos</p></a>
+                        <a href="index.php"><p class="navbar-item "><?php echo $lang['home'] ?></p></a>
+                        <a href="portefolio.php"><p class="navbar-item "><?php echo $lang['portfolio'] ?></p></a>
+                        <a href="cv.php"><p class="navbar-item "><?php echo $lang['cv'] ?></p></a>
+                        <a href="about.php"><p class="navbar-item "><?php echo $lang['about'] ?></p></a>
+                        <a href="#"><p class="navbar-item has-text-grey-light"><?php echo $lang['credits'] ?></p></a>
                     </div>
 
                     <!-- RRSS -->
@@ -76,9 +80,9 @@
                 <div class="hero"> <!-- Corpo -->
 
                     <div class="container section">
-                        <h3 class="title is-3">Tecnologias que permitiram o desenvolvimento deste sítio web:</h3>
+                        <h3 class="title is-3"><?php echo $lang['credits-title'] ?></h3>
                         <br>
-                        <p class="subtitle">Sem a utilização das seguintes tecnologias, este sítio web simplesmente não poderia existir tal como é. Muitas delas são livres. Velaqui o listado das mesmas para a sua consulta e merecida acreditação:</p>
+                        <p class="subtitle"><?php echo $lang['credits-description'] ?></p>
 
                         <li><a href="https://bulma.io/">Bulma</a></li>
                         <li><a href="https://github.com/Wikiki/bulma-timeline">Bulma extension: Timeline</a></li>
@@ -87,10 +91,6 @@
                         <li><a href="https://maxwellito.github.io/vivus-instant/">Vivus Instant</a></li>
                         <li><a href="https://leafletjs.com/">Leaflet JS</a></li>
                         <li><a href="https://www.openstreetmap.org">Open Street Map</a></li>
-
-
-
-
                     </div>
                     <a class="has-text-centered" href="https://bulma.io">
                         <img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="256">
@@ -103,20 +103,15 @@
         </section>
         <!-- /.hero -->
 
-        <footer class="footer">
-            <div class="content has-text-centered">
-                <p>
-                    <strong>Portefólio</strong> por <b>Manuel Simón Nóvoa</b>. O código deste sítio web fica sob uma licença
-                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. O contido deste sítio web fica sob uma licença <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.<br><br>
-
-                    Consulta o <a href="https://github.com/ManuelSimon/portfolio">repositório</a> Git público deste projeto.<br><br>
-
-                    Sítio feito com  <i class="em em-cupid"></i> empregando <a href="creditos.html">as seguintes tecnologias</a>.
-                </p>
-
-
-            </div>
-        </footer>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <?php echo $lang['footer-1'] ?>
+                <?php echo $lang['footer-2'] ?>
+                <?php echo $lang['footer-3'] ?>
+            </p>
+        </div>
+    </footer>
 
         <script src="js/modal.js"></script>
         <script src="js/leaflet-providers.js"></script>

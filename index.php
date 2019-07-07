@@ -1,3 +1,7 @@
+<?php
+    include "config.php";
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -30,7 +34,7 @@
 				<div class="control has-icons-left linguas">
 					<div class="select">
 						<select>
-							<option selected>Mudar idioma</option>
+							<option selected><?php echo $lang['language-selection'] ?></option>
 							<option>English</option>
 							<option>Español</option>
 							<option>Français</option>
@@ -53,11 +57,11 @@
                     
 					<!-- Navbar -->
 					<div class="column center">
-						<a href="#"><p class="navbar-item has-text-grey-light">Início</p></a>
-						<a href="portefolio.html"><p class="navbar-item ">Portefólio</p></a>
-						<a href="cv.html"><p class="navbar-item ">CV</p></a>
-						<a href="about.html"><p class="navbar-item ">Sobre mim</p></a>
-						<a href="creditos.html"><p class="navbar-item ">Créditos</p></a>
+						<a href="#"><p class="navbar-item has-text-grey-light"><?php echo $lang['home'] ?></p></a>
+						<a href="portefolio.php"><p class="navbar-item "><?php echo $lang['portfolio'] ?></p></a>
+						<a href="cv.php"><p class="navbar-item "><?php echo $lang['cv'] ?></p></a>
+						<a href="about.php"><p class="navbar-item "><?php echo $lang['about'] ?></p></a>
+						<a href="creditos.php"><p class="navbar-item "><?php echo $lang['credits'] ?></p></a>
 					</div>
                     
 					<!-- RRSS -->

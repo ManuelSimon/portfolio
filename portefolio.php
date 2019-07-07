@@ -1,3 +1,7 @@
+<?php
+include "config.php";
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -25,22 +29,22 @@
 
     <body>
 
-        <div class="is-overlay has-text-right single-spaced desktop">
-            <div class="control has-icons-left linguas">
-                <div class="select">
-                    <select>
-                        <option selected>Mudar idioma</option>
-                        <option>English</option>
-                        <option>Español</option>
-                        <option>Français</option>
-                        <option>Português da Galiza (Galego)</option>
-                    </select>
-                </div>
-                <span class="icon is-medium is-left">
-                    <i class="fas fa-language has-text-dark"></i>
-                </span>
+    <div class="is-overlay has-text-right single-spaced desktop">
+        <div class="control has-icons-left linguas">
+            <div class="select">
+                <select>
+                    <option selected><?php echo $lang['language-selection'] ?></option>
+                    <option>English</option>
+                    <option>Español</option>
+                    <option>Français</option>
+                    <option>Português da Galiza (Galego)</option>
+                </select>
             </div>
+            <span class="icon is-medium is-left">
+					<i class="fas fa-language has-text-dark"></i>
+					</span>
         </div>
+    </div>
 
         <!-- .hero -->
         <section class="hero is-fullheight">
@@ -55,11 +59,11 @@
 
                     <!-- Navbar -->
                     <div class="column center">
-                        <a href="index.html"><p class="navbar-item ">Início</p></a>
-                        <a href="#"><p class="navbar-item has-text-grey-light">Portefólio</p></a>
-                        <a href="cv.html"><p class="navbar-item ">CV</p></a>
-                        <a href="about.html"><p class="navbar-item ">Sobre mim</p></a>
-                        <a href="creditos.html"><p class="navbar-item ">Créditos</p></a>
+                        <a href="index.php"><p class="navbar-item "><?php echo $lang['home'] ?></p></a>
+                        <a href="#"><p class="navbar-item has-text-grey-light"><?php echo $lang['portfolio'] ?></p></a>
+                        <a href="cv.php"><p class="navbar-item "><?php echo $lang['cv'] ?></p></a>
+                        <a href="about.php"><p class="navbar-item "><?php echo $lang['about'] ?></p></a>
+                        <a href="creditos.php"><p class="navbar-item "><?php echo $lang['credits'] ?></p></a>
                     </div>
 
                     <!-- RRSS -->
@@ -81,13 +85,13 @@
                                 <div class="card">
                                     <header class="card-header">
                                         <p class="card-header-title">
-                                            Sítio web pessoal - Portefólio
+                                            <?php echo $lang['projects-portfolio-title'] ?>
                                         </p>
                                     </header>
                                     <div class="card-content">
                                         <div class="content">
-                                            <p>Este mesmo sítio web.</p>
-                                            <p>Feito com gíria e jeito com <b>HTML5, CSS, Bulma JS</b> e alguma que outra livraria e utilidade. Uso de <b>PHP</b> no <i>back-end</i> para a desenvolver a tradução em múltiplas línguas do sítio web.</p>
+                                            <p><?php echo $lang['projects-portfolio-description-1'] ?></p>
+                                            <p><?php echo $lang['projects-portfolio-description-2'] ?></p>
                                         </div>
                                     </div>
                                     <footer class="card-footer">
@@ -101,12 +105,12 @@
                                 <div class="card">
                                     <header class="card-header">
                                         <p class="card-header-title">
-                                            Análise de riscos de segurança no uso de contentores para HPC
+                                            <?php echo $lang['projects-ariseco-title'] ?>
                                         </p>
                                     </header>
                                     <div class="card-content">
                                         <div class="content">
-                                            <p>Pesquisa levada a cabo para a realização do meu Trabalho de Fim de Grau (TFG). Este <b>trabalho de pesquisa</b> tivo como resultado um estudo em detalhe dos principais possíveis vetores de ataque na estrutura <i>cloud</i> do Centro de Supercomputação da Galiza (CESGA), no uso de diversas tecnologias de <b>contentorização</b>, assim como conselhos de melhora e diferentes provas de exploração.</p>
+                                            <p><?php echo $lang['projects-ariseco-description'] ?></p>
                                         </div>
                                     </div>
                                     <footer class="card-footer">
@@ -128,12 +132,9 @@
         <footer class="footer">
             <div class="content has-text-centered">
                 <p>
-                    <strong>Portefólio</strong> por <b>Manuel Simón Nóvoa</b>. O código deste sítio web fica sob uma licença
-                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. O contido deste sítio web fica sob uma licença <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.<br><br>
-
-                    Consulta o <a href="https://github.com/ManuelSimon/portfolio">repositório</a> Git público deste projeto.<br><br>
-
-                    Sítio feito com  <i class="em em-cupid"></i> empregando <a href="creditos.html">as seguintes tecnologias</a>.
+                    <?php echo $lang['footer-1'] ?>
+                    <?php echo $lang['footer-2'] ?>
+                    <?php echo $lang['footer-3'] ?>
                 </p>
             </div>
         </footer>
