@@ -68,29 +68,28 @@ include "config.php";
 
                             <div class="columns">
                                 <div class="column is-three-fifths" id="bio">
-                                    <h1 class="title is-size-1">Assistente de pesquisa</h1>
-                                    <h2 class="subtitle is-size-4">Centro de Supercomputação da Galiza (CESGA)</h2>
+                                    <h1 class="title is-size-1"><?php echo $lang['cv-timeline-cesga0-title'] ?></h1>
+                                    <h2 class="subtitle is-size-4"><?php echo $lang['cv-timeline-cesga1-company'] ?></h2>
 
-                                    <h3 class="subtitle is-size-4">Práticas em sistemas</h3>
-                                    <p>Participação no projeto de colaboração europeu "Mathematical Modelling, Simulation and Optimization for Societal Challenges with Scientific Computing" (MSO4SC), promovido pelo programa H2020:</p>
+                                    <h3 class="subtitle is-size-4"><?php echo $lang['cv-timeline-cesga1-title'] ?></h3>
+                                    <p><?php echo $lang['cv-timeline-cesga1-description-1'] ?></p>
 
-                                    <li>Configuração dum sistema baseado em contentores sobre estrutura HPC.</li>
-                                    <li>Implementação automatizada de aplicações científicas paralelas (MPI) sobre rede InfiniBand.</li>
-                                    <li>Scripts para alcançar futura reprodutibilidade do modelo.</li>
-                                    <li>Provas de rendimento.</li>
-                                    <li>Memoria do projeto (integramente em inglês).</li>
+                                    <li><?php echo $lang['cv-timeline-cesga1-description-1-list-1'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-cesga1-description-1-list-2'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-cesga1-description-1-list-3'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-cesga1-description-1-list-4'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-cesga1-description-1-list-5'] ?></li>
                                     <p></p>
-                                    <h3 class="subtitle is-size-4">Desenvolvimento do meu Trabalho de Fim de Grau (TFG)</h3>
+                                    <h3 class="subtitle is-size-4"><?php echo $lang['cv-timeline-cesga2-title'] ?></h3>
 
-                                    <p>Realização do meu Trabalho de Fim de Grau: "Análise de riscos de segurança no uso de contentores para HPC". Estudo num entorno HPC/Cloud:</p>
+                                    <p><?php echo $lang['cv-timeline-cesga2-description-1'] ?></p>
 
-                                    <li>Investigação.</li>
-                                    <li>Análise de tecnologias de contentorização desde o ponto de vista da segurança.</li>
-                                    <li>Classificação de riscos.</li>
-                                    <li>Criação e provas de meios Docker, Singularity e Udocker.</li>
-                                    <li>Deteção e exploração de vulnerabilidades.</li>
-                                    <li>Determinação dos câmbios a realizar: boas práticas e recomendações.</li>
-
+                                    <li><?php echo $lang['cv-timeline-cesga1-description-2-list-1'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-cesga1-description-2-list-2'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-cesga1-description-2-list-3'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-cesga1-description-2-list-4'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-cesga1-description-2-list-5'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-cesga1-description-2-list-6'] ?></li>
                                 </div>
                                 <div class="column is-fullheight imagem" style="background-image: url('images/ft2.jpg')">
                                 </div>
@@ -112,13 +111,13 @@ include "config.php";
 
                             <div class="columns">
                                 <div class="column" id="bio">
-                                    <h1 class="title is-size-1">Participante no Deloitte Summer Xperience</h1>
-                                    <h2 class="subtitle is-size-4">Deloitte España</h2>
-                                    <p>Duração: 1 semana. Realização de multíplices provas de seleção.</p>
-                                    <p>Resolução conjunta dum caso fictício colocado pela Deloitte com atividades multidisciplinares que abrangiam diferentes áreas de negócio da empresa. Áreas abrangidas:</p>
-                                    <li>Transformação digital.</li>
-                                    <li>Cibersegurança.</li>
-                                    <li>Riscos tecnológicos.</li>
+                                    <h1 class="title is-size-1"><?php echo $lang['cv-timeline-summerXperience-title'] ?></h1>
+                                    <h2 class="subtitle is-size-4"><?php echo $lang['cv-timeline-summerXperience-company'] ?></h2>
+                                    <p><?php echo $lang['cv-timeline-summerXperience-description-1'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-summerXperience-description-2'] ?></p>
+                                    <li><?php echo $lang['cv-timeline-summerXperience-description-list-1'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-summerXperience-description-list-2'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-summerXperience-description-list-3'] ?></li>
                                 </div>
                                 <div class="column is-fullheight imagem" style="background-image: url('images/xperience.jpg')">
                                 </div>
@@ -140,10 +139,10 @@ include "config.php";
 
                             <div class="columns">
                                 <div class="column" id="bio">
-                                    <h1 class="title is-size-1">Assistente de pesquisa</h1>
-                                    <h2 class="subtitle is-size-4">Lero | The Irish Software Research Centre</h2>
-                                    <p>Utilização de técnicas de mutação e planificação IA, para a criação e deteção automatizadas de vulnerabilidades num entorno baseado na nuvem.</p>
-                                    <p>Pesquisa em cibersegurança para a construção dum prototipo para a recompilação de probas adaptativas na nuvem.</p>
+                                    <h1 class="title is-size-1"><?php echo $lang['cv-timeline-lero-title'] ?></h1>
+                                    <h2 class="subtitle is-size-4"><?php echo $lang['cv-timeline-lero-company'] ?></h2>
+                                    <p><?php echo $lang['cv-timeline-lero-description-1'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-lero-description-2'] ?></p>
                                 </div>
                                 <div class="column is-fullheight imagem" style="background-image: url('images/lero.JPG')">
                                 </div>
@@ -165,9 +164,9 @@ include "config.php";
 
                             <div class="columns">
                                 <div class="column" id="bio">
-                                    <h1 class="title is-size-1">Consultor internacional</h1>
-                                    <h2 class="subtitle is-size-4">The AKKAdemy (AKKA Group)</h2>
-                                    <p>O programa internacional para licenciados de AKKA. Um programa para licenciados em estudos de engenharias digitais. Depois de completar 4 semanas em Genebra, os participantes unirão-se a um projeto desenvolvido por algum cliente de AKKA, em diferentes localizações dependendo dos seus conhecimentos, na Alemanha, a Bélgica, a França ou os Países Baixos.</p>
+                                    <h1 class="title is-size-1"><?php echo $lang['cv-timeline-akkademy-title'] ?></h1>
+                                    <h2 class="subtitle is-size-4"><?php echo $lang['cv-timeline-akkademy-company'] ?></h2>
+                                    <p><?php echo $lang['cv-timeline-akkademy-description-1'] ?></p>
                                 </div>
                                 <div class="column is-fullheight imagem" style="background-image: url('images/theakkademy.jpg')">
                                 </div>
@@ -189,10 +188,10 @@ include "config.php";
 
                             <div class="columns">
                                 <div class="column" id="bio">
-                                    <h1 class="title is-size-1">Aluno tutor para estudantes de nova incorporação</h1>
-                                    <h2 class="subtitle is-size-4">Escola Técnica Superior de Engenharia (ETSE) - Universidade de Santiago de Compostela (USC)</h2>
-                                    <p>Mentoria dos alunos de primeiro ano da ETSE.</p>
-                                    <p>Guia para estudantes do ensino secundário em passeios culturais em relação à universidade USC.</p>
+                                    <h1 class="title is-size-1"><?php echo $lang['cv-timeline-titor-title'] ?></h1>
+                                    <h2 class="subtitle is-size-4"><?php echo $lang['cv-timeline-titor-company'] ?></h2>
+                                    <p><?php echo $lang['cv-timeline-titor-description-1'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-titor-description-2'] ?></p>
                                 </div>
                                 <div class="column is-fullheight imagem" style="background-image: url('images/etse.jpg')">
                                 </div>
@@ -214,13 +213,13 @@ include "config.php";
 
                             <div class="columns">
                                 <div class="column" id="bio">
-                                    <h1 class="title is-size-1">Co-organizador</h1>
-                                    <h2 class="subtitle is-size-4">GDG Santiago de Compostela</h2>
-                                    <h3 class="subtitle is-size-4">O que são os GDG?</h3>
-                                    <p>Os Google Developers Group (GDGs) são entidades sem fins lucrativos criadas com o objetivo de melhorarem a comunidade de entusiastas tecnológicos e aumentar o conhecimento e as relações entre pessoas dedicadas a essa área.</p>
+                                    <h1 class="title is-size-1"><?php echo $lang['cv-timeline-gdg-title'] ?></h1>
+                                    <h2 class="subtitle is-size-4"><?php echo $lang['cv-timeline-gdg-company'] ?></h2>
+                                    <h3 class="subtitle is-size-4"><?php echo $lang['cv-timeline-gdg-description-1'] ?></h3>
+                                    <p><?php echo $lang['cv-timeline-gdg-description-2'] ?></p>
 
-                                    <h3 class="subtitle is-size-4">O que fazemos?</h3>
-                                    <p>Criamos eventos, conferências e obradoiros, com o objetivo de espalhar o conhecimento sobre tecnologia e melhorar o panorama de desenvolvimento. Além disso, a grande maioria desses eventos são gratuitos.</p>
+                                    <h3 class="subtitle is-size-4"><?php echo $lang['cv-timeline-gdg-description-3'] ?></h3>
+                                    <p><?php echo $lang['cv-timeline-gdg-description-4'] ?></p>
                                 </div>
                                 <div class="column is-fullheight imagem" style="background-image: url('images/gdg.jpg')">
                                 </div>
@@ -242,18 +241,18 @@ include "config.php";
 
                             <div class="columns">
                                 <div class="column" id="bio">
-                                    <h1 class="title is-size-1">Participante | Estudante</h1>
-                                    <h2 class="subtitle is-size-4">Explorer "Jóvenes con ideas"</h2>
+                                    <h1 class="title is-size-1"><?php echo $lang['cv-timeline-explorer-title'] ?></h1>
+                                    <h2 class="subtitle is-size-4"><?php echo $lang['cv-timeline-explorer-company'] ?></h2>
 
-                                    <p>Processo de criação dum MVP (Produto Mínimo Viável).</p>
+                                    <p><?php echo $lang['cv-timeline-explorer-description-1'] ?></p>
 
-                                    <li>Empreendimento: desenho e implantação de ideia no mercado.</li>
-                                    <li>Administração e gestão de pequenas empresas.</li>
-                                    <li>Marketing.</li>
-                                    <li>Liderança.</li>
-                                    <li>Gestão do talento.</li>
-                                    <li>Design thinking.</li>
-                                    <li>Lean startup.</li>
+                                    <li><?php echo $lang['cv-timeline-explorer-description-list-1'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-explorer-description-list-2'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-explorer-description-list-3'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-explorer-description-list-4'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-explorer-description-list-5'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-explorer-description-list-6'] ?></li>
+                                    <li><?php echo $lang['cv-timeline-explorer-description-list-7'] ?></li>
 
                                 </div>
                                 <div class="column is-fullheight imagem" style="background-image: url('images/exp1.PNG')">
@@ -276,12 +275,11 @@ include "config.php";
 
                             <div class="columns">
                                 <div class="column" id="bio">
-                                    <h1 class="title is-size-1">Consultor internacional - <i>Ingénieur d'études</i></h1>
-                                    <h2 class="subtitle is-size-4">AKKA Technologies France</h2>
+                                    <h1 class="title is-size-1"><?php echo $lang['cv-timeline-akka-title'] ?></h1>
+                                    <h2 class="subtitle is-size-4"><?php echo $lang['cv-timeline-akka-company'] ?></h2>
 
-                                    <p>A AKKA fornece soluções tecnológicas para empresas líderes nos setores automotivo, aeroespacial e ferroviário, bem como nas ciências da vida, serviços, telecomunicações e defesa, permitindo-lhes melhorar os seus processos de inovação, a sua produtividade e a sua eficiência ao projetar novos produtos ou processos.</p>
-                                    <p>Atualmente trabalho como consultor no setor das telecomunicações <i class="fas fa-broadcast-tower"></i></p>
-
+                                    <p><?php echo $lang['cv-timeline-akka-description-1'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-akka-description-2'] ?></p>
                                 </div>
                                 <div class="column is-fullheight imagem" style="background-image: url('images/akkagr.png')">
                                 </div>
@@ -303,12 +301,12 @@ include "config.php";
 
                             <div class="columns">
                                 <div class="column" id="bio">
-                                    <h1 class="title is-size-1">QA Tester - Projeto em cliente</h1>
-                                    <h2 class="subtitle is-size-4">NOKIA (cliente da AKKA Technologies)</h2>
+                                    <h1 class="title is-size-1"><?php echo $lang['cv-timeline-nokia-title'] ?></h1>
+                                    <h2 class="subtitle is-size-4"><?php echo $lang['cv-timeline-nokia-company'] ?></h2>
 
-                                    <p>QA Tester na Nokia. Tester duma plataforma de gestão e control de diferentes elementos das redes e telecomunicações: 3G, 4G, 5G, Wi-Fi, Flexi Zone, AirScale; chamada Nokia Network Services Platform (NSP).</p>
+                                    <p><?php echo $lang['cv-timeline-nokia-description-1'] ?></p>
 
-                                    <p>A NSP da Nokia é uma plataforma de serviços de gestão de rede fim-a-fim com uma infinidade de aplicativos, variando dependendo das configuração dos operadores e arquitetos de rede.</p>
+                                    <p><?php echo $lang['cv-timeline-nokia-description-2'] ?></p>
 
                                 </div>
                                 <div class="column is-fullheight imagem" style="background-image: url('images/nsp.png')">
@@ -357,21 +355,20 @@ include "config.php";
                 <div class="hero"> <!-- Corpo -->
 
                     <div class="container section">
-                        <h3 class="title is-3 has-text-centered">Escolhe um modo de visualização:</h3>
+                        <h3 class="title is-3 has-text-centered"><?php echo $lang['cv-title'] ?></h3>
                         <br>
-                        <p class="subtitle">Para consultares o meu CV dum modo mais jeitoso e entretido, criei duas opções de visualização. Ambas são interativas, portanto, move-te sobre elas e prova a clicares a cachão.</p>
+                        <p class="subtitle"><?php echo $lang['cv-subtitle'] ?></p>
                         <br>
 
 
                         <div class="columns">
                             <div class="column"><a class="yei" href="#mapa">
-                                <h3 class="title is-4 has-text-centered">Mapa <i class="fas fa-map-marked-alt"></i></h3>
-                                <p>Tentando compreender um chisquinho mais sobre o mundo no que vivo, desenvolvim distintas lavores profissionais em diversos sítios da Europa. Graças a esta versão mapeada do meu CV resulta doado mirar onde estivem, em que momento e a fazer o quê.
-                                </p>
+                                <h3 class="title is-4 has-text-centered"><?php echo $lang['cv-map'] ?> <i class="fas fa-map-marked-alt"></i></h3>
+                                <p><?php echo $lang['cv-map-text'] ?></p>
                                 </a></div>
                             <div class="column"><a class="yei" href="#cronologia">
-                                <h3 class="title is-4 has-text-centered">Cronologia <i class="fas fa-history"></i></h3>
-                                <p>Esta é uma versão cronológica do meu CV. Fai clique nos distintos elementos para obteres mais informação e aperceberes melhor as minhas diferentes experiências laborais e extra-laborais.</p>
+                                <h3 class="title is-4 has-text-centered"><?php echo $lang['cv-chronology'] ?> <i class="fas fa-history"></i></h3>
+                                <p><?php echo $lang['cv-chronology-text'] ?></p>
                                 </a></div>
                         </div>
                     </div>
@@ -381,7 +378,7 @@ include "config.php";
                     <section> <!-- Map -->
                         <div class="hero-body">
                             <div class="container" id="mapa">
-                                <h3 class="title is-2 has-text-centered">Mapa <i class="fas fa-map-marked-alt"></i></h3>
+                                <h3 class="title is-2 has-text-centered"><?php echo $lang['cv-map'] ?> <i class="fas fa-map-marked-alt"></i></h3>
                                 <div id="map" class="map" style="z-index: 1"></div>
                             </div>
                         </div>
@@ -391,14 +388,14 @@ include "config.php";
 
                     <section class="section" id="cronologia"> <!-- Timeline -->
                         <div class="section-heading">
-                            <h3 class="title is-2 has-text-centered">Cronologia <i class="fas fa-history"></i></h3>
+                            <h3 class="title is-2 has-text-centered"><?php echo $lang['cv-chronology'] ?> <i class="fas fa-history"></i></h3>
                         </div>
                     </section>
 
                     <section> 
                         <div class="timeline is-centered">
                             <header class="timeline-header">
-                                <span class="tag is-large is-link">Presente</span>
+                                <span class="tag is-large is-link"><?php echo $lang['cv-timeline-title'] ?></span>
                             </header>
 
                             <div class="timeline-item is-link" id="nokia">
@@ -407,10 +404,10 @@ include "config.php";
                                 </div>
                                 <a class="ye">
                                     <div class="timeline-content" onclick="refs.open('modalNokia')">
-                                        <p class="heading">Começo: Febreiro 2019</p>
-                                        <p>QA Tester - Projeto em cliente</p>
-                                        <p class="is-size-7">Nokia (Cliente da AKKA)</p>
-                                        <p class="is-size-7 has-text-weight-light">Paris, França</p>
+                                        <p class="heading"><?php echo $lang['cv-timeline-nokia-start'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-nokia-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-nokia-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-nokia-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
@@ -421,10 +418,10 @@ include "config.php";
                                 </div>
                                 <a class="ye">
                                     <div class="timeline-content" onclick="refs.open('modalAKKA')">
-                                        <p class="heading">Começo: Febreiro 2019</p>
-                                        <p>Consultor internacional - <i>Ingénieur d'études</i></p>
-                                        <p class="is-size-7">AKKA France</p>
-                                        <p class="is-size-7 has-text-weight-light">Paris, França</p>
+                                        <p class="heading"><?php echo $lang['cv-timeline-akka-start'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-akka-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-akka-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-akka-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
@@ -435,10 +432,10 @@ include "config.php";
                                 </div>
                                 <a class="ye">
                                     <div class="timeline-content" onclick="refs.open('modalAKKAdemy')">
-                                        <p class="heading">Começo: Janeiro 2019 - Fim: Febreiro 2019</p>
-                                        <p>Consultor internacional</p>
-                                        <p class="is-size-7">The AKKAdemy (AKKA Group)</p>
-                                        <p class="is-size-7 has-text-weight-light">Genebra, Suiça</p>
+                                        <p class="heading"><?php echo $lang['cv-timeline-akkademy-start'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-akkademy-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-akkademy-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-akkademy-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
@@ -453,10 +450,10 @@ include "config.php";
                                 </div>
                                 <a class="ye">
                                     <div class="timeline-content" onclick="refs.open('modalLero')">
-                                        <p class="heading">Começo: Agosto 2018 - Fim: Setembro 2018</p>
-                                        <p>Assistente de pesquisa - <i>Erasmus+ Practicum</i></p>
-                                        <p class="is-size-7">Lero: The Irish Software Research Centre</p>
-                                        <p class="is-size-7 has-text-weight-light">Luimneach, Éire</p>
+                                        <p class="heading"><?php echo $lang['cv-timeline-lero-start'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-lero-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-lero-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-lero-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
@@ -467,10 +464,10 @@ include "config.php";
                                 </div>
 
                                 <div class="timeline-content">
-                                    <p class="heading">Fim: Julho 2018</p>
-                                    <p>Obtenção do Grau em Engenharia Informática</p>
-                                    <p class="is-size-7">Universidade de Santiago de Compostela</p>
-                                    <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                    <p class="heading"><?php echo $lang['cv-timeline-grei-end'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-grei-title'] ?></p>
+                                    <p class="is-size-7"><?php echo $lang['cv-timeline-grei-company'] ?></p>
+                                    <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-grei-place'] ?></p>
                                 </div>
                             </div>
 
@@ -480,10 +477,10 @@ include "config.php";
                                 </div>
                                 <a class="ye">
                                     <div class="timeline-content" onclick="refs.open('modalCESGA')">
-                                        <p class="heading">Fim: Junho 2018</p>
-                                        <p>Assistente de pesquisa - Desenvolvimento TFG</p>
-                                        <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        <p class="heading"><?php echo $lang['cv-timeline-cesga2-end'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-cesga2-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-cesga1-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-cesga1-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
@@ -494,10 +491,10 @@ include "config.php";
                                 </div>
                                 <a class="ye">
                                     <div class="timeline-content" onclick="refs.open('modalExplorer')">
-                                        <p class="heading">Fim: Junho 2018</p>
-                                        <p>Participante - Estudante</p>
-                                        <p class="is-size-7">Explorer <i>"Jóvenes con ideas"</i></p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        <p class="heading"><?php echo $lang['cv-timeline-explorer-end'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-explorer-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-explorer-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-explorer-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
@@ -508,10 +505,10 @@ include "config.php";
                                 </div>
                                 <a class="ye">
                                     <div class="timeline-content" onclick="refs.open('modalCESGA')">
-                                        <p class="heading">Começo: Março 2018</p>
-                                        <p>Assistente de pesquisa - Desenvolvimento TFG</p>
-                                        <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        <p class="heading"><?php echo $lang['cv-timeline-cesga2-start'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-cesga2-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-cesga1-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-cesga1-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
@@ -522,10 +519,10 @@ include "config.php";
                                 </div>
                                 <a class="ye">
                                     <div class="timeline-content" onclick="refs.open('modalGDG')">
-                                        <p class="heading">Começo: Febreiro 2018</p>
-                                        <p>Co-organizador</p>
-                                        <p class="is-size-7">Google Developers Group (GDG) Santiago</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza | A distância</p>
+                                        <p class="heading"><?php echo $lang['cv-timeline-gdg-start'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-gdg-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-gdg-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-gdg-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
@@ -536,10 +533,10 @@ include "config.php";
                                 </div>
                                 <a class="ye">
                                     <div class="timeline-content" onclick="refs.open('modalExplorer')">
-                                        <p class="heading">Começo: Janeiro 2018</p>
-                                        <p>Participante - Estudante</p>
-                                        <p class="is-size-7">Explorer <i>"Jóvenes con ideas"</i></p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        <p class="heading"><?php echo $lang['cv-timeline-explorer-start'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-explorer-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-explorer-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-explorer-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
@@ -554,10 +551,10 @@ include "config.php";
                                 </div>
                                 <a class="ye">
                                     <div class="timeline-content" onclick="refs.open('modalCESGA')">
-                                        <p class="heading">Fim: Agosto 2017</p>
-                                        <p>Assistente de pesquisa - Práticas em sistemas</p>
-                                        <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        <p class="heading"><?php echo $lang['cv-timeline-cesga1-end'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-cesga1-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-cesga1-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-cesga1-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
@@ -568,10 +565,10 @@ include "config.php";
                                 </div>
                                 <a class="ye">
                                     <div class="timeline-content" onclick="refs.open('modalXperience')">
-                                        <p class="heading">Começo e fim: Julho 2017 (1 semana)</p>
-                                        <p>Deloitte Summer Xperience</p>
-                                        <p class="is-size-7">Deloitte España</p>
-                                        <p class="is-size-7 has-text-weight-light">Madrid, Espanha</p>
+                                        <p class="heading"><?php echo $lang['cv-timeline-summerXperience-start'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-summerXperience-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-summerXperience-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-summerXperience-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
@@ -582,10 +579,10 @@ include "config.php";
                                 </div>
                                 <a class="ye">
                                     <div class="timeline-content" onclick="refs.open('modalTitor')">
-                                        <p class="heading">Fim: Julho 2017</p>
-                                        <p>Aluno tutor para estudantes de nova incorporação</p>
-                                        <p class="is-size-7">Escola Técnica Superior de Engenharia (ETSE) - USC</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        <p class="heading"><?php echo $lang['cv-timeline-titor-end'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-titor-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-titor-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-titor-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
@@ -596,10 +593,10 @@ include "config.php";
                                 </div>
                                 <a class="ye">
                                     <div class="timeline-content" onclick="refs.open('modalCESGA')">
-                                        <p class="heading">Começo: Junho 2017</p>
-                                        <p>Assistente de pesquisa - Práticas em sistemas</p>
-                                        <p class="is-size-7">Centro de Supercomputação da Galiza (CESGA)</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        <p class="heading"><?php echo $lang['cv-timeline-cesga1-start'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-cesga1-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-cesga1-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-cesga1-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
@@ -614,10 +611,10 @@ include "config.php";
                                 </div>
                                 <a class="ye">
                                     <div class="timeline-content" onclick="refs.open('modalTitor')">
-                                        <p class="heading">Começo: Setembro 2016</p>
-                                        <p>Aluno tutor para estudantes de nova incorporação</p>
-                                        <p class="is-size-7">Escola Técnica Superior de Engenharia (ETSE) - USC</p>
-                                        <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                        <p class="heading"><?php echo $lang['cv-timeline-titor-start'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-titor-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-titor-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-titor-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
@@ -631,10 +628,10 @@ include "config.php";
                                     <i class="fas fa-graduation-cap"></i>
                                 </div>
                                 <div class="timeline-content">
-                                    <p class="heading">Começo: Setembro 2014</p>
-                                    <p>Grau Engenharia Informática</p>
-                                    <p class="is-size-7">Universidade de Santiago de Compostela</p>
-                                    <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p>
+                                    <p class="heading"><?php echo $lang['cv-timeline-grei-start'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-grei-title'] ?></p>
+                                    <p class="is-size-7"><?php echo $lang['cv-timeline-grei-company'] ?></p>
+                                    <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-grei-place'] ?></p>
                                 </div>
                             </div>
                         </div>

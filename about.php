@@ -80,8 +80,8 @@ include "config.php";
                 <div> <!-- Corpo -->
                     <section class="section" id="titles"> <!-- Titles -->
                         <div class="section-heading">
-                            <h3 class="title is-2 has-text-centered">Engenheiro informático, consultor e sempre estudante.</h3>
-                            <h4 class="subtitle is-5 has-text-centered">Tecnólogo e mil centas coisas mais. Provavelmente agora estou a fedelhar num novo projeto.</h4>
+                            <h3 class="title is-2 has-text-centered"><?php echo $lang['about-title'] ?></h3>
+                            <h4 class="subtitle is-5 has-text-centered"><?php echo $lang['about-subtitle'] ?></h4>
                         </div>
                     </section>
 
@@ -95,9 +95,9 @@ include "config.php";
 
                     <section class="section" id="bio"> <!-- Bio -->
                         <div class="container">
-                            <p><b>Olá, encantado de conhecer-te!</b> Sou Manuel, um moço com grande vontade de aprender coisas novas dia a dia. Graduado em Engenharia Informática pela <a href="http://www.usc.gal/">Universidade de Santiago de Compostela</a>. De quando em quando, escrevo código, se tiver café. No meu tempo livre, às vezes, crio contido digital, como esta web. Também gosto de ler <i class="em em-open_book"></i>, escrever <i class="em em-writing_hand"></i>, participar em associações tecnológicas <i class="fas fa-terminal"></i>, escutar música <i class="em em-headphones"></i> ou jogar videojogos <i class="em em-video_game"></i>. Um pouco de tudo, enquanto a criatividade e a imaginação fiquem por médio.</p>
+                            <p><?php echo $lang['about-bio-1'] ?></p>
 
-                            <p>Dado de interesse: tenho grande curiosidade pela linguística, especialmente a galego-portuguesa.</p>
+                            <p><?php echo $lang['about-bio-2'] ?></p>
 
                         </div>
                     </section>
@@ -109,12 +109,12 @@ include "config.php";
                                 <!-- CV -->
                                 <div class="card">
                                     <div class="card-content">
-                                        <h3 class="title is-4">CV</h3>
+                                        <h3 class="title is-4"><?php echo $lang['cv'] ?></h3>
                                         <div class="content">
-                                            <p>Queres conhecer um bocado acerca da minha experiência profissional até o momento?</p>
-                                            <p>Convido-te então a leres o meu CV!</p>
+                                            <p><?php echo $lang['about-cv-text-1'] ?></p>
+                                            <p><?php echo $lang['about-cv-text-2'] ?></p>
                                             <div class="center">
-                                                <a href="cv.php" class="button is-rounded is-medium">CV</a>
+                                                <a href="cv.php" class="button is-rounded is-medium"><?php echo $lang['cv'] ?></a>
                                             </div>
                                         </div>
                                     </div>
@@ -125,16 +125,16 @@ include "config.php";
                                 <!-- Interesses -->
                                 <div class="card">
                                     <div class="card-content">
-                                        <h3 class="title is-4">As minhas principais áreas de interesse</h3>
+                                        <h3 class="title is-4"><?php echo $lang['about-interests-title'] ?></h3>
                                         <div class="content">
-                                            <p>Sou uma pessoa curiosa e adoro aprender de muitas coisas, mas estas são as que realmente apaixono:</p>
+                                            <p><?php echo $lang['about-interests-text'] ?></p>
                                             <ul>
-                                                <li>Segurança das TIC <i class="fas fa-shield-alt"></i></li>
-                                                <li>Redes móveis e de computadores <i class="fas fa-broadcast-tower"></i></li>
-                                                <li>Administração de sistemas <i class="fas fa-server"></i></li>
-                                                <li>Administração de redes <i class="fas fa-network-wired"></i></li>
-                                                <li>Administração de bases de dados <i class="fas fa-database"></i></li>
-                                                <li>Contentorização <i class="fas fa-box"></i></li>
+                                                <li><?php echo $lang['about-interests-list-1'] ?> <i class="fas fa-shield-alt"></i></li>
+                                                <li><?php echo $lang['about-interests-list-2'] ?> <i class="fas fa-broadcast-tower"></i></li>
+                                                <li><?php echo $lang['about-interests-list-3'] ?> <i class="fas fa-server"></i></li>
+                                                <li><?php echo $lang['about-interests-list-4'] ?> <i class="fas fa-network-wired"></i></li>
+                                                <li><?php echo $lang['about-interests-list-5'] ?> <i class="fas fa-database"></i></li>
+                                                <li><?php echo $lang['about-interests-list-6'] ?> <i class="fas fa-box"></i></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -145,12 +145,12 @@ include "config.php";
                                 <!-- Portfolio -->
                                 <div class="card">
                                     <div class="card-content">
-                                        <h3 class="title is-4">Portefólio</h3>
+                                        <h3 class="title is-4"><?php echo $lang['portfolio'] ?></h3>
                                         <div class="content">
-                                            <p>Curiosidade em conhecer como são realmente alguns dos meus projetos?</p>
-                                            <p>Lê sobre eles e acessa ao seu código na secção do portefólio:</p>
+                                            <p><?php echo $lang['about-portfolio-text-1'] ?></p>
+                                            <p><?php echo $lang['about-portfolio-text-2'] ?></p>
                                             <div class="center">
-                                                <a href="portefolio.php" class="button is-rounded is-medium">Portefólio</a>
+                                                <a href="portefolio.php" class="button is-rounded is-medium"><?php echo $lang['portfolio'] ?></a>
                                             </div>
                                         </div>
                                     </div>
@@ -163,9 +163,9 @@ include "config.php";
 
                     <section class="section has-background-white-ter" id="rrss"> <!-- RRSS -->
                         <div class="container">
-                            <h1 class="title is-4">Deveríamos estar a falar?</h1>
+                            <h1 class="title is-4"><?php echo $lang['about-talk-title'] ?></h1>
 
-                            <p>Tens alguma dúvida sobre mim? Sobre esta web? Crês que deveríamos estar a beber uma cervejinha juntos? Se é assim, convido-te a escreveres-me uma mensagem a qualquer das minhas redes sociais, ou correio eletrónico. Será um prazer ter novas de ti!</p>
+                            <p><?php echo $lang['about-talk-text'] ?></p>
 
                             <h4 class="subtitle is-6 has-text-centered">
                                 <a href="https://github.com/ManuelSimon"><i class="fab fa-3x fa-github has-text-dark"></i></a>
