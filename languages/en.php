@@ -27,6 +27,12 @@
         "credits-title" => "Technologies that helped me to create this site:",
         "credits-description" => "Without the following technologies, this site could not exist as it is. Many of them are free. Here it is the list of them for consultation and well-deserved accreditation:",
 
+        //404
+        "404-title" => "Wut!?",
+        "404-subtitle" => "You should not be here! Unfortunately, this page is not accessible at this moment.",
+        "404-button" => "Come back home",
+        "404-extra" => "Do you really think this page should be accessible? Then, contact me, so I can fix this bug, please.",
+
         //About me
         "about-title" => "Computer Science Engineer, consultant and always-student.",
         "about-subtitle" => "Technologist and one hundred more things. Probably, I am working on a new project right now.",

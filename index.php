@@ -30,22 +30,22 @@
 	<body>
 		<!-- .hero -->
 		<section class="hero is-fullheight">
-			<div class="is-overlay has-text-right single-spaced desktop">
-				<div class="control has-icons-left linguas">
-					<div class="select">
-						<select>
-							<option selected><?php echo $lang['language-selection'] ?></option>
-							<option>English</option>
-							<option>Español</option>
-							<option>Français</option>
-							<option>Português da Galiza (Galego)</option>
-						</select>
-					</div>
-					<span class="icon is-medium is-left">
+            <div class="is-overlay has-text-right single-spaced desktop">
+                <div class="control has-icons-left linguas">
+                    <div class="select">
+                        <select onchange="location = this.value;">
+                            <option value="" selected><?php echo $lang['language-selection'] ?></option>
+                            <option value="?lang=en">English</option>
+                            <option value="?lang=es">Español</option>
+                            <option value="?lang=fr">Français</option>
+                            <option value="?lang=pt">Português da Galiza (Galego)</option>
+                        </select>
+                    </div>
+                    <span class="icon is-medium is-left">
 					<i class="fas fa-language has-text-dark"></i>
 					</span>
-				</div>
-			</div>
+                </div>
+            </div>
             
 			<!-- .hero-head -->
 			<nav class="hero-head">

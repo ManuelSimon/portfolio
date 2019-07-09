@@ -43,12 +43,12 @@ include "config.php";
     <div class="is-overlay has-text-right single-spaced desktop">
         <div class="control has-icons-left linguas">
             <div class="select">
-                <select>
-                    <option selected><?php echo $lang['language-selection'] ?></option>
-                    <option>English</option>
-                    <option>Español</option>
-                    <option>Français</option>
-                    <option>Português da Galiza (Galego)</option>
+                <select onchange="location = this.value;">
+                    <option value="" selected><?php echo $lang['language-selection'] ?></option>
+                    <option value="?lang=en">English</option>
+                    <option value="?lang=es">Español</option>
+                    <option value="?lang=fr">Français</option>
+                    <option value="?lang=pt">Português da Galiza (Galego)</option>
                 </select>
             </div>
             <span class="icon is-medium is-left">

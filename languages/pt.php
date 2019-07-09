@@ -27,6 +27,12 @@ $lang = array(
     "credits-title" => "Tecnologias que permitiram o desenvolvimento deste sítio web:",
     "credits-description" => "Sem a utilização das seguintes tecnologias, este sítio web simplesmente não poderia existir tal como é. Muitas delas são livres. Velaqui o listado das mesmas para a sua consulta e merecida acreditação:",
 
+    //404
+    "404-title" => "Cornos!",
+    "404-subtitle" => "Não deverias estar cá! Infelizmente, esta página não está disponível.",
+    "404-button" => "Voltar ao início",
+    "404-extra" => "Realmente crês que esta página deveria ser acessível? Então, contacta comigo para que solucione esta falha, se fás favor.",
+
     //About me
     "about-title" => "Engenheiro Informático, cosultor e sempre estudante.",
     "about-subtitle" => "Tecnólogo e mil centas cousas mais. Provavelmente agora estou a fedelhar num novo projeto.",
