@@ -24,6 +24,10 @@
 			$_SESSION['lang'] = "en";
 		else if ($_GET['lang'] == "pt")
 			$_SESSION['lang'] = "pt";
+        else if ($_GET['lang'] == "es")
+            $_SESSION['lang'] = "es";
+        else if ($_GET['lang'] == "fr")
+            $_SESSION['lang'] = "fr";
 	}
 
 	require_once "languages/" . $_SESSION['lang'] . ".php";
