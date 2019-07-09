@@ -16,6 +16,7 @@
         "footer-3" => "Website developed with <i class='em em-cupid'></i> making use of <a href='creditos.php'>the following tecnhologies</a>.",
 
         //Projects
+        "projects-title" => "My last projects",
         "projects-portfolio-title" => "Personal website - Portfolio",
         "projects-portfolio-description-1" => "This website.",
         "projects-portfolio-description-2" => "Done with love with <b>HTML5, CSS, Bulma JS</b> and some others libraries and utilities. Use of <b>PHP</b> at the <i>back-end</i> to develop the translation into multiple languages of the site.",

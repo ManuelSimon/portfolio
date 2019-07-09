@@ -16,6 +16,7 @@ $lang = array(
     "footer-3" => "Sítio feito com  <i class='em em-cupid'></i> empregando <a href='creditos.php'>as seguintes tecnologias</a>.",
 
     //Projects
+    "projects-title" => "As minhas últimas trasnadas",
     "projects-portfolio-title" => "Sítio web persoal - Portefólio",
     "projects-portfolio-description-1" => "Este mesmo sítio web.",
     "projects-portfolio-description-2" => "Feito com gíria e jeito com <b>HTML5, CSS, Bulma JS</b> e alguma que outra livraria e utilidade. Uso de <b>PHP</b> no <i>back-end</i> para a desenvolver a tradução em múltiplas línguas do sítio web.",

@@ -16,6 +16,7 @@ $lang = array(
     "footer-3" => "Web fait avec <i class='em em-cupid'></i> en utilisant <a href='creditos.php'>les technologies suivantes</a>.",
 
     //Projects
+    "projects-title" => "Mes derniers projets",
     "projects-portfolio-title" => "Site personnel - Portefeuille",
     "projects-portfolio-description-1" => "Ce même web.",
     "projects-portfolio-description-2" => "Fait avec attention en utilisant <b>HTML5, CSS, Bulma JS</b> et quelques autres librairies et utilitaires. Utilisation de <b>PHP</b> dans le <i>back-end</i> pour effectuer la traduction dans différentes langues du site.",

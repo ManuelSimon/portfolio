@@ -78,6 +78,9 @@ include "config.php";
             <!-- .hero-body -->
             <header class="hero-body center">
                 <div> <!-- Corpo -->
+
+                    <h3 class="title is-3 has-text-centered"><?php echo $lang['projects-title'] ?> <i class="em em-man-bowing"></i></h3>
+
                     <section class="section" id="things"> <!-- Things I do -->
                         <div class="columns">
 
