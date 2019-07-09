@@ -1,0 +1,158 @@
+<?php
+$lang = array(
+    //Navbar
+    "home" => "Accueil",
+    "portfolio" => "Portefeuille",
+    "cv" => "CV",
+    "about" => "Sur moi",
+    "credits" => "Crédits",
+
+    //Language selector
+    "language-selection" => "Changer de langue",
+
+    //Footer
+    "footer-1" => "<strong>Portefeuille</strong> par <b>Manuel Simón Nóvoa</b>. Le code de ce site web est sous une licence <a href='http://opensource.org/licenses/mit-license.php'>MIT</a>. Le contenu de ce site web est sous une licence <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY NC SA 4.0</a>.<br><br>",
+    "footer-2" => "Vérifiez le <a href='https://github.com/ManuelSimon/portfolio'>référentiel </a> Git public de ce projet.<br><br>",
+    "footer-3" => "Web fait avec <i class='em em-cupid'></i> en utilisant <a href='creditos.php'>les technologies suivantes</a>.",
+
+    //Projects
+    "projects-portfolio-title" => "Site personnel - Portefeuille",
+    "projects-portfolio-description-1" => "Ce même web.",
+    "projects-portfolio-description-2" => "Fait avec attention en utilisant <b>HTML5, CSS, Bulma JS</b> et quelques autres librairies et utilitaires. Utilisation de <b>PHP</b> dans le <i>back-end</i> pour effectuer la traduction dans différentes langues du site.",
+    "projects-ariseco-title" => "Analyse des risques de sécurité liés à l'utilisation de conteneurs pour HPC",
+    "projects-ariseco-description" => "Recherche effectuée pour l'achèvement de mon diplôme d’Ingénieur. Le résultat de ce travail a été l’étude des principaux vecteurs d’attaque possibles dans la structure en nuage du Centre de superinformatique de Galice (CESGA), dans l’utilisation de diverses technologies de la <b>conteneurisation</b>, ainsi qu’une série de conseils d’amélioration et de différents tests de exploitation des vulnérabilités.",
+
+    //Credits
+    "credits-title" => "Technologies qui m'ont aidé à créer ce site web :",
+    "credits-description" => "Sans les technologies suivantes, ce site Web ne pourrait pas exister. Beaucoup sont libres. Voici la liste pour sa consultation et sa accréditation méritée:",
+
+    //About me
+    "about-title" => "Ingénieur en informatique, consultant et toujours étudiant.",
+    "about-subtitle" => "Technologue et des centaines d'autres choses. Probablement maintenant je travaille sur un nouveau projet.",
+    "about-bio-1" => "<b>Salut, enchanté !</b> Je suis Manuel, un jeune qui s'intéresse chaque jour à apprendre des nouvelles choses. Diplômé en Ingénierie Informatique par la <a href='http://www.usc.gal/'>Universidade de Santiago de Compostela</a>. De temps en temps, j'écris du code, si j'ai du café. Dans mes temps libres, je crée parfois du contenu numérique, comme ce site web. Aussi, j'aime lire <i class='em em-open_book'></i>, écrire <i class='em em-writing_hand'></i>, participer à des associations technologiques <i class='fas fa-terminal'></i>, écouter de la musique <i class='em em-headphones'></i> ou jouer à des jeux vidéo <i class='em em-video_game'></i>. Un peu de tout, tant que de la créativité et de l'imagination sont impliquées.",
+    "about-bio-2" => "Fait intéressant: j'ai un grand intérêt pour la linguistique, en particulier de la galicien-portugais.",
+    "about-cv-text-1" => "Voulez-vous en savoir un peu plus sur mon expérience professionnelle ?",
+    "about-cv-text-2" => "Je vous invite alors à lire mon CV !",
+    "about-portfolio-text-1" => "Voulez-vous savoir comment sont vraiment mes projets ?",
+    "about-portfolio-text-2" => "Lisez à propos de mes projets et accédez au code dans la section portfolio :",
+    "about-interests-title" => "Mes principaux domaines d'intérêt",
+    "about-interests-text" => "Je suis une personne curieuse et j'aime apprendre différents sujets, mais ce sont les choses qui attirent vraiment mon attention :",
+    "about-interests-list-1" => "Cybersécurité",
+    "about-interests-list-2" => "Réseaux mobiles et informatiques",
+    "about-interests-list-3" => "La gestion des systèmes",
+    "about-interests-list-4" => "La gestion des réseaux",
+    "about-interests-list-5" => "La gestion des databases",
+    "about-interests-list-6" => "La conteneurisation",
+    "about-talk-title" => "Devrions-nous parler ?",
+    "about-talk-text" => "Avez-vous des questions à me poser ? Sur moi ? Sur ce web ? Pensez-vous que nous devrions boire une bière ensemble ? Si c'est le cas, je vous invite à m'écrire sur l'un de mes réseaux sociaux ou sur mon courrier électronique. Ce sera un plaisir d'avoir de vos nouvelles !",
+
+    //CV
+    "cv-title" => "Sélectionnez un mode de visualisation :",
+    "cv-subtitle" => "Pour consulter mon CV de manière plus divertissante, j'ai créé deux formes de visualisation. Les deux sont interactifs, alors essayez en cliquant et explorez leur contenu.",
+    "cv-map" => "Carte",
+    "cv-map-text" => "En essayant de comprendre un peu mieux le monde dans lequel je vis, j'ai exercé différentes activités professionnelles dans différents endroits de l'Europe. Grâce à cette version cartographiée de mon CV, il est plus facile de voir où j'étais, quand et quoi j'ai fait.",
+    "cv-chronology" => "Chronologie",
+    "cv-chronology-text" => "Voici la version chronologique de mon CV. Cliquez sur les différents éléments pour obtenir plus d'informations et apprendre un peu plus sur mes activités professionnelles et extra-professionnelles.",
+
+    "cv-timeline-title" => "Présent",
+
+    "cv-timeline-grei-title" => "Ingénierie informatique",
+    "cv-timeline-grei-start" => "Début : Septembre 2014",
+    "cv-timeline-grei-end" => "Fin : Juillet 2018",
+    "cv-timeline-grei-company" => "Universidade de Santiago de Compostela",
+    "cv-timeline-grei-place" => "Saint Jacques de Compostelle, Galice",
+
+    "cv-timeline-titor-title" => "Tuteur pour les étudiants débutants.",
+    "cv-timeline-titor-start" => "Début : Septembre 2016",
+    "cv-timeline-titor-end" => "Fin : Juillet 2017",
+    "cv-timeline-titor-company" => "Escola Técnica Superior de Engenharia (ETSE) - USC",
+    "cv-timeline-titor-place" => "Saint Jacques de Compostelle, Galice",
+    "cv-timeline-titor-description-1" => "Tutorat pour les étudiants de première année de l'ETSE.",
+    "cv-timeline-titor-description-2" => "Guide pour les étudiants de l'enseignement secondaire participant à des visites culturelles à l'Université USC.",
+
+    "cv-timeline-cesga0-title" => "Assistant de recherche",
+    "cv-timeline-cesga1-title" => "Assistant de recherche - Stage comme sysadmin",
+    "cv-timeline-cesga2-title" => "Assistant de recherche - Développement du TFG",
+    "cv-timeline-cesga1-start" => "Début : Juin 2017",
+    "cv-timeline-cesga2-start" => "Début : Mars 2018",
+    "cv-timeline-cesga1-end" => "Fin : Août 2017",
+    "cv-timeline-cesga2-end" => "Fin : Juin 2018",
+    "cv-timeline-cesga1-company" => "Centre de superinformatique de Galice (CESGA)",
+    "cv-timeline-cesga1-place" => "Saint Jacques de Compostelle, Galice",
+    "cv-timeline-cesga1-description-1" => "Participation au projet de collaboration européenne \"Mathematical Modelling, Simulation and Optimization for Societal Challenges with Scientific Computing\" (MSO4SC), promu par le programme H2020 :",
+    "cv-timeline-cesga2-description-1" => "Réalisation de mon TFG : \"Analyse des risques de sécurité liés à l'utilisation de conteneurs pour HPC\". Étude dans un environnement HPC/Cloud :",
+    "cv-timeline-cesga1-description-1-list-1" => "Configuration d'un système basé sur des conteneurs sur une structure HPC.",
+    "cv-timeline-cesga1-description-1-list-2" => "Implémentation automatisée d'applications scientifiques parallèles (MPI) sur une réseau InfiniBand.",
+    "cv-timeline-cesga1-description-1-list-3" => "Scripts pour atteindre la reproductibilité future du modèle.",
+    "cv-timeline-cesga1-description-1-list-4" => "Tests de performance.",
+    "cv-timeline-cesga1-description-1-list-5" => "Rapport de projet (en anglais).",
+    "cv-timeline-cesga1-description-2-list-1" => "Recherche.",
+    "cv-timeline-cesga1-description-2-list-2" => "Analyse des technologies de conteneurisation du point de vue de la sécurité.",
+    "cv-timeline-cesga1-description-2-list-3" => "Classification des risques.",
+    "cv-timeline-cesga1-description-2-list-4" => "Création et test dans les conteneurs Docker, Singularity et Udocker.",
+    "cv-timeline-cesga1-description-2-list-5" => "Détection et exploitation des vulnérabilités.",
+    "cv-timeline-cesga1-description-2-list-6" => "Détermination des changements à apporter : bonnes pratiques et recommandations.",
+
+    "cv-timeline-summerXperience-title" => "Deloitte Summer Xperience",
+    "cv-timeline-summerXperience-start" => "Début et Fin : Juillet 2017 (1 semaine)",
+    "cv-timeline-summerXperience-company" => "Deloitte España",
+    "cv-timeline-summerXperience-place" => "Madrid, Espagne",
+    "cv-timeline-summerXperience-description-1" => "Durée : 1 semaine. Plusieurs tests de sélection.",
+    "cv-timeline-summerXperience-description-2" => "Résolution commune d'un cas fictif présenté par Deloitte, avec des activités multidisciplinaires couvrant les différents domaines d'activité de l'entreprise. Domaines travaillées :",
+    "cv-timeline-summerXperience-description-list-1" => "Transformation digitale.",
+    "cv-timeline-summerXperience-description-list-2" => "Cybersécurité.",
+    "cv-timeline-summerXperience-description-list-3" => "Risques technologiques.",
+
+    "cv-timeline-explorer-title" => "Participant - Étudiant",
+    "cv-timeline-explorer-start" => "Début : Janvier 2018",
+    "cv-timeline-explorer-end" => "Fin : Juin 2018",
+    "cv-timeline-explorer-company" => "Explorer \"Jóvenes con ideas\"",
+    "cv-timeline-explorer-place" => "Saint Jacques de Compostelle, Galice",
+    "cv-timeline-explorer-description-1" => "Processus de création d'un MVP (Produit Minimum Viable).",
+    "cv-timeline-explorer-description-list-1" => "Conception et mise en œuvre de l'idée.",
+    "cv-timeline-explorer-description-list-2" => "Administration et gestion de petites entreprises.",
+    "cv-timeline-explorer-description-list-3" => "Marketing.",
+    "cv-timeline-explorer-description-list-4" => "Leadership.",
+    "cv-timeline-explorer-description-list-5" => "Gestion du talent humain.",
+    "cv-timeline-explorer-description-list-6" => "Design thinking.",
+    "cv-timeline-explorer-description-list-7" => "Lean startup.",
+
+    "cv-timeline-gdg-title" => "Co-organisateur",
+    "cv-timeline-gdg-start" => "Début : Février 2018",
+    "cv-timeline-gdg-company" => "Google Developers Group (GDG) Santiago",
+    "cv-timeline-gdg-place" => "Saint Jacques de Compostelle, Galice | À distance",
+    "cv-timeline-gdg-description-1" => "Qu'est-ce que sont les GDG ?",
+    "cv-timeline-gdg-description-2" => "Les Google Developers Group (GDGs) sont des entités non lucratives créées dans le but d'améliorer la communauté des passionnés des technologies et d'améliorer les connaissances et les relations entre les personnes.",
+    "cv-timeline-gdg-description-3" => "Qu'est-ce qu'on fait ?",
+    "cv-timeline-gdg-description-4" => "Nous organisons des événements, des conférences et des ateliers dans le but d'accroître les connaissances sur la technologie. De plus, la grande majorité des événements sont gratuits.",
+
+    "cv-timeline-lero-title" => "Assistant de recherche - Erasmus+ Practicum",
+    "cv-timeline-lero-start" => "Début : Août 2018 - Fin : Septembre 2018",
+    "cv-timeline-lero-company" => "Lero : The Irish Software Research Centre",
+    "cv-timeline-lero-place" => "Luimneach, Éire",
+    "cv-timeline-lero-description-1" => "Utilisation de techniques de planification des mutations et de l'IA pour la création et la détection automatiques de vulnérabilités dans un environnement en nuage.",
+    "cv-timeline-lero-description-2" => "Recherche en cybersécurité pour la construction d'un prototype de recompilation de tests adaptatifs dans le cloud.",
+
+    "cv-timeline-akkademy-title" => "Consultant international",
+    "cv-timeline-akkademy-start" => "Début : Janvier 2019 - Fin : Février 2019",
+    "cv-timeline-akkademy-company" => "The AKKAdemy (AKKA Group)",
+    "cv-timeline-akkademy-place" => "Genève, Suisse",
+    "cv-timeline-akkademy-description-1" => "Le programme international pour les nouveaux diplômés d'AKKA. Un programme pour les diplômés en Ingénieries digitales. Après 4 semaines à Genève, les participants rejoignent un projet développé par un client d'AKKA, à différents endroits, en fonction de leurs connaissances : l'Allemagne, la Belgique, la France ou les Pays-Bas.",
+
+    "cv-timeline-akka-title" => " Consultant international - Ingénieur d'études",
+    "cv-timeline-akka-start" => "Début : Février 2019",
+    "cv-timeline-akka-company" => "AKKA Technologies France",
+    "cv-timeline-akka-place" => "Paris, France",
+    "cv-timeline-akka-description-1" => "AKKA Technologies propose des solutions technologiques aux grandes entreprises des secteurs de l'automobile, de l'aérospatiale, ainsi que des sciences de la vie, des services, des télécommunications et de la défense.",
+    "cv-timeline-akka-description-2" => "Je travaille actuellement dans le secteur des télécommunications <i class='fas fa-broadcast-tower'></i>",
+
+    "cv-timeline-nokia-title" => "QA Tester - Projet chez client",
+    "cv-timeline-nokia-start" => "Début : Février 2019",
+    "cv-timeline-nokia-company" => "Nokia (Client d'AKKA)",
+    "cv-timeline-nokia-place" => "Paris, France",
+    "cv-timeline-nokia-description-1" => "Testeur d'assurance qualité chez Nokia. Testeur d'une plateforme de gestion et de contrôle de différents éléments de réseaux et de télécommunications : 3G, 4G, 5G, Wi-Fi, Flexi Zone, AirScale; appelé Nokia Network Services Platform (NSP).",
+    "cv-timeline-nokia-description-2" => "La plateforme Nokia NSP offre des services de gestion de réseau point à point avec un grand nombre d'applications, variant en fonction des configurations données par les opérateurs et les architectes de réseaux.",
+
+    "ye" => "ye"
+);
+?>

@@ -2,7 +2,7 @@
 	session_start();
 
 	if (!isset($_SESSION['lang'])) {
-        $acceptLang = ['gl', 'pt', 'en'];
+        $acceptLang = ['gl', 'pt', 'en', 'es', 'fr'];
 
         $langArray = explode(',', $_SERVER['HTTP_ACCEPT_LANGUAGE']);
         $langFinal = 'pt';
