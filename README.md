@@ -1,4 +1,6 @@
-# Portfolio - My personal website
+# Portfolio - My personal website3
+
+## https://manuel.gal
 
 > **WARNING**: This brach is related to the **BACK-END** of this project. Anything else must be checked at the master brach. Ty!
 
@@ -9,6 +11,19 @@
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 In order to transform my static mono-language style into a web app that allows multi-language I used PHP at the back-ground. Here I'll explain some basics about how I did this.
+
+<hr>
+
+### Deployment
+
+This is **now** a PHP project. The easiest way to get it working at your local machine is just launch the built-in server PHP includes in its latest versions:
+
+```bash
+cd path/to/the/app
+php -S localhost:8000
+```
+
+Then, access it with your favorite browser.
 
 <hr>
 
