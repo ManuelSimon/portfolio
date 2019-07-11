@@ -68,3 +68,8 @@ p.iconas {
     margin-right: 22px;
     z-index: 9;
 }
+
+.oneline {
+    overflow: hidden;
+    white-space: nowrap;
+}

@@ -58,7 +58,7 @@ include "config.php";
                     </div>
 
                     <!-- Navbar -->
-                    <div class="column center">
+                    <div class="column center oneline">
                         <a href="index.php"><p class="navbar-item "><?php echo $lang['home'] ?></p></a>
                         <a href="portefolio.php"><p class="navbar-item "><?php echo $lang['portfolio'] ?></p></a>
                         <a href="cv.php"><p class="navbar-item "><?php echo $lang['cv'] ?></p></a>
