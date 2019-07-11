@@ -124,7 +124,7 @@
         "cv-timeline-explorer-description-list-6" => "Design thinking.",
         "cv-timeline-explorer-description-list-7" => "Lean startup.",
 
-        "cv-timeline-gdg-title" => "Co-organizator",
+        "cv-timeline-gdg-title" => "Co-organizer",
         "cv-timeline-gdg-start" => "Start: February 2018",
         "cv-timeline-gdg-company" => "Google Developers Group (GDG) Santiago",
         "cv-timeline-gdg-place" => "Santiago de Compostela, Galiza | Remote",
