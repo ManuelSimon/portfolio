@@ -30,7 +30,7 @@ $lang = array(
     //404
     "404-title" => "Zut !",
     "404-subtitle" => "Vous ne devrez pas être ici ! Malheureusement, cette page n'est pas disponible.",
-    "404-button" => "Retour au accueil.",
+    "404-button" => "Retour au accueil",
     "404-extra" => "Pensez-vous vraiment que cette page devrait être accessible ? Donc, contactez-moi pour résoudre ce problème.",
 
     //About me
