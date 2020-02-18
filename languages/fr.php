@@ -2,56 +2,55 @@
 $lang = array(
     //Navbar
     "home" => "Accueil",
-    "portfolio" => "Portefeuille",
+    "portfolio" => "Portfolio",
     "cv" => "CV",
-    "about" => "Sur moi",
+    "about" => "À propos",
     "credits" => "Crédits",
 
     //Language selector
     "language-selection" => "Changer de langue",
 
     //Footer
-    "footer-1" => "<strong>Portefeuille</strong> par <b>Manuel Simón Nóvoa</b>. Le code de ce site web est sous une licence <a href='http://opensource.org/licenses/mit-license.php'>MIT</a>. Le contenu de ce site web est sous une licence <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY NC SA 4.0</a>.<br><br>",
-    "footer-2" => "Vérifiez le <a href='https://github.com/ManuelSimon/portfolio'>référentiel </a> Git public de ce projet.<br><br>",
-    "footer-3" => "Web fait avec <i class='em em-cupid'></i> en utilisant <a href='creditos.php'>les technologies suivantes</a>.",
+    "footer-1" => "<strong>Portfolio</strong> de <b>Manuel Simón Nóvoa</b>. Le code source est sous licence <a href='http://opensource.org/licenses/mit-license.php'>MIT</a>. Le contenu du site est sous licence <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY NC SA 4.0</a>.<br><br>",
+    "footer-2" => "Consultez le <a href='https://github.com/ManuelSimon/portfolio'>référentiel</a> GitHub public de ce projet.<br><br>",
+    "footer-3" => "Site Web développé avec <i class='em em-cupid'></i> en utilisant <a href='creditos.php'>les technologies suivantes</a>.",
 
     //Projects
     "projects-title" => "Mes derniers projets",
-    "projects-portfolio-title" => "Site personnel - Portefeuille",
-    "projects-portfolio-description-1" => "Ce même web.",
-    "projects-portfolio-description-2" => "Fait avec attention en utilisant <b>HTML5, CSS, Bulma JS</b> et quelques autres librairies et utilitaires. Utilisation de <b>PHP</b> dans le <i>back-end</i> pour effectuer la traduction dans différentes langues du site.",
+    "projects-portfolio-title" => "Site personnel - Portfolio",
+    "projects-portfolio-description-1" => "Ce site web !",
+    "projects-portfolio-description-2" => "Développé en utilisant <b>HTML5, CSS, Bulma JS</b> et quelques autres utilitaires. Utilisation de <b>PHP</b> en <i>back-end</i> pour développer la traduction en plusieurs langues du site.",
     "projects-ariseco-title" => "Analyse des risques de sécurité liés à l'utilisation de conteneurs pour HPC",
-    "projects-ariseco-description" => "Recherche effectuée pour l'achèvement de mon diplôme d’Ingénieur. Le résultat de ce travail a été l’étude des principaux vecteurs d’attaque possibles dans la structure en nuage du Centre de superinformatique de Galice (CESGA), dans l’utilisation de diverses technologies de la <b>conteneurisation</b>, ainsi qu’une série de conseils d’amélioration et de différents tests de exploitation des vulnérabilités.",
+    "projects-ariseco-description" => "Recherche effectuée pour l'achèvement de mon diplôme d’Ingénieur. Le résultat de ce travail a été l’étude des principaux vecteurs d’attaque possibles dans la structure en nuage du Centre de Superinformatique de Galice (CESGA), à travers l’utilisation de diverses technologies de la <b>conteneurisation</b>; ainsi qu’une série de conseils d’amélioration et divers tests de exploitation des vulnérabilités.",
 
     //Credits
     "credits-title" => "Technologies qui m'ont aidé à créer ce site web :",
-    "credits-description" => "Sans les technologies suivantes, ce site Web ne pourrait pas exister. Beaucoup sont libres. Voici la liste pour sa consultation et sa accréditation méritée:",
+    "credits-description" => "Sans les technologies suivantes, ce site ne pourrait pas exister. Voici la liste pour sa consultation et sa méritée accréditation :",
 
     //404
     "404-title" => "Zut !",
     "404-subtitle" => "Vous ne devrez pas être ici ! Malheureusement, cette page n'est pas disponible.",
     "404-button" => "Retour au accueil.",
-    "404-extra" => "Pensez-vous vraiment que cette page devrait être accessible ? Alors, s'il vous plaît, contactez-moi pour résoudre ce problème.",
+    "404-extra" => "Pensez-vous vraiment que cette page devrait être accessible ? Donc, contactez-moi pour résoudre ce problème.",
 
     //About me
-    "about-title" => "Ingénieur en informatique, consultant et toujours étudiant.",
-    "about-subtitle" => "Technologue et des centaines d'autres choses. Probablement maintenant je travaille sur un nouveau projet.",
-    "about-bio-1" => "<b>Salut, enchanté !</b> Je suis Manuel, un jeune qui s'intéresse chaque jour à apprendre des nouvelles choses. Diplômé en Ingénierie Informatique par la <a href='http://www.usc.gal/'>Universidade de Santiago de Compostela</a>. De temps en temps, j'écris du code, si j'ai du café. Dans mes temps libres, je crée parfois du contenu numérique, comme ce site web. Aussi, j'aime lire <i class='em em-open_book'></i>, écrire <i class='em em-writing_hand'></i>, participer à des associations technologiques <i class='fas fa-terminal'></i>, écouter de la musique <i class='em em-headphones'></i> ou jouer à des jeux vidéo <i class='em em-video_game'></i>. Un peu de tout, tant que de la créativité et de l'imagination sont impliquées.",
-    "about-bio-2" => "Fait intéressant: j'ai un grand intérêt pour la linguistique, en particulier de la galicien-portugais.",
-    "about-cv-text-1" => "Voulez-vous en savoir un peu plus sur mon expérience professionnelle ?",
+    "about-title" => "Ingénieur en informatique, consultant et étudiant.",
+    "about-subtitle" => "Technologue et beaucoup plus de choses. J'essaie d'apprendre continuellement et de m'impliquer dans de nouveaux projets.",
+    "about-bio-1" => "<b>Salut, enchanté !</b> Je suis Manuel, un jeune qui s'intéresse chaque jour à apprendre des nouvelles choses. Diplômé en Ingénierie Informatique par la <a href='http://www.usc.gal/'>Universidade de Santiago de Compostela</a>. En plus de l'informatique, j'aime lire <i class='em em-open_book'></i>, écrire <i class='em em-writing_hand'></i>, participer à des associations technologiques <i class='fas fa-terminal'></i>, écouter de la musique <i class='em em-headphones'></i>, apprendre les langues et la linguistique <i class='em em-tongue'></i> ou jouer à des jeux vidéo <i class='em em-video_game'></i>. Un peu de tout, tant que la créativité et l'imagination sont impliquées.",
+    "about-cv-text-1" => "Voulez-vous en savoir un peu plus sur mon parcours professionnel ?",
     "about-cv-text-2" => "Je vous invite alors à lire mon CV !",
     "about-portfolio-text-1" => "Voulez-vous savoir comment sont vraiment mes projets ?",
     "about-portfolio-text-2" => "Lisez à propos de mes projets et accédez au code dans la section portfolio :",
     "about-interests-title" => "Mes principaux domaines d'intérêt",
-    "about-interests-text" => "Je suis une personne curieuse et j'aime apprendre différents sujets, mais ce sont les choses qui attirent vraiment mon attention :",
+    "about-interests-text" => "Je suis une personne curieuse et j'aime me renseigner sur différents sujets, mais ce sont les choses qui attirent le plus mon attention:",
     "about-interests-list-1" => "Cybersécurité",
     "about-interests-list-2" => "Réseaux mobiles et informatiques",
-    "about-interests-list-3" => "La gestion des systèmes",
-    "about-interests-list-4" => "La gestion des réseaux",
-    "about-interests-list-5" => "La gestion des databases",
-    "about-interests-list-6" => "La conteneurisation",
+    "about-interests-list-3" => "Gestion des systèmes",
+    "about-interests-list-4" => "Gestion des réseaux",
+    "about-interests-list-5" => "Gestion des bases de données",
+    "about-interests-list-6" => "Conteneurisation",
     "about-talk-title" => "Devrions-nous parler ?",
-    "about-talk-text" => "Avez-vous des questions à me poser ? Sur moi ? Sur ce web ? Pensez-vous que nous devrions boire une bière ensemble ? Si c'est le cas, je vous invite à m'écrire sur l'un de mes réseaux sociaux ou sur mon courrier électronique. Ce sera un plaisir d'avoir de vos nouvelles !",
+    "about-talk-text" => "Avez-vous des questions à me poser ? Sur moi ? Sur ce web ? Pensez-vous que nous devrions boire un café ensemble ? Si c'est le cas, je vous invite à m'écrire sur l'un de mes réseaux sociaux ou sur mon e-mail. Ce sera un plaisir d'avoir de vos nouvelles !",
 
     //CV
     "cv-title" => "Sélectionnez un mode de visualisation :",

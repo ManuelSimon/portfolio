@@ -13,31 +13,30 @@
         //Footer
         "footer-1" => "<strong>Portfolio</strong> by <b>Manuel Simón Nóvoa</b>. The source code is licensed <a href='http://opensource.org/licenses/mit-license.php'>MIT</a>. The website content is licensed <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY NC SA 4.0</a>.<br><br>",
         "footer-2" => "Check the public GitHub <a href='https://github.com/ManuelSimon/portfolio'>repo</a> of this project.<br><br>",
-        "footer-3" => "Website developed with <i class='em em-cupid'></i> making use of <a href='creditos.php'>the following tecnhologies</a>.",
+        "footer-3" => "Website developed with <i class='em em-cupid'></i> making use of <a href='creditos.php'>the following technologies</a>.",
 
         //Projects
-        "projects-title" => "My last projects",
+        "projects-title" => "My lastest projects",
         "projects-portfolio-title" => "Personal website - Portfolio",
-        "projects-portfolio-description-1" => "This website.",
-        "projects-portfolio-description-2" => "Done with love with <b>HTML5, CSS, Bulma JS</b> and some others libraries and utilities. Use of <b>PHP</b> at the <i>back-end</i> to develop the translation into multiple languages of the site.",
+        "projects-portfolio-description-1" => "This website!",
+        "projects-portfolio-description-2" => "Developed with love making use of <b>HTML5, CSS, Bulma JS</b> and some others utilities. Use of <b>PHP</b> at the <i>back-end</i> to develop the translation into multiple languages of the site.",
         "projects-ariseco-title" => "Analysis of security risks in the use of containers for HPC",
-        "projects-ariseco-description" => "Research carried out for the accomplishment of my Final Year Dissertation (TFG). This research work resulted in a detailed study of the main possible attack vectors in the cloud structure of the Supercomputing Centre of Galicia (CESGA), with the use of multiple <b>containerization</b> technologies, as well as some advices of improvement and different exploitation tests.",
+        "projects-ariseco-description" => "Research carried out for the accomplishment of my Final Year Dissertation (TFG). This <b>research</b> work resulted in a detailed study of the main possible attack vectors that may affect the cloud structure of the Supercomputing Centre of Galicia (CESGA). For this, I made use of multiple <b>containerization</b> technologies, obtaining as result some advices of improvement and different exploitation tests.",
 
         //Credits
-        "credits-title" => "Technologies that helped me to create this site:",
-        "credits-description" => "Without the following technologies, this site could not exist as it is. Many of them are free. Here it is the list of them for consultation and well-deserved accreditation:",
+        "credits-title" => "Technologies that allowed me to create this site:",
+        "credits-description" => "Without the following technologies, this site could not exist as it is. Here it is the list of them for consultation and well-deserved accreditation:",
 
         //404
         "404-title" => "Wut!?",
         "404-subtitle" => "You should not be here! Unfortunately, this page is not accessible at this moment.",
         "404-button" => "Come back home",
-        "404-extra" => "Do you really think this page should be accessible? Then, contact me, so I can fix this bug, please.",
+        "404-extra" => "Do you really think this page should be accessible? Then, please, contact me, so I can fix this bug.",
 
         //About me
-        "about-title" => "Computer Science Engineer, consultant and always-student.",
-        "about-subtitle" => "Technologist and one hundred more things. Probably, I am working on a new project right now.",
-        "about-bio-1" => "<b>Hey, nice to meet you!</b> This is Manuel, a youth with strong interest on learn new things day-a-day. Graduated in Computer Science Engineering by the <a href='http://www.usc.gal/'>Universidade de Santiago de Compostela</a>. From time to time, I write code, if I have some coffe. At my free time, sometimes, I create digital content, as this website. Also, I like to read <i class='em em-open_book'></i>, write <i class='em em-writing_hand'></i>, participate at technological associations <i class='fas fa-terminal'></i>, listen to music <i class='em em-headphones'></i> or play videogames <i class='em em-video_game'></i>. A bit of everything, while creativity and imagination get involved.",
-        "about-bio-2" => "An interesting fact: I have great curiosity about linguistics, especially about the galician-portuguese one.",
+        "about-title" => "Computer Science Engineer, consultant and student.",
+        "about-subtitle" => "Technologist and one hundred more things. I try to learn continuously and get involved in new projects.",
+        "about-bio-1" => "<b>Hey, nice to meet you!</b> This is Manuel, a youth with strong interest on learn new things day-a-day. Graduated in Computer Science Engineering by the <a href='http://www.usc.gal/'>Universidade de Santiago de Compostela</a>. Besides technology, I am also interested in reading <i class='em em-open_book'></i>, writing <i class='em em-writing_hand'></i>, participating at technological associations <i class='fas fa-terminal'></i>, listening to music <i class='em em-headphones'></i>, learning languages and linguistics <i class='em em-tongue'></i> or playing videogames <i class='em em-video_game'></i>. A bit of everything, while creativity and imagination get involved.",
         "about-cv-text-1" => "Wanna know a little bit about my professional experience till the moment?",
         "about-cv-text-2" => "Check my CV here!",
         "about-portfolio-text-1" => "Wanna know how actually are some of my projects?",
@@ -51,7 +50,7 @@
         "about-interests-list-5" => "Database administration (DBA)",
         "about-interests-list-6" => "Containerization",
         "about-talk-title" => "Should we be talking?",
-        "about-talk-text" => "Have you got any doubt about me? About this website? Do you think we should be drinking a beer together? If so, write me a message to any of my social networks, or e-mail. It will be a pleasure have news from you!",
+        "about-talk-text" => "Have you got any doubt about me? About this website? Do you think we should be drinking a beer together? If so, write me a message to any of my social networks, or my e-mail. It will be a pleasure to have news from you!",
 
         //CV
         "cv-title" => "Select a visualization mode:",

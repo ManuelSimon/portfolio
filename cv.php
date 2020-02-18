@@ -48,7 +48,7 @@ include "config.php";
                     <option value="?lang=en">English</option>
                     <option value="?lang=es">Español</option>
                     <option value="?lang=fr">Français</option>
-                    <option value="?lang=pt">Português da Galiza (Galego)</option>
+                    <option value="?lang=pt">Português (Galego AGAL)</option>
                 </select>
             </div>
             <span class="icon is-medium is-left">

@@ -11,39 +11,38 @@ $lang = array(
     "language-selection" => "Cambiar idioma",
 
     //Footer
-    "footer-1" => "<strong>Portfolio</strong> por <b>Manuel Simón Nóvoa</b>. El código de esta web está bajo una licencia <a href='http://opensource.org/licenses/mit-license.php'>MIT</a>. El contenido de esta web está bajo una licencia <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY NC SA 4.0</a>.<br><br>",
+    "footer-1" => "<strong>Portfolio</strong> por <b>Manuel Simón Nóvoa</b>. El código de esta web se encuentra bajo una licencia <a href='http://opensource.org/licenses/mit-license.php'>MIT</a>. El contenido de esta web se encuentra bajo una licencia <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY NC SA 4.0</a>.<br><br>",
     "footer-2" => "Consulta el <a href='https://github.com/ManuelSimon/portfolio'>repositorio</a> Git público de este proyecto.<br><br>",
-    "footer-3" => "Web hecha con <i class='em em-cupid'></i> usando <a href='creditos.php'>las siguientes tecnologías</a>.",
+    "footer-3" => "Web hecha con <i class='em em-cupid'></i> empleando <a href='creditos.php'>las siguientes tecnologías</a>.",
 
     //Projects
     "projects-title" => "Mis últimos proyectos",
     "projects-portfolio-title" => "Página web personal - Portfolio",
-    "projects-portfolio-description-1" => "Esta misma web.",
-    "projects-portfolio-description-2" => "Hecha con cariño usando <b>HTML5, CSS, Bulma JS</b> y alguna que otra libraría y utilidad. Uso de <b>PHP</b> en el <i>back-end</i> para realizar la traducción en diversos idiomas de la web.",
+    "projects-portfolio-description-1" => "¡Esta misma web!",
+    "projects-portfolio-description-2" => "Hecha con cariño utilizando <b>HTML5, CSS, Bulma JS</b> y alguna que otra utilidad. Uso de <b>PHP</b> en el <i>back-end</i> para realizar la traducción en diversos idiomas de la web.",
     "projects-ariseco-title" => "Análisis de riesgos de seguridad en el uso de contenedores para HPC",
     "projects-ariseco-description" => "Investigación llevada a cabo para la realización de mi Trabajo de Fin Grado (TFG). Este <b>trabajo de intestigación</b> tuvo como resultado un estudio en detalle de los principales posibles vectores de ataque en la estructura <i>cloud</i> del Centro de Supercomputación de Galicia (CESGA), en el uso de diversas tecnologías de <b>contenedorización</b>, así como una serie de consejos de mejora y diferentes pruebas de explotación de vulnerabilidades.",
 
     //Credits
-    "credits-title" => "Tecnologías que me ayudaron a crear esta web:",
-    "credits-description" => "Sin las siguientes tecnologías, esta web simplemente no podría existir tal y como es. Muchas de ellas son libres. Aquí está el listado de las mismas para su consulta y merecida acreditación:",
+    "credits-title" => "Tecnologías que me ayudaron en la creación de esta web:",
+    "credits-description" => "Sin las siguientes tecnologías, esta web simplemente no podría existir tal y como es. Aquí está el listado para su consulta y merecida acreditación:",
 
     //404
-    "404-title" => "¡Diablos!",
-    "404-subtitle" => "¡Tú no deberías estar aquí! Desgraciadamente, esta página no está disponible.",
+    "404-title" => "¡Oh, no!",
+    "404-subtitle" => "¡Creo que no deberías estar aquí! Desgraciadamente, esta página no está disponible.",
     "404-button" => "Volver al inicio",
-    "404-extra" => "¿De verdad crees que esta página debería estar accesible? Entonces, contacta conmigo para que solucione este problema, por favor.",
+    "404-extra" => "¿De verdad crees que esta página debería ser accesible? Entonces, contacta conmigo para que pueda solucionar este problema, por favor.",
 
     //About me
-    "about-title" => "Ingeniero informático, consultor y siempre estudiante.",
-    "about-subtitle" => "Tecnólogo y cientas de cosas más. Probablemente, ahora estoy trabajando en un nuevo proyecto.",
-    "about-bio-1" => "<b>¡Hola, encantado de conocerte!</b> Soy Manuel, un joven con gran interés en aprender cosas nuevas a diario. Graduado en Ingeniería Informática por la <a href='http://www.usc.gal/'>Universidade de Santiago de Compostela</a>. De vez en cuando, escribo código, si es que tengo café. En mi tiempo libre, a veces, creo contenido digital, como esta web. Además, me gusta leer <i class='em em-open_book'></i>, escribir <i class='em em-writing_hand'></i>, participar en asociaciones de ámbito tecnológico <i class='fas fa-terminal'></i>, escuchar música <i class='em em-headphones'></i> o jugar a videojuegos <i class='em em-video_game'></i>. Un poco de todo, mientras la creatividad y la imaginación jueguen su papel.",
-    "about-bio-2" => "Un dato interesante: Tengo gran interés por la lingüística, especialmente por la gallego-portuguesa.",
+    "about-title" => "Ingeniero informático, consultor y estudiante.",
+    "about-subtitle" => "Tecnólogo y muchas más cosas. Intento aprender continuamente e involucrarme en nuevos proyectos.",
+    "about-bio-1" => "<b>¡Hola, encantado de conocerte!</b> Soy Manuel, un joven con gran interés en aprender cosas nuevas día a día. Graduado en Ingeniería Informática por la <a href='http://www.usc.gal/'>Universidade de Santiago de Compostela</a>. Además de la informática, también me gusta leer <i class='em em-open_book'></i>, escribir <i class='em em-writing_hand'></i>, participar en asociaciones de ámbito tecnológico <i class='fas fa-terminal'></i>, escuchar música <i class='em em-headphones'></i>, aprender lenguas y la lingüística <i class='em em-tongue'></i> o jugar a videojuegos <i class='em em-video_game'></i>. Un poco de todo, mientras la creatividad y la imaginación jueguen su papel.",
     "about-cv-text-1" => "¿Quieres saber un poco acerca de mi experiencia profesional hasta el momento?",
     "about-cv-text-2" => "¡Te invito a leer mi CV!",
-    "about-portfolio-text-1" => "¿Quieres saber como realmente son algunos de mis proyectos?",
+    "about-portfolio-text-1" => "¿Quieres saber cómo son realmente algunos de mis proyectos?",
     "about-portfolio-text-2" => "Lee más sobre ellos y accede a su código en la sección de portfolio:",
     "about-interests-title" => "Mis principales áreas de interés",
-    "about-interests-text" => "Soy una persona curiosa y me gusta aprender diversos temas, pero estas son las cosas que realmente llaman mi atención:",
+    "about-interests-text" => "Soy una persona curiosa y me gusta aprender sobre temas diferentes, pero estas son las cosas que más llaman mi atención:",
     "about-interests-list-1" => "Seguridad de las TIC",
     "about-interests-list-2" => "Redes móviles y de computadores",
     "about-interests-list-3" => "Administración de sistemas",
@@ -51,7 +50,7 @@ $lang = array(
     "about-interests-list-5" => "Administración de bases de datos",
     "about-interests-list-6" => "Contenedorización",
     "about-talk-title" => "¿Deberíamos estar hablando?",
-    "about-talk-text" => "¿Tienes alguna pregunta que hacerme? ¿Sobre mí? ¿Sobre esta web? ¿Piensas que deberíamos estar bebiendo una cerveza juntos? Si es así, te invito a escribirme a cualquiera de mis redes sociales, o a mi correo electrónico. ¡Será un placer recibir noticias tuyas!",
+    "about-talk-text" => "¿Tienes alguna pregunta que hacerme? ¿Sobre mí? ¿Sobre esta web? ¿Piensas que deberíamos estar bebiendo un café juntos? Si es así, te invito a escribirme a cualquiera de mis redes sociales, o a mi correo electrónico. ¡Será un placer recibir noticias tuyas!",
 
     //CV
     "cv-title" => "Selecciona un modo de visualización:",

@@ -11,39 +11,38 @@ $lang = array(
     "language-selection" => "Mudar idioma",
 
     //Footer
-    "footer-1" => "<strong>Portefólio</strong> por <b>Manuel Simón Nóvoa</b>. O código deste sítio web fica sob uma licença <a href='http://opensource.org/licenses/mit-license.php'>MIT</a>. O contido deste sítio web fica sob uma licença <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY NC SA 4.0</a>.<br><br>",
+    "footer-1" => "<strong>Portefólio</strong> por <b>Manuel Simón Nóvoa</b>. O código deste sítio web fica sob uma licença <a href='http://opensource.org/licenses/mit-license.php'>MIT</a>. O conteúdo deste sítio web fica sob uma licença <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY NC SA 4.0</a>.<br><br>",
     "footer-2" => "Consulta o <a href='https://github.com/ManuelSimon/portfolio'>repositório</a> Git público deste projeto.<br><br>",
     "footer-3" => "Sítio feito com  <i class='em em-cupid'></i> empregando <a href='creditos.php'>as seguintes tecnologias</a>.",
 
     //Projects
     "projects-title" => "As minhas últimas trasnadas",
     "projects-portfolio-title" => "Sítio web persoal - Portefólio",
-    "projects-portfolio-description-1" => "Este mesmo sítio web.",
-    "projects-portfolio-description-2" => "Feito com gíria e jeito com <b>HTML5, CSS, Bulma JS</b> e alguma que outra livraria e utilidade. Uso de <b>PHP</b> no <i>back-end</i> para a desenvolver a tradução em múltiplas línguas do sítio web.",
+    "projects-portfolio-description-1" => "Este mesmo sítio web!",
+    "projects-portfolio-description-2" => "Feito com gíria e jeito empregando <b>HTML5, CSS, Bulma JS</b> e alguma que outra utilidade. Uso de <b>PHP</b> no <i>back-end</i> para desenvolver a tradução em diversas línguas do sítio web.",
     "projects-ariseco-title" => "Análise de riscos de segurança no uso de contentores para HPC",
     "projects-ariseco-description" => "Pesquisa levada a cabo para a realização do meu Trabalho de Fim de Grau (TFG). Este <b>trabalho de pesquisa</b> tivo como resultado um estudo em detalhe dos principais possíveis vetores de ataque na estrutura <i>cloud</i> do Centro de Supercomputação da Galiza (CESGA), no uso de diversas tecnologias de <b>contentorização</b>, assim como conselhos de melhora e diferentes provas de exploração.",
 
     //Credits
     "credits-title" => "Tecnologias que permitiram o desenvolvimento deste sítio web:",
-    "credits-description" => "Sem a utilização das seguintes tecnologias, este sítio web simplesmente não poderia existir tal como é. Muitas delas são livres. Velaqui o listado das mesmas para a sua consulta e merecida acreditação:",
+    "credits-description" => "Sem a utilização das seguintes tecnologias, este sítio web simplesmente não poderia existir tal como é. Eis aqui o listado das mesmas para a sua consulta e merecida acreditação:",
 
     //404
     "404-title" => "Cornos!",
-    "404-subtitle" => "Não deverias estar cá! Infelizmente, esta página não está disponível.",
+    "404-subtitle" => "Não deverias estar aqui! Infelizmente, esta página não está disponível.",
     "404-button" => "Voltar ao início",
-    "404-extra" => "Realmente crês que esta página deveria ser acessível? Então, contacta comigo para que solucione esta falha, se fás favor.",
+    "404-extra" => "Realmente crês que esta página deveria ser acessível? Então, contacta comigo para que solucione esta falha, por favor.",
 
     //About me
-    "about-title" => "Engenheiro Informático, cosultor e sempre estudante.",
+    "about-title" => "Engenheiro Informático, cosultor e estudante.",
     "about-subtitle" => "Tecnólogo e mil centas cousas mais. Provavelmente agora estou a fedelhar num novo projeto.",
-    "about-bio-1" => "<b>Olá, encantado de conhecer-te!</b> Sou Manuel, um moço com grande vontade de aprender coisas novas dia a dia. Graduado em Engenharia Informática pela <a href='http://www.usc.gal/'>Universidade de Santiago de Compostela</a>. De quando em quando, escrevo código, se tiver café. No meu tempo livre, às vezes, crio contido digital, como esta web. Também gosto de ler <i class='em em-open_book'></i>, escrever <i class='em em-writing_hand'></i>, participar em associações tecnológicas <i class='fas fa-terminal'></i>, escutar música <i class='em em-headphones'></i> ou jogar videojogos <i class='em em-video_game'></i>. Um pouco de tudo, enquanto a criatividade e a imaginação fiquem por médio.",
-    "about-bio-2" => "Dado de interesse: tenho grande curiosidade pela linguística, especialmente a galego-portuguesa.",
+    "about-bio-1" => "<b>Olá, encantado de te conhecer!</b> Sou Manuel, um rapaz com grande vontade de aprender cousas novas dia a dia. Graduado em Engenharia Informática pola <a href='http://www.usc.gal/'>Universidade de Santiago de Compostela</a>. Além da informática, também gosto de ler <i class='em em-open_book'></i>, escrever <i class='em em-writing_hand'></i>, participar em associações tecnológicas <i class='fas fa-terminal'></i>, escuitar música <i class='em em-headphones'></i>, aprender línguas e a linguística <i class='em em-tongue'></i> ou jogar videojogos <i class='em em-video_game'></i>. Um pouco de tudo, enquanto a criatividade e a imaginação fiquem por médio.",
     "about-cv-text-1" => "Queres conhecer um bocado acerca da minha experiência profissional até o momento?",
     "about-cv-text-2" => "Convido-te então a leres o meu CV!",
     "about-portfolio-text-1" => "Curiosidade em conhecer como são realmente alguns dos meus projetos?",
     "about-portfolio-text-2" => "Lê sobre eles e acessa ao seu código na secção do portefólio:",
     "about-interests-title" => "As minhas principais áreas de interesse",
-    "about-interests-text" => "Sou uma pessoa curiosa e adoro aprender de muitas coisas, mas estas são as que realmente apaixono:",
+    "about-interests-text" => "Sou uma pessoa curiosa e adoro aprender de muitas cousas, mas estas são as que realmente apaixono:",
     "about-interests-list-1" => "Segurança das TIC",
     "about-interests-list-2" => "Redes móveis e de computadores",
     "about-interests-list-3" => "Administração de sistemas",
@@ -51,7 +50,7 @@ $lang = array(
     "about-interests-list-5" => "Administração de bases de dados",
     "about-interests-list-6" => "Contentorização",
     "about-talk-title" => "Deveríamos estar a falar?",
-    "about-talk-text" => "Tens alguma dúvida sobre mim? Sobre esta web? Crês que deveríamos estar a beber uma cervejinha juntos? Se é assim, convido-te a escreveres-me uma mensagem a qualquer das minhas redes sociais, ou correio eletrónico. Será um prazer ter novas de ti!",
+    "about-talk-text" => "Tens alguma dúvida sobre mim? Sobre esta web? Crês que deveríamos estar a beber um cafezinho juntos? De ser assim, convido-te a escreveres uma mensagem para qualquer das minhas redes sociais, ou correio eletrónico. Será um prazer ter novas de ti!",
 
     //CV
     "cv-title" => "Escolhe um modo de visualização:",
