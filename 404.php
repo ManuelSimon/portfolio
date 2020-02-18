@@ -2,25 +2,28 @@
 include "config.php";
 ?>
 
+<!-- NOTA IMPORTANTE -->
+<!-- Remover o / inicial nos hrefs de querer empregar o sítio numa máquina local. A ruta atual é para ser lida desde a raiz do servidor. -->
+
 <!DOCTYPE html>
 <html>
 <head>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="/normalize.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Manuel Simón Nóvoa</title>
-    <link rel="stylesheet" href="css/bulma.css">
-    <link rel="stylesheet" href="css/bulma.min.css">
-    <link rel="stylesheet" href="css/emoji.css">
-    <link href="css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bulma.css">
+    <link rel="stylesheet" href="/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/emoji.css">
+    <link href="/css/all.css" rel="stylesheet">
     <script src="js/simple-typing-carousel.js"></script>
-    <!-- <link rel="stylesheet" href="styles/debug.css"> -->
-    <link rel="stylesheet" href="styles/helpers.css">
-    <link rel="stylesheet" href="styles/grid.css">
+    <!-- <link rel="stylesheet" href="/styles/debug.css"> -->
+    <link rel="stylesheet" href="/styles/helpers.css">
+    <link rel="stylesheet" href="/styles/grid.css">
 </head>
 
 <body>
@@ -45,7 +48,7 @@ include "config.php";
 
             <section class="section">
                 <div class="has-text-centered">
-                    <a href="index.php" class="button is-dark is-outlined is-large title">
+                    <a href="/index.php" class="button is-dark is-outlined is-large title">
                         <?php echo $lang['404-button'] ?>
                     </a>
                 </div>
