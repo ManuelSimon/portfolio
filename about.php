@@ -96,9 +96,6 @@ include "config.php";
                     <section class="section" id="bio"> <!-- Bio -->
                         <div class="container">
                             <p><?php echo $lang['about-bio-1'] ?></p>
-
-                            <p><?php echo $lang['about-bio-2'] ?></p>
-
                         </div>
                     </section>
 
