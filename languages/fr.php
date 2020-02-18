@@ -25,7 +25,7 @@ $lang = array(
     "projects-ariseco-description-2" => "Ce projet a poursuivi les travaux de recherche précédents, cette fois avec un accent particulier sur la cybersécurité.",
     "projects-paper-title" => "Évaluation et benchmarking des conteneurs MPI Singulary sur les infrastructures de recherche de l'UE",
     "projects-paper-description" => "Pendant mon premier stage chez le Centre de Superinformatique de Galice (CESGA), ma tâche principale était la création d'une solution à base de conteneurs, efficace, portable et flexible pour un développement rapide sur une infrastructure HPC (<i>High Performance Computing</i>).",
-    "projects-paper-description-2" => "Grâce au travail développé par l'équipe dont je faisais partie, nous avons pu publier ce qui serait mon premier <i>paper</i>: <i>Evaluation and Benchmarking of Singularity MPI Containers on EU Research e-Infrastructures</i></b>, présenté à la conférence <i>SC19: The International Conference for High Performance Computing, Networking, Storage, and Analysis</i>.",
+    "projects-paper-description-2" => "Grâce au travail développé par l'équipe dont je faisais partie, nous avons pu <b>publier ce qui serait mon premier <i>paper</i>: <i>Evaluation and Benchmarking of Singularity MPI Containers on EU Research e-Infrastructures</i></b>, présenté à la conférence <i>SC19: The International Conference for High Performance Computing, Networking, Storage, and Analysis</i>.",
 
     //Credits
     "credits-title" => "Technologies qui m'ont aidé à créer ce site web :",

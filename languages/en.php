@@ -26,7 +26,7 @@
 
         "projects-paper-title" => "Evaluation and Benchmarking of Singularity MPI containers on EU Research e-Infrastructure",
         "projects-paper-description" => "During my first collaboration at the Supercomputing Centre of Galicia (CESGA), my main task was to create a container-based system configuration on an HPC (High Performance Computing) infrastructure.",
-        "projects-paper-description-2" => "Thanks to the work developed by the team I was part of, we achieved to publish my first paper: <i>Evaluation and Benchmarking of Singularity MPI Containers on EU Research e-Infrastructures</i></b>, presented at the <i>SC19: The International Conference for High Performance Computing, Networking, Storage, and Analysis</i>.",
+        "projects-paper-description-2" => "Thanks to the work developed by the team I was part of, we achieved <b>to publish my first paper: <i>Evaluation and Benchmarking of Singularity MPI Containers on EU Research e-Infrastructures</i></b>, presented at the <i>SC19: The International Conference for High Performance Computing, Networking, Storage, and Analysis</i>.",
 
         //Credits
         "credits-title" => "Technologies that allowed me to create this site:",
