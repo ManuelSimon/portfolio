@@ -22,6 +22,10 @@ $lang = array(
     "projects-portfolio-description-2" => "Hecha con cariño utilizando <b>HTML5, CSS, Bulma JS</b> y alguna que otra utilidad. Uso de <b>PHP</b> en el <i>back-end</i> para realizar la traducción en diversos idiomas de la web.",
     "projects-ariseco-title" => "Análisis de riesgos de seguridad en el uso de contenedores para HPC",
     "projects-ariseco-description" => "Investigación llevada a cabo para la realización de mi Trabajo de Fin Grado (TFG). Este <b>trabajo de intestigación</b> tuvo como resultado un estudio en detalle de los principales posibles vectores de ataque en la estructura <i>cloud</i> del Centro de Supercomputación de Galicia (CESGA), en el uso de diversas tecnologías de <b>contenedorización</b>, así como una serie de consejos de mejora y diferentes pruebas de explotación de vulnerabilidades.",
+    "projects-ariseco-description-2" => "Este trabajo ampliaría la primera parte de investigación, teniendo ahora un foco especial en la parte de ciberseguridad.",
+    "projects-paper-title" => "Evaluación y benchmarking de contenedores MPI Singularity en infraestructuras de investigación de la UE",
+    "projects-paper-description" => "Durante mi primera estancia en el Centro de Supercomputación de Galicia (CESGA), mi tarea principal consistió en la creación de una solución basada en contenedores, eficaz, portable y flexible para un desarrollo rápido sobre una infraestructura HPC (<i>High Performance Computing</i>).",
+    "projects-paper-description-2" => "Gracias al trabajo realizado por el equipo del que formaba parte, conseguimos publicar el que sería mi primer <i>paper</i>: <i>Evaluation and Benchmarking of Singularity MPI Containers on EU Research e-Infrastructures</i></b>, presentado en la <i>SC19: The International Conference for High Performance Computing, Networking, Storage, and Analysis</i>.",
 
     //Credits
     "credits-title" => "Tecnologías que me ayudaron en la creación de esta web:",

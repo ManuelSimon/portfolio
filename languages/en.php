@@ -22,6 +22,11 @@
         "projects-portfolio-description-2" => "Developed with love making use of <b>HTML5, CSS, Bulma JS</b> and some others utilities. Use of <b>PHP</b> at the <i>back-end</i> to develop the translation into multiple languages of the site.",
         "projects-ariseco-title" => "Analysis of security risks in the use of containers for HPC",
         "projects-ariseco-description" => "Research carried out for the accomplishment of my Final Year Dissertation (TFG). This <b>research</b> work resulted in a detailed study of the main possible attack vectors that may affect the cloud structure of the Supercomputing Centre of Galicia (CESGA). For this, I made use of multiple <b>containerization</b> technologies, obtaining as result some advices of improvement and different exploitation tests.",
+        "projects-ariseco-description-2" => "This project continued the previous research work, this time with a special focus on the cybersecurity side.",
+
+        "projects-paper-title" => "Evaluation and Benchmarking of Singularity MPI containers on EU Research e-Infrastructure",
+        "projects-paper-description" => "During my first collaboration at the Supercomputing Centre of Galicia (CESGA), my main task was to create a container-based system configuration on an HPC (High Performance Computing) infrastructure.",
+        "projects-paper-description-2" => "Thanks to the work developed by the team I was part of, we achieved to publish my first paper: <i>Evaluation and Benchmarking of Singularity MPI Containers on EU Research e-Infrastructures</i></b>, presented at the <i>SC19: The International Conference for High Performance Computing, Networking, Storage, and Analysis</i>.",
 
         //Credits
         "credits-title" => "Technologies that allowed me to create this site:",

@@ -114,11 +114,33 @@ include "config.php";
                                     <div class="card-content">
                                         <div class="content">
                                             <p><?php echo $lang['projects-ariseco-description'] ?></p>
+                                            <p><?php echo $lang['projects-ariseco-description-2'] ?></p>
                                         </div>
                                     </div>
                                     <footer class="card-footer">
                                         <a href="https://github.com/ManuelSimon/ARiSeCo" class="iconas card-footer-item"><i class="fab fa-2x fa-github"></i></a>
                                         <p class="iconas card-footer-item"> <i class="fas fa-shield-alt"></i>  <i class="fas fa-box"></i> <i class="fab fa-docker"></i> <i class="fas fa-network-wired"></i> <i class="fas fa-terminal"></i> <i class="fas fa-server"></i>  <i class="fas fa-book"></i></p>
+                                    </footer>
+                                </div>
+                            </div>
+                            
+                            <div class="column">
+                                <div class="card">
+                                    <header class="card-header">
+                                        <p class="card-header-title">
+                                            <?php echo $lang['projects-paper-title'] ?>
+                                        </p>
+                                    </header>
+                                    <div class="card-content">
+                                        <div class="content">
+                                            <p><?php echo $lang['projects-paper-description'] ?></p>
+                                            <p><?php echo $lang['projects-paper-description-2'] ?></p>
+                                        </div>
+                                    </div>
+                                    <footer class="card-footer">
+                                        <a href="https://conferences.computer.org/sc19w/2019/#!/toc/0" class="iconas card-footer-item"><i class="fas fa-2x fa-external-link-alt"></i></a>
+                                        <a href="docs/paperNovoa.pdf" class="iconas card-footer-item"><i class="fas fa-2x fa-file-download"></i></a>
+                                        <p class="iconas card-footer-item"> <i class="fas fa-box"></i> <i class="fab fa-docker"></i> <i class="fas fa-network-wired"></i> <i class="fas fa-terminal"></i> <i class="fas fa-server"></i>  <i class="fas fa-book"></i></p>
                                     </footer>
                                 </div>
                             </div>
