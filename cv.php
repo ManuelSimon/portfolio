@@ -281,7 +281,7 @@ include "config.php";
                                     <p><?php echo $lang['cv-timeline-nokia-description-2'] ?></p>
 
                                 </div>
-                                <div class="column is-fullheight imagem" style="background-image: url('images/nsp.png')">
+                                <div class="column is-fullheight imagem" style="background-image: url('images/NSP.PNG')">
                                 </div>
                             </div>
 
