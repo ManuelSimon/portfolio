@@ -103,16 +103,6 @@ $lang = array(
     "cv-timeline-cesga1-description-2-list-5" => "Detección y explotación de vulnerabilidades.",
     "cv-timeline-cesga1-description-2-list-6" => "Determinación de cambios a realizar: buenas prácticas y recomendaciones.",
 
-    "cv-timeline-summerXperience-title" => "Deloitte Summer Xperience",
-    "cv-timeline-summerXperience-start" => "Comienzo y Fin: Julio 2017 (1 semana)",
-    "cv-timeline-summerXperience-company" => "Deloitte España",
-    "cv-timeline-summerXperience-place" => "Madrid, España",
-    "cv-timeline-summerXperience-description-1" => "Duración: 1 semana. Realización de varias pruebas de selección.",
-    "cv-timeline-summerXperience-description-2" => "Resolución conjunta de un caso ficticio presentado por Deloitte, con actividades multidisciplinares que abarcaban las diferentes áreas de negocio de la empresa. Áreas trabajadas:",
-    "cv-timeline-summerXperience-description-list-1" => "Transformación digital.",
-    "cv-timeline-summerXperience-description-list-2" => "Ciberseguridad.",
-    "cv-timeline-summerXperience-description-list-3" => "Riesgos tecnológicos.",
-
     "cv-timeline-explorer-title" => "Participante - Estudiante",
     "cv-timeline-explorer-start" => "Comienzo: Enero 2018",
     "cv-timeline-explorer-end" => "Fin: Junio 2018",

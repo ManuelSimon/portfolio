@@ -28,10 +28,6 @@ L.marker([42.873175, -8.5602546]).addTo(map)
 L.marker([42.873005, -8.5609546]).addTo(map)
 		.bindPopup(' <center> <p class="heading">02/2018 - ?</p> <b> <p>Co-organizer</p> <p class="is-size-7">GDG Santiago</p> </b> <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p> <a href="#gdg" class="button is-link is-outlined is-small title">More info.</a> </center>');
 
-//Summer Xperience
-L.marker([40.4521491, -3.9846449]).addTo(map)
-		.bindPopup(' <center> <p class="heading">07/2017 - 07/2017 (1 week)</p> <b> <p>Participant</p> <p class="is-size-7">Deloitte Summer Xperience</p> </b> <p class="is-size-7 has-text-weight-light">Madrid, Spain</p> <a href="#xperience" class="button is-link is-outlined is-small title">More info.</a> </center>');
-
 //Lero
 L.marker([52.6745111, -8.5772411]).addTo(map)
 		.bindPopup(' <center> <p class="heading">08/2018 - 09/2018</p> <b> <p>Research assistant</p> <p class="is-size-7">Lero | The Irish Software Research Centre</p> </b> <p class="is-size-7 has-text-weight-light">Luimneach, Éire</p> <a href="#lero" class="button is-link is-outlined is-small title">More info.</a> </center>');

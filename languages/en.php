@@ -104,16 +104,6 @@
         "cv-timeline-cesga1-description-2-list-5" => "Vulnerabilities detection and exploitation.",
         "cv-timeline-cesga1-description-2-list-6" => "Determination of changes to be made: good practices and recommendations.",
 
-        "cv-timeline-summerXperience-title" => "Deloitte Summer Xperience",
-        "cv-timeline-summerXperience-start" => "Start and End: July 2017 (1 week)",
-        "cv-timeline-summerXperience-company" => "Deloitte España",
-        "cv-timeline-summerXperience-place" => "Madrid, Spain",
-        "cv-timeline-summerXperience-description-1" => "Duration: 1 week. After carrying out multiple selection tests.",
-        "cv-timeline-summerXperience-description-2" => "Joint resolution of a fictitious case raised by Deloitte through multidisciplinary activities that contemplated different business areas of the company. Areas covered:",
-        "cv-timeline-summerXperience-description-list-1" => "Digital transformation.",
-        "cv-timeline-summerXperience-description-list-2" => "Cybersecurity.",
-        "cv-timeline-summerXperience-description-list-3" => "Technological risks.",
-
         "cv-timeline-explorer-title" => "Participant - Student",
         "cv-timeline-explorer-start" => "Start: January 2018",
         "cv-timeline-explorer-end" => "End: June 2018",

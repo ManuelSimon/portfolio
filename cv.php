@@ -102,34 +102,6 @@ include "config.php";
             <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalCESGA')"></button>
         </div>
 
-        <div class="modal" id="modalXperience">
-            <div onclick="refs.close('modalXperience')" class="modal-background"></div>
-            <div class="modal-content" style="width: 85%">
-                <section class="hero has-background-white-bis is-fullheight-with-navbar">
-                    <div class="hero-body">
-                        <div class="container is-fluid">
-
-                            <div class="columns">
-                                <div class="column" id="bio">
-                                    <h1 class="title is-size-1"><?php echo $lang['cv-timeline-summerXperience-title'] ?></h1>
-                                    <h2 class="subtitle is-size-4"><?php echo $lang['cv-timeline-summerXperience-company'] ?></h2>
-                                    <p><?php echo $lang['cv-timeline-summerXperience-description-1'] ?></p>
-                                    <p><?php echo $lang['cv-timeline-summerXperience-description-2'] ?></p>
-                                    <li><?php echo $lang['cv-timeline-summerXperience-description-list-1'] ?></li>
-                                    <li><?php echo $lang['cv-timeline-summerXperience-description-list-2'] ?></li>
-                                    <li><?php echo $lang['cv-timeline-summerXperience-description-list-3'] ?></li>
-                                </div>
-                                <div class="column is-fullheight imagem" style="background-image: url('images/xperience.jpg')">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalXperience')"></button>
-        </div>
-
         <div class="modal" id="modalLero">
             <div onclick="refs.close('modalLero')" class="modal-background"></div>
             <div class="modal-content" style="width: 85%">
@@ -555,20 +527,6 @@ include "config.php";
                                         <p><?php echo $lang['cv-timeline-cesga1-title'] ?></p>
                                         <p class="is-size-7"><?php echo $lang['cv-timeline-cesga1-company'] ?></p>
                                         <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-cesga1-place'] ?></p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="timeline-item" id="xperience">
-                                <div class="timeline-marker is-image is-48x48">
-                                    <img src="images/deloitte.jpg">
-                                </div>
-                                <a class="ye">
-                                    <div class="timeline-content" onclick="refs.open('modalXperience')">
-                                        <p class="heading"><?php echo $lang['cv-timeline-summerXperience-start'] ?></p>
-                                        <p><?php echo $lang['cv-timeline-summerXperience-title'] ?></p>
-                                        <p class="is-size-7"><?php echo $lang['cv-timeline-summerXperience-company'] ?></p>
-                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-summerXperience-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
