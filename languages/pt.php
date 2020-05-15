@@ -20,12 +20,18 @@ $lang = array(
     "projects-portfolio-title" => "Sítio web persoal - Portefólio",
     "projects-portfolio-description-1" => "Este mesmo sítio web!",
     "projects-portfolio-description-2" => "Feito com gíria e jeito empregando <b>HTML5, CSS, Bulma JS</b> e alguma que outra utilidade. Uso de <b>PHP</b> no <i>back-end</i> para desenvolver a tradução em diversas línguas do sítio web.",
+    
     "projects-ariseco-title" => "Análise de riscos de segurança no uso de contentores para HPC",
     "projects-ariseco-description" => "Pesquisa levada a cabo para a realização do meu Trabalho de Fim de Grau (TFG). Este <b>trabalho de pesquisa</b> tivo como resultado um estudo em detalhe dos principais possíveis vetores de ataque na estrutura <i>cloud</i> do Centro de Supercomputação da Galiza (CESGA), no uso de diversas tecnologias de <b>contentorização</b>, assim como conselhos de melhora e diferentes provas de exploração.",
     "projects-ariseco-description-2" => "Este trabalho ampliaria a minha primeira pesquisa, agora realizando um foco especial na parte da cibersegurança.",
+    
     "projects-paper-title" => "Avaliação e benchmarking de contentores MPI Singularity em infraestruturas de pesquisa da UE",
     "projects-paper-description" => "Durante a minha primeira estadia no Centro de Supercomputação da Galiza (CESGA), a minha tarefa principal consistia na criação duma solução baseada em contentores, eficaz, portável e flexível para um desenvolvimento rápido sobre uma infraestrutura HPC (<i>High Performance Computing</i>).",
     "projects-paper-description-2" => "Graças ao trabalho desenvolvido pola equipa da que fazia parte, conseguimos <b>publicar o que seria o meu primeiro <i>paper</i>: <i>Evaluation and Benchmarking of Singularity MPI Containers on EU Research e-Infrastructures</i></b>, apresentado na <i>SC19: The International Conference for High Performance Computing, Networking, Storage, and Analysis</i>.",
+    
+    "projects-IDwebapp-title" => "IDwebapp - Aplicação web para a gestião dum pequeno sistema empresarial",
+    "projects-IDwebapp-description" => "Aplicação web para a gestião dum pequeno sistema empresarial, fazendo uso do <b>controle de acesso baseado em funções (RBAC)</b> que posui o contentor de aplicações Apache Tomcat, junto com o uso de <b>Java Authentication and Authorization Services (JAAS)</b>.",
+    "projects-IDwebapp-description-2" => "O trabalho inclui documentação, assim como uma vídeo demostração e uma vídeo explicação do código programado.",
     
     
     //Credits

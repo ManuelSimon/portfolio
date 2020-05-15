@@ -123,6 +123,9 @@ include "config.php";
                                     </footer>
                                 </div>
                             </div>
+                        </div>
+                        
+                        <div class="columns">
                             
                             <div class="column">
                                 <div class="card">
@@ -144,7 +147,29 @@ include "config.php";
                                     </footer>
                                 </div>
                             </div>
+                            
+                            <div class="column">
+                                <div class="card">
+                                    <header class="card-header">
+                                        <p class="card-header-title">
+                                            <?php echo $lang['projects-IDwebapp-title'] ?>
+                                        </p>
+                                    </header>
+                                    <div class="card-content">
+                                        <div class="content">
+                                            <p><?php echo $lang['projects-IDwebapp-description'] ?></p>
+                                            <p><?php echo $lang['projects-IDwebapp-description-2'] ?></p>
+                                        </div>
+                                    </div>
+                                    <footer class="card-footer">
+                                        <a href="https://github.com/ManuelSimon/IDwebapp" class="iconas card-footer-item"><i class="fab fa-2x fa-github"></i></a>
+                                        <p class="iconas card-footer-item"> <i class="fas fa-file-code"></i> <i class="fab fa-java"></i> <i class="fas fa-shield-alt"></i>  </p>
+                                    </footer>
+                                </div>
+                            </div>
+                            
                         </div>
+                        
                     </section>
                 </div>
 
