@@ -30,7 +30,7 @@ $lang = array(
     "projects-paper-description-2" => "Grâce au travail développé par l'équipe dont je faisais partie, nous avons pu <b>publier ce qui serait mon premier <i>paper</i>: <i>Evaluation and Benchmarking of Singularity MPI Containers on EU Research e-Infrastructures</i></b>, présenté à la conférence <i>SC19: The International Conference for High Performance Computing, Networking, Storage, and Analysis</i>.",
 
     "projects-IDwebapp-title" => "IDwebapp - Application web pour la gestion d'un petit système d'affaires",
-    "projects-IDwebapp-description" => "Application web pour la gestion d'un petit système d'affaires, en utilisant du <b>contrôle d'accès basé sur les rôles</b> qui c'est disponible sûr le conteneur d'applications web Apache Tomcat et l'utilisation de <b>Java Authentication and Authorization Services (JAAS)</b>.",
+    "projects-IDwebapp-description" => "Application web pour la gestion d'un petit système d'affaires, en utilisant du <b>contrôle d'accès basé sur les rôles (RBAC)</b> qui c'est disponible sûr le conteneur d'applications web Apache Tomcat et de <b>Java Authentication and Authorization Services (JAAS)</b>.",
     "projects-IDwebapp-description-2" => "Le projet comprend documentation, aussi bien qu'une vidéo démo et une vidéo explication du code programmé.",
     
     //Credits
