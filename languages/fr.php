@@ -63,12 +63,16 @@ $lang = array(
     "about-talk-text" => "Avez-vous des questions à me poser ? Sur moi ? Sur ce web ? Pensez-vous que nous devrions boire un café ensemble ? Si c'est le cas, je vous invite à m'écrire sur l'un de mes réseaux sociaux ou sur mon e-mail. Ce sera un plaisir d'avoir de vos nouvelles !",
 
     //CV
-    "cv-title" => "Sélectionnez un mode de visualisation :",
-    "cv-subtitle" => "Pour consulter mon CV de manière plus divertissante, j'ai créé deux formes de visualisation. Les deux sont interactifs, alors essayez en cliquant et explorez leur contenu.",
+    "cv-title" => "Un regard sur mon expérience professionnelle :",
+    "cv-subtitle" => "Pour consulter mon CV, vous pouvez sélectionner la version classique, au format PDF, ou tester les versions interactives sur le site, ce qui élargit un peu plus les informations. Essayez de parcourir les différentes options et cliquez sur leur contenu.",
     "cv-map" => "Carte",
     "cv-map-text" => "En essayant de comprendre un peu mieux le monde dans lequel je vis, j'ai exercé différentes activités professionnelles dans différents endroits de l'Europe. Grâce à cette version cartographiée de mon CV, il est plus facile de voir où j'étais, quand et quoi j'ai fait.",
     "cv-chronology" => "Chronologie",
-    "cv-chronology-text" => "Voici la version chronologique de mon CV. Cliquez sur les différents éléments pour obtenir plus d'informations et apprendre un peu plus sur mes activités professionnelles et extra-professionnelles.",
+    "cv-chronology-text" => "Voici la version chronologique de mon CV. Cliquez sur les différents éléments pour obtenir plus d'informations et apprendre un peu plus sur mes activités professionnelles et extraprofessionnelles.",
+    "cv-pdf" => "Version classique",
+    "cv-pdf-text" => "La version classique du CV, au format PDF, sur une seule page et avec toutes les informations pertinentes.",
+    "cv-pdf-button" => "Télécharger",
+    "cv-pdf-link" => "/docs/CVmsnovoaGAL.pdf",
 
     "cv-timeline-title" => "Présent",
 
@@ -139,25 +143,28 @@ $lang = array(
     "cv-timeline-lero-description-1" => "Utilisation de techniques de planification des mutations et de l'IA pour la création et la détection automatiques de vulnérabilités dans un environnement en nuage.",
     "cv-timeline-lero-description-2" => "Recherche en cybersécurité pour la construction d'un prototype de recompilation de tests adaptatifs dans le cloud.",
 
-    "cv-timeline-akkademy-title" => "Consultant international",
-    "cv-timeline-akkademy-start" => "Début : Janvier 2019 - Fin : Février 2019",
-    "cv-timeline-akkademy-company" => "The AKKAdemy (AKKA Group)",
-    "cv-timeline-akkademy-place" => "Genève, Suisse",
-    "cv-timeline-akkademy-description-1" => "Le programme international pour les nouveaux diplômés d'AKKA. Un programme pour les diplômés en Ingénieries digitales. Après 4 semaines à Genève, les participants rejoignent un projet développé par un client d'AKKA, à différents endroits, en fonction de leurs connaissances : l'Allemagne, la Belgique, la France ou les Pays-Bas.",
-
-    "cv-timeline-akka-title" => " Consultant international - Ingénieur d'études",
+    "cv-timeline-akka-title" => "Consultant international - Ingénieur d'études",
     "cv-timeline-akka-start" => "Début : Février 2019",
-    "cv-timeline-akka-company" => "AKKA Technologies France",
-    "cv-timeline-akka-place" => "Paris, France",
-    "cv-timeline-akka-description-1" => "AKKA Technologies propose des solutions technologiques aux grandes entreprises des secteurs de l'automobile, de l'aérospatiale, ainsi que des sciences de la vie, des services, des télécommunications et de la défense.",
-    "cv-timeline-akka-description-2" => "Je travaille actuellement dans le secteur des télécommunications <i class='fas fa-broadcast-tower'></i>",
+    "cv-timeline-akka-end" => "Fin: Mai 2020",
+    "cv-timeline-akka-company" => "AKKA Technologies",
+    "cv-timeline-akka-place" => "Genève, Suisse - Paris, France",
+    "cv-timeline-akka-description-1" => "Tout d'abord, j'ai participé au programme international pour diplômés promu par AKKA, The AKKAdemy, axé sur les jeunes ayant des études en ingénieries liées au monde digital. Après 4 semaines à Genève, j'ai rejoint un projet développé par un client d'AKKA, en France",
+    "cv-timeline-akka-description-2" => "AKKA Technologies propose des solutions technologiques aux grandes entreprises des secteurs de l'automobile, de l'aérospatiale, ainsi que des sciences de la vie, des services, des télécommunications et de la défense.",
+    "cv-timeline-akka-description-3" => "Je travaille actuellement dans le secteur des télécommunications <i class='fas fa-broadcast-tower'></i>",
 
     "cv-timeline-nokia-title" => "QA Tester - Projet chez client",
     "cv-timeline-nokia-start" => "Début : Février 2019",
+    "cv-timeline-nokia-end" => "Fin: Mai 2020",
     "cv-timeline-nokia-company" => "Nokia (Client d'AKKA)",
     "cv-timeline-nokia-place" => "Paris, France",
-    "cv-timeline-nokia-description-1" => "Testeur d'assurance qualité chez Nokia. Testeur d'une plateforme de gestion et de contrôle de différents éléments de réseaux et de télécommunications : 3G, 4G, 5G, Wi-Fi, Flexi Zone, AirScale; appelé Nokia Network Services Platform (NSP).",
+    "cv-timeline-nokia-description-1" => "Testeur d'assurance qualité chez Nokia. Testeur d'une plateforme de gestion et de contrôle de différents éléments de réseaux et de télécommunications : 3G, 4G, 5G, Wi-Fi, Flexi Zone, AirScale; appelée Nokia Network Services Platform (NSP).",
     "cv-timeline-nokia-description-2" => "La plateforme Nokia NSP offre des services de gestion de réseau point à point avec un grand nombre d'applications, variant en fonction des configurations données par les opérateurs et les architectes de réseaux.",
+
+    "cv-timeline-uoc-title" => "Master en Sécurité des TIC",
+    "cv-timeline-uoc-start" => "Début : Setembro 2019",
+    "cv-timeline-uoc-other" => "Spécialité en Sécurité des Réseaux et des Systèmes",
+    "cv-timeline-uoc-company" => "Universitat Oberta de Catalunya",
+    "cv-timeline-uoc-place" => "À distance - Temps partiel",
 
     "ye" => "ye"
 );

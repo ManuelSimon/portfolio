@@ -64,12 +64,16 @@ $lang = array(
     "about-talk-text" => "Tens alguma dúvida sobre mim? Sobre esta web? Crês que deveríamos estar a beber um cafezinho juntos? De ser assim, convido-te a escreveres uma mensagem para qualquer das minhas redes sociais, ou correio eletrónico. Será um prazer ter novas de ti!",
 
     //CV
-    "cv-title" => "Escolhe um modo de visualização:",
-    "cv-subtitle" => "Para consultares o meu CV dum modo mais jeitoso e entretido, criei duas opções de visualização. Ambas são interativas, portanto, move-te sobre elas e prova a clicares a cachão.",
+    "cv-title" => "Uma olhada à minha experiência profissional:",
+    "cv-subtitle" => "Para consultares o meu CV, podes selecionar a versão clássica em PDF, ou testar as versões interativas dentro do sítio web, que ampliam um pouco mais as informações. Prova a navegar sobre as diferentes opções e clicar sobre os seus conteúdos.",
     "cv-map" => "Mapa",
-    "cv-map-text" => "Tentando compreender um chisquinho mais sobre o mundo no que vivo, desenvolvim distintas lavores profissionais em diversos sítios da Europa. Graças a esta versão mapeada do meu CV resulta doado mirar onde estivem, em que momento e a fazer o quê.",
+    "cv-map-text" => "Tentando compreender um bocadinho mais sobre o mundo no que vivo, desenvolvim distintos lavores profissionais em diversos sítios da Europa. Graças a esta versão mapeada do meu CV, resulta singelo mirar onde estivem, em que momento e a fazer o quê.",
     "cv-chronology" => "Cronologia",
-    "cv-chronology-text" => "Esta é uma versão cronológica do meu CV. Fai clique nos distintos elementos para obteres mais informação e aperceberes melhor as minhas diferentes experiências laborais e extra-laborais.",
+    "cv-chronology-text" => "Esta é uma versão cronológica do meu CV. Fai clique nos distintos elementos para obteres mais informação e aperceberes melhor as minhas diferentes experiências laborais e extralaborais.",
+    "cv-pdf" => "Versão clássica",
+    "cv-pdf-text" => "A versão clássica do CV em PDF, numa página e com todas as informações destacadas.",
+    "cv-pdf-button" => "Baixar",
+    "cv-pdf-link" => "/docs/CVmsnovoaGAL.pdf",
 
     "cv-timeline-title" => "Presente",
 
@@ -140,26 +144,29 @@ $lang = array(
     "cv-timeline-lero-description-1" => "Utilização de técnicas de mutação e planificação IA, para a criação e deteção automatizadas de vulnerabilidades num entorno baseado na nuvem.",
     "cv-timeline-lero-description-2" => "Pesquisa em cibersegurança para a construção dum prototipo para a recompilação de probas adaptativas na nuvem.",
 
-    "cv-timeline-akkademy-title" => "Consultor internacional",
-    "cv-timeline-akkademy-start" => "Começo: Janeiro 2019 - Fim: Febreiro 2019",
-    "cv-timeline-akkademy-company" => "The AKKAdemy (AKKA Group)",
-    "cv-timeline-akkademy-place" => "Genebra, Suiça",
-    "cv-timeline-akkademy-description-1" => "O programa internacional para licenciados de AKKA. Um programa para licenciados em estudos de engenharias digitais. Depois de completar 4 semanas em Genebra, os participantes unirão-se a um projeto desenvolvido por algum cliente de AKKA, em diferentes localizações dependendo dos seus conhecimentos, na Alemanha, a Bélgica, a França ou os Países Baixos.",
-
     "cv-timeline-akka-title" => "Consultor internacional - Ingénieur d'études",
-    "cv-timeline-akka-start" => "Começo: Febreiro 2019",
-    "cv-timeline-akka-company" => "AKKA Technologies France",
-    "cv-timeline-akka-place" => "Paris, França",
-    "cv-timeline-akka-description-1" => "A AKKA fornece soluções tecnológicas para empresas líderes nos setores automotivo, aeroespacial e ferroviário, bem como nas ciências da vida, serviços, telecomunicações e defesa, permitindo-lhes melhorar os seus processos de inovação, a sua produtividade e a sua eficiência ao projetar novos produtos ou processos.",
-    "cv-timeline-akka-description-2" => "Atualmente trabalho como consultor no setor das telecomunicações <i class='fas fa-broadcast-tower'></i>",
+    "cv-timeline-akka-start" => "Começo: Fevereiro 2019",
+    "cv-timeline-akka-end" => "Fim: Maio 2020",
+    "cv-timeline-akka-company" => "AKKA Technologies",
+    "cv-timeline-akka-place" => "Genebra, Suiça - Paris, França",
+    "cv-timeline-akka-description-1" => "Primeiramente, participei no programa internacional para graduados promovido pola AKKA, <i>The AKKAdemy</i>, focado em jovens com estudos em engenharias digitais. Depois de completar 4 semanas em Genebra, unim-me a um projeto desenvolvido por um cliente da AKKA, na França.",
+    "cv-timeline-akka-description-2" => "A AKKA fornece soluções tecnológicas para empresas líderes nos setores automotivo, aeroespacial e ferroviário, bem como nas ciências da vida, serviços, telecomunicações e defesa, permitindo-lhes melhorar os seus processos de inovação, a sua produtividade e a sua eficiência ao projetar novos produtos ou processos.",
+    "cv-timeline-akka-description-3" => "Trabalhei como consultor no setor das telecomunicações <i class='fas fa-broadcast-tower'></i>",
 
     "cv-timeline-nokia-title" => "QA Tester - Projeto em cliente",
     "cv-timeline-nokia-start" => "Começo: Febreiro 2019",
+    "cv-timeline-nokia-end" => "Fim: Maio 2020",
     "cv-timeline-nokia-company" => "Nokia (Cliente da AKKA)",
     "cv-timeline-nokia-place" => "Paris, França",
     "cv-timeline-nokia-description-1" => "QA Tester na Nokia. Tester duma plataforma de gestão e control de diferentes elementos das redes e telecomunicações: 3G, 4G, 5G, Wi-Fi, Flexi Zone, AirScale; chamada Nokia Network Services Platform (NSP).",
     "cv-timeline-nokia-description-2" => "A NSP da Nokia é uma plataforma de serviços de gestão de rede fim-a-fim com uma infinidade de aplicativos, variando dependendo das configuração dos operadores e arquitetos de rede.",
 
+    "cv-timeline-uoc-title" => "Mestrado em Segurança das TIC",
+    "cv-timeline-uoc-start" => "Começo: Setembro 2019",
+    "cv-timeline-uoc-other" => "Especialidade em Segurança em Redes e Sistemas",
+    "cv-timeline-uoc-company" => "Universitat Oberta de Catalunya",
+    "cv-timeline-uoc-place" => "A distância - Meio período",
+    
     "ye" => "ye"
 );
 ?>

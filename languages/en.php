@@ -63,12 +63,16 @@
         "about-talk-text" => "Have you got any doubt about me? About this website? Do you think we should be drinking a beer together? If so, write me a message to any of my social networks, or my e-mail. It will be a pleasure to have news from you!",
 
         //CV
-        "cv-title" => "Select a visualization mode:",
-        "cv-subtitle" => "To check my CV in a more entertained way, I've created two visualization modes. Both of them are interactive, so, move around and try to click over them.",
+        "cv-title" => "A look at my professional experience:",
+        "cv-subtitle" => "To check my CV, you can select the classic PDF version, or test the interactive versions available at this website, that expand the information a little more. Try to navigate through the different options and click on them.",
         "cv-map" => "Map",
         "cv-map-text" => "Trying to achieve a little more of comprehension of the world I am living in, I've developed some different professional activities at multiple places abroad Europe. Thanks to this mapped version of my CV, it is easy to check where I was, when I was and doing what.",
         "cv-chronology" => "Chronology",
         "cv-chronology-text" => "This is a chronological version of my CV. Click on the different elements to obtain more information and learn a little about my professional and extra-professional experiences.",
+        "cv-pdf" => "Classic version",
+        "cv-pdf-text" => "A classic version of my CV in PDF, it all in one page with the highlighted informations.",
+        "cv-pdf-button" => "Download",
+        "cv-pdf-link" => "/docs/CVmsnovoaGAL.pdf",
 
         "cv-timeline-title" => "Present",
 
@@ -139,25 +143,28 @@
         "cv-timeline-lero-description-1" => "Application of mutation techniques mixed with AI planning for the automatic creation and detection of vulnerabilities in a cloud environment.",
         "cv-timeline-lero-description-2" => "Cybersecurity research for the building of a prototype for adaptive evidence collection in the cloud.",
 
-        "cv-timeline-akkademy-title" => "International consultant",
-        "cv-timeline-akkademy-start" => "Start: January 2019 - End: February 2019",
-        "cv-timeline-akkademy-company" => "The AKKAdemy (AKKA Group)",
-        "cv-timeline-akkademy-place" => "Geneva, Switzerland",
-        "cv-timeline-akkademy-description-1" => "The international program for AKKA graduates. A program for graduates in digital engineering studies. After completing 4 weeks in Geneva, participants will join a project developed by an AKKA customer in different locations depending on their expertise in Germany, Belgium, France or the Netherlands.",
-
         "cv-timeline-akka-title" => "International consultant - Ingénieur d'études",
         "cv-timeline-akka-start" => "Start: February 2019",
-        "cv-timeline-akka-company" => "AKKA Technologies France",
-        "cv-timeline-akka-place" => "Paris, France",
-        "cv-timeline-akka-description-1" => "AKKA provides technological solutions to leading companies in the automotive, aerospace and rail sectors, as well as in the life sciences, services, telecommunications and defense, enabling them to improve their innovation processes, their productivity and their efficiency when designing new products or processes, right through to the industrial production phase. We deliver cross-sector and transnational solutions, in-depth expertise in the technologies of the future (AI, ADAS, IoT, Big Data, robotics, embedded computing, machine learning, etc.).",
-        "cv-timeline-akka-description-2" => "Currently working at telecom sector <i class='fas fa-broadcast-tower'></i>",
+        "cv-timeline-akka-end" => "End: May 2020",
+        "cv-timeline-akka-company" => "AKKA Technologies",
+        "cv-timeline-akka-place" => "Geneva, Switzerland - Paris, France",
+        "cv-timeline-akka-description-1" => "Firstly, I participated at the international graduated program for digital engineers by AKKA, <i>The AKKAdemy</i>, focus on youth people with studies in digital engineerings. After complete 4 weeks at Geneva, I joined a project developed by an AKKA costumer, at France.",
+        "cv-timeline-akka-description-2" => "AKKA provides technological solutions to leading companies in the automotive, aerospace and rail sectors, as well as in the life sciences, services, telecommunications and defense, enabling them to improve their innovation processes, their productivity and their efficiency when designing new products or processes, right through to the industrial production phase. We deliver cross-sector and transnational solutions, in-depth expertise in the technologies of the future (AI, ADAS, IoT, Big Data, robotics, embedded computing, machine learning, etc.).",
+        "cv-timeline-akka-description-3" => "My working area was the telecom sector <i class='fas fa-broadcast-tower'></i>",
 
         "cv-timeline-nokia-title" => "QA Tester - Project at client's side",
         "cv-timeline-nokia-start" => "Start: February 2019",
+        "cv-timeline-nokia-end" => "End: May 2020",
         "cv-timeline-nokia-company" => "Nokia (AKKA's client)",
         "cv-timeline-nokia-place" => "Paris, France",
         "cv-timeline-nokia-description-1" => "QA Tester at Nokia. Tester of a management platform for the control of different network elements: 3G, 4G, 5G, Wi-Fi, Flexi Zone, AirScale. The name of this platform is Nokia Network Services Platform (NSP).",
         "cv-timeline-nokia-description-2" => "Nokia NSP is an end-to-end network management services platform with a multitude of applications, varying depending on the configuration of network operators and architects.",
+
+        "cv-timeline-uoc-title" => "Master's degree in ICT Security",
+        "cv-timeline-uoc-start" => "Start: September 2019",
+        "cv-timeline-uoc-other" => "Specialty in Systems and Networks Security",
+        "cv-timeline-uoc-company" => "Universitat Oberta de Catalunya",
+        "cv-timeline-uoc-place" => "Distance learning - Part-time studies",
 
         "ye" => "ye"
 	);

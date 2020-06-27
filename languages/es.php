@@ -63,12 +63,16 @@ $lang = array(
     "about-talk-text" => "¿Tienes alguna pregunta que hacerme? ¿Sobre mí? ¿Sobre esta web? ¿Piensas que deberíamos estar bebiendo un café juntos? Si es así, te invito a escribirme a cualquiera de mis redes sociales, o a mi correo electrónico. ¡Será un placer recibir noticias tuyas!",
 
     //CV
-    "cv-title" => "Selecciona un modo de visualización:",
-    "cv-subtitle" => "Para consultar mi CV de un modo más entretenido, he creado dos formas de visualización. Ambas son interactivas, así que prueba a clickar sobre ellas y explorar su contenido.",
+    "cv-title" => "Un vistazo a mi recorrido profesional:",
+    "cv-subtitle" => "Para consultar mi CV, puedes seleccionar la versión clásica en PDF, o probar las versiones interactivas dentro de esta web, que amplían un poco más las informaciones. Prueba a navegar sobre las diferentes opciones y clickar en sus contenidos.",
     "cv-map" => "Mapa",
     "cv-map-text" => "Intentando comprender un poco mejor el mundo en el que vivo, he realizado diferentes actividades profesionales en diversos lugares de Europa. Gracias a esta versión mapeada de mi CV, resulta más sencillo ver dónde estuve, cuándo y haciendo qué.",
     "cv-chronology" => "Cronología",
-    "cv-chronology-text" => "Esta es la versión cronológica de mi CV. Haz click sobre los diferentes elementos para obtener más información y aprender un poco sobre mis actividades profesionales y extra-profesionales.",
+    "cv-chronology-text" => "Esta es la versión cronológica de mi CV. Haz click sobre los diferentes elementos para obtener más información y aprender un poco sobre mis actividades profesionales y extraprofesionales.",
+    "cv-pdf" => "Versión clásica",
+    "cv-pdf-text" => "La versión clásica del CV en PDF, en una sola página y con todas las informaciones destacadas.",
+    "cv-pdf-button" => "Descargar",
+    "cv-pdf-link" => "/docs/CVmsnovoaES.pdf",
 
     "cv-timeline-title" => "Presente",
 
@@ -139,25 +143,28 @@ $lang = array(
     "cv-timeline-lero-description-1" => "Utilización de técnicas de mutación y planificación IA para la creación y detección automatizadas de vulnerabilidades en un entorno basado en la nube.",
     "cv-timeline-lero-description-2" => "Investigación en ciberseguridad para la construcción de un prototipo para la recompilación de pruebas adaptativas en la nube.",
 
-    "cv-timeline-akkademy-title" => "Consultor internacional",
-    "cv-timeline-akkademy-start" => "Comienzo: Enero 2019 - Fin: Febrero 2019",
-    "cv-timeline-akkademy-company" => "The AKKAdemy (AKKA Group)",
-    "cv-timeline-akkademy-place" => "Ginebra, Suiza",
-    "cv-timeline-akkademy-description-1" => "El programa internacional para recién licenciados de AKKA. Un programa para graduados en ingenierías digitales. Después de completar 4 semanas en Ginebra, los participantes se unen a un proyecto desarrollado por algún cliente de AKKA, en diferentes localizaciones, en función de su conocimiento: Alemania, Bélgica, Francia o Países Bajos.",
-
     "cv-timeline-akka-title" => "Consultor internacional - Ingénieur d'études",
     "cv-timeline-akka-start" => "Comienzo: Febrero 2019",
-    "cv-timeline-akka-company" => "AKKA Technologies France",
-    "cv-timeline-akka-place" => "Paris, Francia",
-    "cv-timeline-akka-description-1" => "AKKA Technologies ofrece soluciones tecnologicas a empresas líderes en el sector de la automoción, aeroespacial y ferroviario, así como ciencias de la vida, servicios, telecomunicaciones y defensa.",
-    "cv-timeline-akka-description-2" => "Actualmente trabajo como consultor en el sector de las telecomunicaciones <i class='fas fa-broadcast-tower'></i>",
+    "cv-timeline-akka-end" => "Fin: Mayo 2020",
+    "cv-timeline-akka-company" => "AKKA Technologies",
+    "cv-timeline-akka-place" => "Ginebra, Suiza - Paris, Francia",
+    "cv-timeline-akka-description-1" => "En primer lugar, participé en el programa internacional de AKKA para graduados, <i>The AKKAdemy</i>, dirigido a jóvenes con estudios en ingenierías del ámbito digital. Después de completar 4 semanas en Ginebra, me uní a un proyecto desarrollado por un cliente de AKKA, en Francia.",
+    "cv-timeline-akka-description-2" => "AKKA Technologies ofrece soluciones tecnologicas a empresas líderes en el sector de la automoción, aeroespacial y ferroviario, así como ciencias de la vida, servicios, telecomunicaciones y defensa.",
+    "cv-timeline-akka-description-3" => "Trabajé como consultor en el sector de las telecomunicaciones <i class='fas fa-broadcast-tower'></i>",
 
     "cv-timeline-nokia-title" => "QA Tester - Proyecto en cliente",
     "cv-timeline-nokia-start" => "Comienzo: Febrero 2019",
+    "cv-timeline-nokia-end" => "Fin: Mayo 2020",
     "cv-timeline-nokia-company" => "Nokia (Cliente de AKKA)",
     "cv-timeline-nokia-place" => "Paris, Francia",
     "cv-timeline-nokia-description-1" => "QA Tester en Nokia. Tester de una plataforma de gestión y control de diferentes elementos de las redes y las telecomunicaciones: 3G, 4G, 5G, Wi-Fi, Flexi Zone, AirScale; llamada Nokia Network Services Platform (NSP).",
     "cv-timeline-nokia-description-2" => "La plataforma NSP de Nokia ofrece servicios de gestión de redes Punto-a-Punto con gran cantidad de aplicaciones, variando en función de las configuraciones dadas por los operadores y arquitectos de redes.",
+
+    "cv-timeline-uoc-title" => "Máster en Seguridad de las TIC",
+    "cv-timeline-uoc-start" => "Comienzo: Septiembre 2019",
+    "cv-timeline-uoc-other" => "Especialidad en Seguridad en Redes y Sistemas",
+    "cv-timeline-uoc-company" => "Universitat Oberta de Catalunya",
+    "cv-timeline-uoc-place" => "A distancia - Tiempo parcial",
 
     "ye" => "ye"
 );
