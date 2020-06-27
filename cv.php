@@ -127,30 +127,6 @@ include "config.php";
             <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalLero')"></button>
         </div>
 
-        <div class="modal" id="modalAKKAdemy">
-            <div onclick="refs.close('modalAKKAdemy')" class="modal-background"></div>
-            <div class="modal-content" style="width: 85%">
-                <section class="hero has-background-white-bis is-fullheight-with-navbar">
-                    <div class="hero-body">
-                        <div class="container is-fluid">
-
-                            <div class="columns">
-                                <div class="column" id="bio">
-                                    <h1 class="title is-size-1"><?php echo $lang['cv-timeline-akkademy-title'] ?></h1>
-                                    <h2 class="subtitle is-size-4"><?php echo $lang['cv-timeline-akkademy-company'] ?></h2>
-                                    <p><?php echo $lang['cv-timeline-akkademy-description-1'] ?></p>
-                                </div>
-                                <div class="column is-fullheight imagem" style="background-image: url('images/theakkademy.jpg')">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalAKKAdemy')"></button>
-        </div>
-
         <div class="modal" id="modalTitor">
             <div onclick="refs.close('modalTitor')" class="modal-background"></div>
             <div class="modal-content" style="width: 85%">
@@ -252,6 +228,7 @@ include "config.php";
 
                                     <p><?php echo $lang['cv-timeline-akka-description-1'] ?></p>
                                     <p><?php echo $lang['cv-timeline-akka-description-2'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-akka-description-3'] ?></p>
                                 </div>
                                 <div class="column is-fullheight imagem" style="background-image: url('images/akkagr.png')">
                                 </div>
@@ -338,6 +315,14 @@ include "config.php";
                                 <h3 class="title is-4 has-text-centered"><?php echo $lang['cv-map'] ?> <i class="fas fa-map-marked-alt"></i></h3>
                                 <p><?php echo $lang['cv-map-text'] ?></p>
                                 </a></div>
+                            <div class="column"><a class="yei" href="#pdf">
+                                <h3 class="title is-4 has-text-centered"><?php echo $lang['cv-pdf'] ?> <i class="far fa-file-pdf"></i></h3>
+                                <p><?php echo $lang['cv-pdf-text'] ?></p>
+                                <p><br></p>
+                                <div class="center">
+                                    <a href="<?php echo $lang['cv-pdf-link'] ?>" class="button is-rounded is-medium"><p><?php echo $lang['cv-pdf-button'] ?> </p><span class="icon is-small"><i class="fas fa-download"></i></span></a>
+                                </div>
+                                </a></div>
                             <div class="column"><a class="yei" href="#cronologia">
                                 <h3 class="title is-4 has-text-centered"><?php echo $lang['cv-chronology'] ?> <i class="fas fa-history"></i></h3>
                                 <p><?php echo $lang['cv-chronology-text'] ?></p>
@@ -370,8 +355,56 @@ include "config.php";
                                 <span class="tag is-large is-link"><?php echo $lang['cv-timeline-title'] ?></span>
                             </header>
 
-                            <div class="timeline-item is-link" id="nokia">
-                                <div class="timeline-marker is-image is-48x48 is-link">
+                            <!-- Fim AKKA -->
+                            <div class="timeline-item has-text-grey">
+                                <div class="timeline-marker is-image is-48x48">
+                                    <img src="images/akka.png">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalAKKA')">
+                                        <p class="heading"><?php echo $lang['cv-timeline-akka-end'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-akka-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-akka-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-akka-place'] ?></p>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <!-- Fim Nokia -->
+                            <div class="timeline-item has-text-grey">
+                                <div class="timeline-marker is-image is-48x48">
+                                    <img src="images/nokia.png">
+                                </div>
+                                <a class="ye">
+                                    <div class="timeline-content" onclick="refs.open('modalNokia')">
+                                        <p class="heading"><?php echo $lang['cv-timeline-nokia-end'] ?></p>
+                                        <p><?php echo $lang['cv-timeline-nokia-title'] ?></p>
+                                        <p class="is-size-7"><?php echo $lang['cv-timeline-nokia-company'] ?></p>
+                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-nokia-place'] ?></p>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <header class="timeline-header">
+                                <span class="tag is-medium">2020</span>
+                            </header>
+                            
+                            <!-- Começo UOC -->
+                            <div class="timeline-item is-link" id="uoc">
+                                <div class="timeline-marker is-primary is-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <p class="heading"><?php echo $lang['cv-timeline-uoc-start'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-uoc-title'] ?></p>
+                                    <p class="is-size-7"><?php echo $lang['cv-timeline-uoc-other'] ?></p>
+                                    <p class="is-size-7"><?php echo $lang['cv-timeline-uoc-company'] ?></p>
+                                    <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-uoc-place'] ?></p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item has-text-grey" id="nokia">
+                                <div class="timeline-marker is-image is-48x48">
                                     <img src="images/nokia.png">
                                 </div>
                                 <a class="ye">
@@ -384,8 +417,8 @@ include "config.php";
                                 </a>
                             </div>
 
-                            <div class="timeline-item is-link" id="akka">
-                                <div class="timeline-marker is-link is-image is-48x48">
+                            <div class="timeline-item has-text-grey" id="akka">
+                                <div class="timeline-marker is-image is-48x48">
                                     <img src="images/akka.png">
                                 </div>
                                 <a class="ye">
@@ -394,20 +427,6 @@ include "config.php";
                                         <p><?php echo $lang['cv-timeline-akka-title'] ?></p>
                                         <p class="is-size-7"><?php echo $lang['cv-timeline-akka-company'] ?></p>
                                         <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-akka-place'] ?></p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="timeline-item" id="akkademy">
-                                <div class="timeline-marker is-image is-48x48">
-                                    <img src="images/akkademy.jpg">
-                                </div>
-                                <a class="ye">
-                                    <div class="timeline-content" onclick="refs.open('modalAKKAdemy')">
-                                        <p class="heading"><?php echo $lang['cv-timeline-akkademy-start'] ?></p>
-                                        <p><?php echo $lang['cv-timeline-akkademy-title'] ?></p>
-                                        <p class="is-size-7"><?php echo $lang['cv-timeline-akkademy-company'] ?></p>
-                                        <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-akkademy-place'] ?></p>
                                     </div>
                                 </a>
                             </div>
