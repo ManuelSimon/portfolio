@@ -14,7 +14,7 @@ var map = L.map('map', {
 			zoomControl: true
 		});
 
-var defaultLayer = L.tileLayer.provider('Hydda.Base').addTo(map);
+var defaultLayer = L.tileLayer.provider('CartoDB.PositronNoLabels').addTo(map);
 
 //CESGA
 L.marker([42.8755536, -8.5532895]).addTo(map)
@@ -35,16 +35,20 @@ L.marker([52.6745111, -8.5772411]).addTo(map)
 
 //The AKKAdemy
 L.marker([46.2204587, 6.0986314]).addTo(map)
-		.bindPopup(' <center> <p class="heading">01/2019 - 02/2019</p> <b> <p>International consultant</p> <p class="is-size-7">The AKKAdemy</p> </b> <p class="is-size-7 has-text-weight-light">Geneva, Switzerland</p> <a href="#akkademy" class="button is-link is-outlined is-small title">More info.</a> </center>');
+		.bindPopup(' <center> <p class="heading">01/2019 - 02/2019</p> <b> <p>International consultant</p> <p class="is-size-7">The AKKAdemy</p> </b> <p class="is-size-7 has-text-weight-light">Geneva, Switzerland</p> <a href="#akka" class="button is-link is-outlined is-small title">More info.</a> </center>');
 
 //AKKA France
 L.marker([48.8291762, 2.2375156]).addTo(map)
-		.bindPopup(' <center> <p class="heading">02/2019 - ?</p> <b> <p>International consultant</p> <p class="is-size-7">AKKA France</p> </b> <p class="is-size-7 has-text-weight-light">Paris, France</p> <a href="#akka" class="button is-link is-outlined is-small title">More info.</a> </center>');
+		.bindPopup(' <center> <p class="heading">02/2019 - 05/2020</p> <b> <p>International consultant</p> <p class="is-size-7">AKKA France</p> </b> <p class="is-size-7 has-text-weight-light">Paris, France</p> <a href="#akka" class="button is-link is-outlined is-small title">More info.</a> </center>');
 
 //Nokia
 L.marker([48.6672792, 2.2374422]).addTo(map)
-		.bindPopup(' <center> <p class="heading">02/2019 - ?</p> <b> <p>QA Tester</p> <p class="is-size-7">NOKIA</p> </b> <p class="is-size-7 has-text-weight-light">Paris, France</p> <a href="#nokia" class="button is-link is-outlined is-small title">More info.</a> </center>');
+		.bindPopup(' <center> <p class="heading">02/2019 - 05/2020</p> <b> <p>QA Tester</p> <p class="is-size-7">NOKIA</p> </b> <p class="is-size-7 has-text-weight-light">Paris, France</p> <a href="#nokia" class="button is-link is-outlined is-small title">More info.</a> </center>');
 
 //Emprendia - Explorer
 L.marker([42.8723712, -8.5630781]).addTo(map)
 		.bindPopup(' <center> <p class="heading">01/2018 - 06/2018</p> <b> <p>Participant - Student</p> <p class="is-size-7">Explorer "Jóvenes con ideas"</p> </b> <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p> <a href="#explorer" class="button is-link is-outlined is-small title">More info.</a> </center>');
+
+//UOC
+L.marker([41.4064499, 2.1235434]).addTo(map)
+		.bindPopup(' <center> <p class="heading">09/2019 - ?</p> <b> <p>Master\'s degree in ICT Security</p> <p class="is-size-7">Universitat Oberta de Catalunya</p> </b> <p class="is-size-7 has-text-weight-light">Distance learning</p> <a href="#uoc" class="button is-link is-outlined is-small title">More info.</a> </center>');
