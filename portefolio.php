@@ -170,6 +170,33 @@ include "config.php";
                             
                         </div>
                         
+                        <div class="columns">
+
+                            <div class="column">
+                                <div class="card">
+                                    <header class="card-header">
+                                        <p class="card-header-title">
+                                            <?php echo $lang['projects-AnSeArKu-title'] ?>
+                                        </p>
+                                    </header>
+                                    <div class="card-content">
+                                        <div class="content">
+                                            <p><?php echo $lang['projects-AnSeArKu-description'] ?></p>
+                                            <p><?php echo $lang['projects-AnSeArKu-description-2'] ?></p>
+                                        </div>
+                                    </div>
+                                    <footer class="card-footer">
+                                        <a href="http://openaccess.uoc.edu/webapps/o2/handle/10609/132656?locale=es" class="iconas card-footer-item"><i class="fas fa-2x fa-external-link-alt"></i></a>
+                                        <p class="iconas card-footer-item"> <i class="fas fa-shield-alt"></i>  <i class="fas fa-box"></i> <i class="fab fa-docker"></i> <i class="fas fa-network-wired"></i> <i class="fas fa-terminal"></i> <i class="fas fa-server"></i>  <i class="fas fa-book"></i></p>
+                                    </footer>
+                                </div>
+                            </div>
+
+                            <div class="column">
+                            </div>
+                            
+                        </div>
+                        
                     </section>
                 </div>
 

@@ -32,6 +32,10 @@ $lang = array(
     "projects-IDwebapp-title" => "IDwebapp - Aplicación web para la gestión de un pequeño sistema empresarial",
     "projects-IDwebapp-description" => "Aplicación web para la gestión de un pequeño sistema empresarial, empleando el <b>control de acceso basado en roles (RBAC)</b> que ofrece el contenedor de aplicaciones Apache Tomcat, junto con el de uso de <b>Java Authentication and Authorization Services (JAAS).</b>",
     "projects-IDwebapp-description-2" => "El trabajo incluye documentación, así como una vídeo demostración y una vídeo explicación del código desarrollado.",
+
+    "projects-AnSeArKu-title" => "Análisis de seguridad de arquitecturas basadas en Kubernetes",
+    "projects-AnSeArKu-description" => "Proyecto realizado como mi Trabajo de Fin de Máster (TFM). Proyecto integral de <b>securización de un clúster basado en Kubernetes</b>, incluyendo los procesos de: planificación, estudio teórico, especificación de limitaciones y requisitos, creación y configuración del clúster, análisis de vulnerabilidades, securización y trabajo futuro. Uso de <b>Docker como tecnología de contedorización y de Istio como Service Mesh</b>. Especial hincapié en la importancia y actual migración cara los microservicios.",
+    "projects-AnSeArKu-description-2" => "Dicho proyecto <b>recibió excelentes críticas</b> por parte de mi tutor y del jurado que evaluó la defensa, motivo por el cual fue incorporado en el repositorio público de la Universidad.",
     
     //Credits
     "credits-title" => "Tecnologías que me ayudaron en la creación de esta web:",

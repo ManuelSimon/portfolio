@@ -32,6 +32,10 @@
         "projects-IDwebapp-title" => "IDwebapp - Web application for managing a small business system",
         "projects-IDwebapp-description" => "Web application for managing a small business system, making uso of <b>role-based access control (RBAC)</b>, thanks to Apache Tomcat and the use of <b>Java Authentication and Authorization Services (JAAS)</b>.",
         "projects-IDwebapp-description-2" => "The project includes documentation, as well as a video demonstration and a video explanation of the developed code.",
+
+        "projects-AnSeArKu-title" => "Security analysis of architectures based on Kubernetes",
+        "projects-AnSeArKu-description" => "Project carried out as my Master's thesis. Comprehensive project to <b>secure a Kubernetes-based cluster</b>, including the processes of: planning, theoretical study, specification of limitations and requirements, creation and configuration of the cluster, vulnerability analysis, securitization and future work. Use of  <b>Docker as container technology and Istio as Service Mesh</b>. Special emphasis on the importance and current migration to microservices.",
+        "projects-AnSeArKu-description-2" => "This project <b>received excellent reviews</b> from my tutor and the jury that evaluated the dissertation, which is why it was incorporated into the University's public repository.",
         
         //Credits
         "credits-title" => "Technologies that allowed me to create this site:",
