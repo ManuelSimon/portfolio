@@ -68,7 +68,6 @@ include "config.php";
 
                     <!-- RRSS -->
                     <div class="column right desktop">
-                        <a href="https://twitter.com/msnovoa"><p class="navbar-item"><i class="fab fa-3x fa-twitter has-text-info"></i></p></a>
                         <a href="https://www.linkedin.com/in/msimonnovoa/"><p class="navbar-item"><i class="fab fa-3x fa-linkedin has-text-link"></i></p></a>
                     </div>
                 </div>
@@ -166,7 +165,6 @@ include "config.php";
 
                             <h4 class="subtitle is-6 has-text-centered">
                                 <a href="https://github.com/ManuelSimon"><i class="fab fa-3x fa-github has-text-dark"></i></a>
-                                <a href="https://twitter.com/msnovoa"><i class="fab fa-3x fa-twitter has-text-info"></i></a>
                                 <a href="https://www.linkedin.com/in/msimonnovoa/"><i class="fab fa-3x fa-linkedin has-text-link"></i></a>
                                 <a href="mailto:eu@manuel.gal"><i class="fas fa-3x fa-at has-text-grey"></i></a>
                             </h4>
