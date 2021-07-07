@@ -65,7 +65,7 @@ $lang = array(
     "about-interests-list-5" => "Administração de bases de dados",
     "about-interests-list-6" => "Contentorização",
     "about-talk-title" => "Deveríamos estar a falar?",
-    "about-talk-text" => "Tens alguma dúvida sobre mim? Sobre esta web? Crês que deveríamos estar a beber um cafezinho juntos? De ser assim, convido-te a escreveres uma mensagem para qualquer das minhas redes sociais, ou correio eletrónico. Será um prazer ter novas de ti!",
+    "about-talk-text" => "Tens alguma dúvida sobre mim? Sobre esta web? Crês que deveríamos estar a beber um cafezinho juntos? De ser assim, convido-te a escreveres uma mensagem para qualquer das minhas redes sociais, ou correio eletrónico. Será um prazer ter notícias tuas!",
 
     //CV
     "cv-title" => "Uma olhada à minha experiência profissional:",
