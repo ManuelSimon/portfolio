@@ -171,6 +171,14 @@ $lang = array(
     "cv-timeline-ednon-start" => "Comienzo: Octubre 2020",
     "cv-timeline-ednon-company" => "Ednon",
     "cv-timeline-ednon-place" => "Santiago de Compostela, Galicia",
+    "cv-timeline-ednon-description-1" => "Cliente principal: CIXTEC (Centro Informático para a Xestión Tributaria Económico-Financeira e Contable), con un elevado número de servidores y usuarios activos en múltiples entornos.",
+    "cv-timeline-ednon-description-2" => "Administración de sistemas Linux (RHEL, CentOS, Ubuntu) y, mayoritariamente, Windows (2000-2019).",
+    "cv-timeline-ednon-description-3" => "Desarrollo mediante scripting en Powershell y Bash, así como sentencias SQL.",
+    "cv-timeline-ednon-description-4" => "Redacción de manuales de usuario.",
+    "cv-timeline-ednon-description-5" => "Monitorización en tiempo real de la infraestructura mediante Zabbix, incluyendo labores de incorporación/actualización de los servicios de monitorización e inclusión de monitorizaciones personalizadas en las diferentes máquinas.",
+    "cv-timeline-ednon-description-6" => "Despliegue de nuevas versiones de software: Jboss, LifeRay, .NET.",
+    "cv-timeline-ednon-description-7" => "Administración de BBDD Microsoft SQL Server, incluyendo backups, salvas y copias.",
+    "cv-timeline-ednon-description-8" => "Despliegue y administración de servidor propio de GitLab, para realizar control de versiones del sotware mediante Git.",
 
     "ye" => "ye"
 );

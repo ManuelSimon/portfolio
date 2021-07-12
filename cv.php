@@ -247,6 +247,39 @@ include "config.php";
             <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalAKKA')"></button>
         </div>
 
+        <div class="modal" id="modalEdnon">
+            <div onclick="refs.close('modalEdnon')" class="modal-background"></div>
+            <div class="modal-content" style="width: 85%">
+                <section class="hero has-background-white-bis is-fullheight-with-navbar">
+                    <div class="hero-body">
+                        <div class="container is-fluid">
+
+                            <div class="columns">
+                                <div class="column" id="bio">
+                                    <h1 class="title is-size-1"><?php echo $lang['cv-timeline-ednon-title'] ?></h1>
+                                    <h2 class="subtitle is-size-4"><?php echo $lang['cv-timeline-ednon-company'] ?></h2>
+
+                                    <p><?php echo $lang['cv-timeline-ednon-description-1'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-ednon-description-2'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-ednon-description-3'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-ednon-description-4'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-ednon-description-5'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-ednon-description-6'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-ednon-description-7'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-ednon-description-8'] ?></p>
+
+                                </div>
+                                <div class="column is-fullheight imagem" style="background-image: url('images/n-ednon.png')">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onclick="refs.close('modalEdnon')"></button>
+        </div>
+
         <!-- .hero -->
         <section class="hero is-fullheight">
 
@@ -331,6 +364,24 @@ include "config.php";
                                 <span class="tag is-large is-link"><?php echo $lang['cv-timeline-title'] ?></span>
                             </header>
 
+                            <!-- Fim UOC -->
+                            <div class="timeline-item has-text-grey">
+                                <div class="timeline-marker is-primary is-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+
+                                <div class="timeline-content">
+                                    <p class="heading"><?php echo $lang['cv-timeline-uoc-end'] ?></p>
+                                    <p><?php echo $lang['cv-timeline-uoc-title'] ?></p>
+                                    <p class="is-size-7"><?php echo $lang['cv-timeline-uoc-company'] ?></p>
+                                    <p class="is-size-7 has-text-weight-light"><?php echo $lang['cv-timeline-uoc-place'] ?></p>
+                                </div>
+                            </div>
+
+                            <header class="timeline-header">
+                                <span class="tag is-medium">2021</span>
+                            </header>
+
                             <!-- Começo Ednon -->
                             <div class="timeline-item is-link" id="ednon">
                                 <div class="timeline-marker is-image is-48x48">
@@ -366,7 +417,7 @@ include "config.php";
                             </header>
                             
                             <!-- Começo UOC -->
-                            <div class="timeline-item is-link" id="uoc">
+                            <div class="timeline-item has-text-grey" id="uoc">
                                 <div class="timeline-marker is-primary is-icon">
                                     <i class="fas fa-graduation-cap"></i>
                                 </div>

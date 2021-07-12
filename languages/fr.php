@@ -171,6 +171,14 @@ $lang = array(
     "cv-timeline-ednon-start" => "Début : Octobre 2020",
     "cv-timeline-ednon-company" => "Ednon",
     "cv-timeline-ednon-place" => "Saint Jacques de Compostelle, Galice",
+    "cv-timeline-ednon-description-1" => "Client principal : CIXTEC (Centre informatique pour la gestion fiscale économique-Financeira e Contable), avec un grand nombre de serveurs et d'utilisateurs actifs dans plusieurs environnements.",
+    "cv-timeline-ednon-description-2" => "Administration des systèmes Linux (RHEL, CentOS, Ubuntu) et, surtout, Windows (2000-2019).",
+    "cv-timeline-ednon-description-3" => "Développement via des scripts en Powershell et Bash, ainsi que des commandes SQL.",
+    "cv-timeline-ednon-description-4" => "Rédaction de manuels d'utilisation.",
+    "cv-timeline-ednon-description-5" => "Monitoring en temps réel de l'infrastructure via Zabbix, incluant l'incorporation/mise à jour des services de monitoring.",
+    "cv-timeline-ednon-description-6" => "Déploiement de nouvelles versions logicielles : Jboss, LifeRay, .NET.",
+    "cv-timeline-ednon-description-7" => "Administration des bases de données Microsoft SQL Server, sauvegardes et copies.",
+    "cv-timeline-ednon-description-8" => "Déploiement et administration d'un serveur propre de GitLab, pour effectuer le contrôle de version du logiciel via Git. ",
 
     "ye" => "ye"
 );
