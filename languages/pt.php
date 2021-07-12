@@ -16,7 +16,7 @@ $lang = array(
     "footer-3" => "Sítio feito com  <i class='em em-cupid'></i> empregando <a href='creditos.php'>as seguintes tecnologias</a>.",
 
     //Projects
-    "projects-title" => "As minhas últimas trasnadas",
+    "projects-title" => "Os meus últimos projetos",
     "projects-portfolio-title" => "Sítio web persoal - Portefólio",
     "projects-portfolio-description-1" => "Este mesmo sítio web!",
     "projects-portfolio-description-2" => "Feito com gíria e jeito empregando <b>HTML5, CSS, Bulma JS</b> e alguma que outra utilidade. Uso de <b>PHP</b> no <i>back-end</i> para desenvolver a tradução em diversas línguas do sítio web.",
@@ -46,16 +46,16 @@ $lang = array(
     "404-title" => "Cornos!",
     "404-subtitle" => "Não deverias estar aqui! Infelizmente, esta página não está disponível.",
     "404-button" => "Voltar ao início",
-    "404-extra" => "Realmente crês que esta página deveria ser acessível? Então, contacta comigo para que solucione esta falha, por favor.",
+    "404-extra" => "Realmente achas que esta página deveria ser acessível? Então, contacta comigo para que solucione esta falha, por favor.",
 
     //About me
-    "about-title" => "Engenheiro Informático, cosultor e estudante.",
-    "about-subtitle" => "Tecnólogo e mil centas cousas mais. Provavelmente agora estou a fedelhar num novo projeto.",
-    "about-bio-1" => "<b>Olá, encantado de te conhecer!</b> Sou Manuel, um rapaz com grande vontade de aprender cousas novas dia a dia. Graduado em Engenharia Informática pola <a href='http://www.usc.gal/'>Universidade de Santiago de Compostela</a>. Além da informática, também gosto de ler <i class='em em-open_book'></i>, escrever <i class='em em-writing_hand'></i>, participar em associações tecnológicas <i class='fas fa-terminal'></i>, escuitar música <i class='em em-headphones'></i>, aprender línguas e a linguística <i class='em em-tongue'></i> ou jogar videojogos <i class='em em-video_game'></i>. Um pouco de tudo, enquanto a criatividade e a imaginação fiquem por médio.",
+    "about-title" => "Consultor IT especializado em cibersegurança e sistemas.",
+    "about-subtitle" => "Tecnólogo e mil centas cousas mais. Provavelmente agora estou a desenvolver um novo projeto.",
+    "about-bio-1" => "<b>Olá, encantado de te conhecer!</b> Sou o Manuel, um jovem com grande vontade de aprender cousas novas dia a dia. Posuo os estudos de Grau em Engenharia Informática pola <a href='https://www.usc.gal/'>Universidade de Santiago de Compostela</a> e de Mestrado em Segurança das Tecnologias da Informação e das Comunicações pola <a href='https://www.uoc.edu/'>Universitat Oberta de Catalunya</a>, a <a href='https://www.uab.cat/'>Universitat Autònoma de Barcelona</a> e a <a href='https://www.urv.cat/'>Universitat Rovira i Virgili</a>. Além da informática, também gosto de ler <i class='em em-open_book'></i>, escrever <i class='em em-writing_hand'></i>, participar em associações tecnológicas <i class='fas fa-terminal'></i>, escuitar música <i class='em em-headphones'></i>, aprender línguas e a linguística <i class='em em-tongue'></i> ou jogar videojogos <i class='em em-video_game'></i>. Um pouco de tudo, enquanto a criatividade e a imaginação estiverem envolvidas.",
     "about-cv-text-1" => "Queres conhecer um bocado acerca da minha experiência profissional até o momento?",
     "about-cv-text-2" => "Convido-te então a leres o meu CV!",
     "about-portfolio-text-1" => "Curiosidade em conhecer como são realmente alguns dos meus projetos?",
-    "about-portfolio-text-2" => "Lê sobre eles e acessa ao seu código na secção do portefólio:",
+    "about-portfolio-text-2" => "Lê sobre eles e acessa o seu código na secção do portefólio:",
     "about-interests-title" => "As minhas principais áreas de interesse",
     "about-interests-text" => "Sou uma pessoa curiosa e adoro aprender de muitas cousas, mas estas são as que realmente apaixono:",
     "about-interests-list-1" => "Segurança das TIC",
