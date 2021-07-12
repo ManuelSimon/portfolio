@@ -28,7 +28,6 @@ L.marker([42.873175, -8.5602546]).addTo(map)
 L.marker([42.873005, -8.5609546]).addTo(map)
 		.bindPopup(' <center> <p class="heading">02/2018 - ?</p> <b> <p>Co-organizer</p> <p class="is-size-7">GDG Santiago</p> </b> <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p> <a href="#gdg" class="button is-link is-outlined is-small title">More info.</a> </center>');
 
-
 //Lero
 L.marker([52.6745111, -8.5772411]).addTo(map)
 		.bindPopup(' <center> <p class="heading">08/2018 - 09/2018</p> <b> <p>Research assistant</p> <p class="is-size-7">Lero | The Irish Software Research Centre</p> </b> <p class="is-size-7 has-text-weight-light">Luimneach, Éire</p> <a href="#lero" class="button is-link is-outlined is-small title">More info.</a> </center>');
@@ -41,14 +40,14 @@ L.marker([46.2204587, 6.0986314]).addTo(map)
 L.marker([48.8291762, 2.2375156]).addTo(map)
 		.bindPopup(' <center> <p class="heading">02/2019 - 05/2020</p> <b> <p>International consultant</p> <p class="is-size-7">AKKA France</p> </b> <p class="is-size-7 has-text-weight-light">Paris, France</p> <a href="#akka" class="button is-link is-outlined is-small title">More info.</a> </center>');
 
-//Nokia
-L.marker([48.6672792, 2.2374422]).addTo(map)
-		.bindPopup(' <center> <p class="heading">02/2019 - 05/2020</p> <b> <p>QA Tester</p> <p class="is-size-7">NOKIA</p> </b> <p class="is-size-7 has-text-weight-light">Paris, France</p> <a href="#nokia" class="button is-link is-outlined is-small title">More info.</a> </center>');
-
 //Emprendia - Explorer
 L.marker([42.8723712, -8.5630781]).addTo(map)
 		.bindPopup(' <center> <p class="heading">01/2018 - 06/2018</p> <b> <p>Participant - Student</p> <p class="is-size-7">Explorer "Jóvenes con ideas"</p> </b> <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p> <a href="#explorer" class="button is-link is-outlined is-small title">More info.</a> </center>');
 
 //UOC
 L.marker([41.4064499, 2.1235434]).addTo(map)
-		.bindPopup(' <center> <p class="heading">09/2019 - ?</p> <b> <p>Master\'s degree in ICT Security</p> <p class="is-size-7">Universitat Oberta de Catalunya</p> </b> <p class="is-size-7 has-text-weight-light">Distance learning</p> <a href="#uoc" class="button is-link is-outlined is-small title">More info.</a> </center>');
+		.bindPopup(' <center> <p class="heading">09/2019 - 06/2021</p> <b> <p>Interuniversity Official Master\'s Degree in ICT Security</p> <p class="is-size-7">Universitat Oberta de Catalunya, Universitat Autònoma de Barcelona and Universitat Rovira i Virgili</p> </b> <p class="is-size-7 has-text-weight-light">Distance learning</p> <a href="#uoc" class="button is-link is-outlined is-small title">More info.</a> </center>');
+
+//Ednon
+L.marker([42.887248, -8.530220]).addTo(map)
+		.bindPopup(' <center> <p class="heading">10/2020 - ?</p> <b> <p>Senior consultant</p> <p class="is-size-7">Ednon</p> </b> <p class="is-size-7 has-text-weight-light">Santiago de Compostela, Galiza</p> <a href="#ednon" class="button is-link is-outlined is-small title">More info.</a> </center>');
