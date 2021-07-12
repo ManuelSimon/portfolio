@@ -152,23 +152,24 @@
         "cv-timeline-akka-end" => "End: May 2020",
         "cv-timeline-akka-company" => "AKKA Technologies",
         "cv-timeline-akka-place" => "Geneva, Switzerland - Paris, France",
-        "cv-timeline-akka-description-1" => "Firstly, I participated at the international graduated program for digital engineers by AKKA, <i>The AKKAdemy</i>, focus on youth people with studies in digital engineerings. After complete 4 weeks at Geneva, I joined a project developed by an AKKA costumer, at France.",
-        "cv-timeline-akka-description-2" => "AKKA provides technological solutions to leading companies in the automotive, aerospace and rail sectors, as well as in the life sciences, services, telecommunications and defense, enabling them to improve their innovation processes, their productivity and their efficiency when designing new products or processes, right through to the industrial production phase. We deliver cross-sector and transnational solutions, in-depth expertise in the technologies of the future (AI, ADAS, IoT, Big Data, robotics, embedded computing, machine learning, etc.).",
-        "cv-timeline-akka-description-3" => "My working area was the telecom sector <i class='fas fa-broadcast-tower'></i>",
-
-        "cv-timeline-nokia-title" => "QA Tester - Project at client's side",
-        "cv-timeline-nokia-start" => "Start: February 2019",
-        "cv-timeline-nokia-end" => "End: May 2020",
-        "cv-timeline-nokia-company" => "Nokia (AKKA's client)",
-        "cv-timeline-nokia-place" => "Paris, France",
-        "cv-timeline-nokia-description-1" => "QA Tester at Nokia. Tester of a management platform for the control of different network elements: 3G, 4G, 5G, Wi-Fi, Flexi Zone, AirScale. The name of this platform is Nokia Network Services Platform (NSP).",
-        "cv-timeline-nokia-description-2" => "Nokia NSP is an end-to-end network management services platform with a multitude of applications, varying depending on the configuration of network operators and architects.",
+        "cv-timeline-akka-description-1" => "Firstly, I participated in the AKKA's international graduate program, <i>The AKKAdemy </i>, focused on young people with studies in digital engineering. After completing 4 weeks in Geneva, I joined a project developed by an AKKA client, in France.",
+        "cv-timeline-akka-description-2" => "Within the group, I worked as a consultant in the telecommunications sector <i class='fas fa-broadcast-tower'></i>, having my main project at NOKIA, in Île-de-France:",
+        "cv-timeline-akka-description-list-1" => "Project focused on the creation of a comprehensive control platform for the different network elements, such as antennas, computers, mobiles, etc., making use of multiple network technologies, such as 3G, 4G, 5G, Wi-Fi, as well as Nokia's own technologies: Flexi Zone, AirScale.",
+        "cv-timeline-akka-description-list-2" => "QA Testing: verification of the successful exchange of data on the network, by sniffing packages and reviewing logs; GUI testing; tests developed by using physical and virtualized devices.",
+        "cv-timeline-akka-description-list-3" => "Presentation of functional demos of the software at the end of each Sprint (Scrum framework) to the different stakeholders. Exhibitions held in French.",
+        "cv-timeline-akka-description-list-4" => "Drafting of user manuals.",
+        "cv-timeline-akka-description-list-5" => "Working languages: English and French.",
 
         "cv-timeline-uoc-title" => "Master's degree in ICT Security",
         "cv-timeline-uoc-start" => "Start: September 2019",
-        "cv-timeline-uoc-other" => "Specialty in Systems and Networks Security",
+        "cv-timeline-uoc-other" => "Speciality in Systems and Networks Security",
         "cv-timeline-uoc-company" => "Universitat Oberta de Catalunya",
         "cv-timeline-uoc-place" => "Distance learning - Part-time studies",
+
+        "cv-timeline-ednon-title" => "Senior consultant",
+        "cv-timeline-ednon-start" => "Start: October 2020",
+        "cv-timeline-ednon-company" => "Ednon",
+        "cv-timeline-ednon-place" => "Santiago de Compostela, Galiza",
 
         "ye" => "ye"
 	);

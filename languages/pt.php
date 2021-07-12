@@ -152,18 +152,14 @@ $lang = array(
     "cv-timeline-akka-start" => "Começo: Fevereiro 2019",
     "cv-timeline-akka-end" => "Fim: Maio 2020",
     "cv-timeline-akka-company" => "AKKA Technologies",
-    "cv-timeline-akka-place" => "Genebra, Suiça - Paris, França",
-    "cv-timeline-akka-description-1" => "Primeiramente, participei no programa internacional para graduados promovido pola AKKA, <i>The AKKAdemy</i>, focado em jovens com estudos em engenharias digitais. Depois de completar 4 semanas em Genebra, unim-me a um projeto desenvolvido por um cliente da AKKA, na França.",
-    "cv-timeline-akka-description-2" => "A AKKA fornece soluções tecnológicas para empresas líderes nos setores automotivo, aeroespacial e ferroviário, bem como nas ciências da vida, serviços, telecomunicações e defesa, permitindo-lhes melhorar os seus processos de inovação, a sua produtividade e a sua eficiência ao projetar novos produtos ou processos.",
-    "cv-timeline-akka-description-3" => "Trabalhei como consultor no setor das telecomunicações <i class='fas fa-broadcast-tower'></i>",
-
-    "cv-timeline-nokia-title" => "QA Tester - Projeto em cliente",
-    "cv-timeline-nokia-start" => "Começo: Febreiro 2019",
-    "cv-timeline-nokia-end" => "Fim: Maio 2020",
-    "cv-timeline-nokia-company" => "Nokia (Cliente da AKKA)",
-    "cv-timeline-nokia-place" => "Paris, França",
-    "cv-timeline-nokia-description-1" => "QA Tester na Nokia. Tester duma plataforma de gestão e control de diferentes elementos das redes e telecomunicações: 3G, 4G, 5G, Wi-Fi, Flexi Zone, AirScale; chamada Nokia Network Services Platform (NSP).",
-    "cv-timeline-nokia-description-2" => "A NSP da Nokia é uma plataforma de serviços de gestão de rede fim-a-fim com uma infinidade de aplicativos, variando dependendo das configuração dos operadores e arquitetos de rede.",
+    "cv-timeline-akka-place" => "Genebra, Suíça - Paris, França",
+    "cv-timeline-akka-description-1" => "Primeiramente, participei no programa internacional para graduados promovido pola AKKA, <i>The AKKAdemy</i>, focado em jovens com estudos em engenharias digitais. Após completar 4 semanas em Genebra, incorporei-me a um projeto desenvolvido por um cliente da AKKA, na França.",
+    "cv-timeline-akka-description-2" => "Dentro do grupo, trabalhei como consultor no setor das telecomunicações <i class='fas fa-broadcast-tower'></i>, obtendo o meu projeto principal na NOKIA, em Île-de-France:",
+    "cv-timeline-akka-description-list-1" => "Projeto focalizado na criação duma plataforma integral para o controlo dos diferentes elementos da rede, como antenas, computadores, telefones, etc., usando múltiplas tecnologias de rede, como 3G, 4G, 5G, Wi-Fi, assim como tecnologias próprias da NOKIA: Flexi Zone, Airscale.",
+    "cv-timeline-akka-description-list-2" => "QA Testing: comprovação do ajeitado intercâmbio de dados na rede, mediante o farejado de pacotes e revisão dos logs; provas do correto funcionamento da GUI; provas empregando aparelhos físicos e virtualizados. ",
+    "cv-timeline-akka-description-list-3" => "Presentação de demos funcionais do software no fim de cada Sprint (framework Scrum) aos diferentes stakeholders. Exposições realizadas em francês.",
+    "cv-timeline-akka-description-list-4" => "Redação de manuais do utilizador.",
+    "cv-timeline-akka-description-list-5" => "Línguas de trabalho: inglês e francês.",
 
     "cv-timeline-uoc-title" => "Mestrado em Segurança das TIC",
     "cv-timeline-uoc-start" => "Começo: Setembro 2019",
@@ -171,6 +167,11 @@ $lang = array(
     "cv-timeline-uoc-company" => "Universitat Oberta de Catalunya",
     "cv-timeline-uoc-place" => "A distância - Meio período",
     
+    "cv-timeline-ednon-title" => "Consultor experto IT",
+    "cv-timeline-ednon-start" => "Começo: Outubro 2020",
+    "cv-timeline-ednon-company" => "Ednon",
+    "cv-timeline-ednon-place" => "Santiago de Compostela, Galiza",
+
     "ye" => "ye"
 );
 ?>
