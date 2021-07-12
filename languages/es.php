@@ -160,10 +160,11 @@ $lang = array(
     "cv-timeline-akka-description-list-4" => "Redacción de manuales de usuario.",
     "cv-timeline-akka-description-list-5" => "Lenguas de trabajo: inglés y francés.",
 
-    "cv-timeline-uoc-title" => "Máster en Seguridad de las TIC",
+    "cv-timeline-uoc-title" => "Máster interuniversitario oficial en Seguridad de las TIC",
     "cv-timeline-uoc-start" => "Comienzo: Septiembre 2019",
+    "cv-timeline-uoc-end" => "Fin: Junio 2021",
     "cv-timeline-uoc-other" => "Especialidad en Seguridad en Redes y Sistemas",
-    "cv-timeline-uoc-company" => "Universitat Oberta de Catalunya",
+    "cv-timeline-uoc-company" => "Universitat Oberta de Catalunya, Universitat Autònoma de Barcelona y Universitat Rovira i Virgili",
     "cv-timeline-uoc-place" => "A distancia - Tiempo parcial",
 
     "cv-timeline-ednon-title" => "Consultor experto IT",

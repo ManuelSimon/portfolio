@@ -160,10 +160,11 @@
         "cv-timeline-akka-description-list-4" => "Drafting of user manuals.",
         "cv-timeline-akka-description-list-5" => "Working languages: English and French.",
 
-        "cv-timeline-uoc-title" => "Master's degree in ICT Security",
+        "cv-timeline-uoc-title" => "Interuniversity Official Master's Degree in ICT Security",
         "cv-timeline-uoc-start" => "Start: September 2019",
+        "cv-timeline-uoc-end" => "End: June 2021",
         "cv-timeline-uoc-other" => "Speciality in Systems and Networks Security",
-        "cv-timeline-uoc-company" => "Universitat Oberta de Catalunya",
+        "cv-timeline-uoc-company" => "Universitat Oberta de Catalunya, Universitat Autònoma de Barcelona and Universitat Rovira i Virgili",
         "cv-timeline-uoc-place" => "Distance learning - Part-time studies",
 
         "cv-timeline-ednon-title" => "Senior consultant",
