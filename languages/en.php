@@ -76,7 +76,7 @@
         "cv-pdf" => "Classic version",
         "cv-pdf-text" => "A classic version of my CV in PDF, it all in one page with the highlighted informations.",
         "cv-pdf-button" => "Download",
-        "cv-pdf-link" => "/docs/CVmsnovoaGAL.pdf",
+        "cv-pdf-link" => "/docs/CVmsnovoaEN.pdf",
 
         "cv-timeline-title" => "Present",
 

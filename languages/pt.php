@@ -77,7 +77,7 @@ $lang = array(
     "cv-pdf" => "Versão clássica",
     "cv-pdf-text" => "A versão clássica do CV em PDF, numa página e com todas as informações destacadas.",
     "cv-pdf-button" => "Baixar",
-    "cv-pdf-link" => "/docs/CVmsnovoaGAL.pdf",
+    "cv-pdf-link" => "/docs/CVmsnovoaEN.pdf",
 
     "cv-timeline-title" => "Presente",
 
