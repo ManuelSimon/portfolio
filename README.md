@@ -15,7 +15,7 @@ Check the corresponding Readme to learn how to launch the project.
 
 My own website. Basically, it is an online portfolio where to write about my projects and proffesional path. Designed and developed by myself using Bulma.io among others technologies. Some features considered at the developing of this projects were:
 
-- **Multilanguage support**: The site is available in Portuguese of Galiza/Galicia (Galician), English, Spanish and French. Check the back-end branch if you want to know more about this.
+- **Multilanguage support**: The site is available in Portuguese (AGAL Galician), English, Spanish and French. Check the back-end branch if you want to know more about this.
 - **Geolocalization** stuff: OpenStreet maps with a non-state layout.
 - **Easily understandibility code** thanks to Bulma.io.
 - **Mobile friendly**: The site gets adaptated to mobile screens, so it presents a confortable GUI from both, desktop and mobile.
