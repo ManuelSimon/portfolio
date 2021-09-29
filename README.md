@@ -2,9 +2,9 @@
 
 ### https://manuel.gal
 
-> **WARNING**: This repo was splited into two branches in order to provide a STATIC version of the project (front-end only), and a "FULL" version (web aplication with back-end).
+> **WARNING**: This repo was split into two branches in order to provide a STATIC version of the project (front-end only), and a "FULL" version (web aplication with back-end).
 **Front-end** ready-to-go version is available at **MASTER** branch.
-**Full web app**, using PHP in order to provide a multi-language site, is available at **back-end branch**.
+**Full web app**, using PHP in order to provide a multi-language site, it is available at **back-end branch**.
 Check the corresponding Readme to learn how to launch the project.
 
 ![index](images/readme/index.PNG)
@@ -13,12 +13,12 @@ Check the corresponding Readme to learn how to launch the project.
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-My own website. Basically, it is an online portfolio where to write about my projects and proffesional path. Designed and developed by myself using Bulma.io among others technologies. Some features considered at the developing of this projects were:
+My own website. Basically, it is an online portfolio where I write about my projects and proffesional path. Designed and developed by myself using Bulma.io among other technologies. Some features considered during the development of this projects were:
 
 - **Multilanguage support**: The site is available in Portuguese (AGAL Galician), English, Spanish and French. Check the back-end branch if you want to know more about this.
 - **Geolocalization** stuff: OpenStreet maps with a non-state layout.
 - **Easily understandibility code** thanks to Bulma.io.
-- **Mobile friendly**: The site gets adaptated to mobile screens, so it presents a confortable GUI from both, desktop and mobile.
+- **Mobile friendly**: The site gets adapted to mobile screens, so it presents a comfortable GUI from both desktop and mobile.
 
 Feel free to fork this repo and create your own portfolio from here.
 
@@ -26,7 +26,7 @@ Feel free to fork this repo and create your own portfolio from here.
 
 ## Deployment
 
-This is the static version of the project. Just open the **_index.html_** file with your favourite browser and you are ready to go! Anything else. Simple.
+This is the static version of the project. Just open the **_index.html_** file with your favourite browser and you are ready to go! Nothing else. Simple.
 
 Enjoy!
 
@@ -50,7 +50,7 @@ Some credits:
 - Typing carousel from Gregory Schier: https://codepen.io/gschier/pen/jkivt
 - Animations created with Vivus: https://maxwellito.github.io/vivus-instant/
 
-**Easter egg**: animations change everytime you enter the site thanks to a simple Javascript function I've made:
+**Easter egg**: animations change every time you enter the site thanks to a simple Javascript function I've made:
 ```javascript
 <script type="text/javascript">  
 	var svgs = new Array(6);  
@@ -81,7 +81,7 @@ A simple and confortable page were to check some of the projects I've done.
 Some credits:
 - Maps thanks to: Leaflet JS (https://leafletjs.com/) and Open Street Map (https://www.openstreetmap.org/)
 
-This section is structured in 2 clearly differenced parts:
+This section is structured in 2 clearly different parts:
 
 ##### Map
 
@@ -140,7 +140,7 @@ var refs = {
 
 Some important indications at HTML files too:
 
-- Calling modals at HTML:
+- Calling modals from HTML:
 
 ```html
 <div class="timeline-content" onclick="refs.open('modalID')">
@@ -180,7 +180,7 @@ A simple page where to write a little bio and add some contact info.
 
 ### Credits
 
-Without the technologies named in this section, this project could not exist as it is. Many of them are free.
+Without the technologies mentioned in this section, this project could not exist as it is. Many of them are free.
 
 ![credits](images/readme/credits.PNG)
 
